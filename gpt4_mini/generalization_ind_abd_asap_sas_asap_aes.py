@@ -19,7 +19,7 @@ import numpy as np
 from datasets import load_dataset
 from dataset_ranges import get_score_range_for_dataset
 
-os.environ["HF_TOKEN"] = "REMOVED_KEY"
+os.environ["HF_TOKEN"] = os.getenv("HF_TOKEN", "")
 
 # ===== CONFIGURATION =====
 TRAIN_DATASET = "ASAP-AES"  # Where training examples come from

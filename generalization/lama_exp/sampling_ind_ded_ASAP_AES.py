@@ -26,7 +26,7 @@ except ImportError:
     print("Error: Could not import get_score_range_for_dataset")
     sys.exit(1)
 
-os.environ["HF_TOKEN"] = "REMOVED_KEY"
+os.environ["HF_TOKEN"] = os.getenv("HF_TOKEN", "")
 
 # ===== CONFIGURATION - ASAP-AES ONLY =====
 DATASET_NAME = "ASAP-AES"

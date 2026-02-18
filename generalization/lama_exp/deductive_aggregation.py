@@ -36,7 +36,7 @@ MODEL_NAME = "llama-4-scout"
 SAM_DATASETS_DIR = "/home/ts1506.UNT/Desktop/Work/besisr-benchmark-site/mllm_evaluation/sam_datasets"
 OUTPUT_DIR = "deductive_3call_predictions"
 
-os.environ["HF_TOKEN"] = "REMOVED_KEY"
+os.environ["HF_TOKEN"] = os.getenv("HF_TOKEN", "")
 
 DATASETS = [
     # 'D_ASAP-AES', 'D_ASAP2', 'D_ASAP_plus_plus', 'D_persuade_2',

@@ -10,7 +10,7 @@ from typing import Dict, Any
 import pandas as pd
 from dataset_ranges import get_score_range_for_dataset
 
-os.environ["HF_TOKEN"] = "REMOVED_KEY"
+os.environ["HF_TOKEN"] = os.getenv("HF_TOKEN", "")
 
 NUM_ESSAYS = None
 MODEL_CODE = "google/gemini-2.5-flash"

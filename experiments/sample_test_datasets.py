@@ -7,7 +7,7 @@ from huggingface_hub import login
 # 1. Authenticate (required for private Hugging Face datasets)
 # -----------------------------------------------------------
 # Replace with your actual token or leave blank to be prompted
-login(token="REMOVED_KEY")
+login(token=os.getenv("HF_TOKEN", ""))
 
 # -----------------------------------------------------------
 # 2. Define dataset list

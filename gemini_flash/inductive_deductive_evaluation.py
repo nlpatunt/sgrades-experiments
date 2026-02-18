@@ -12,7 +12,7 @@ from typing import Dict, List, Any
 import pandas as pd
 from dataset_ranges import get_score_range_for_dataset
 
-os.environ["HF_TOKEN"] = "REMOVED_KEY"
+os.environ["HF_TOKEN"] = os.getenv("HF_TOKEN", "")
 
 NUM_ESSAYS = None
 NUM_EXAMPLES = 5  # Number of random training examples for inductive phase

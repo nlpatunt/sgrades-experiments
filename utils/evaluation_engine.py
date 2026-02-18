@@ -9,7 +9,7 @@ import pandas as pd
 import numpy as np
 import os
 import requests
-from dataset_ranges import get_score_range_for_dataset
+from utils.dataset_ranges import get_score_range_for_dataset
 
 try:
     from datasets import load_dataset

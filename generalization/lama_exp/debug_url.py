@@ -2,7 +2,7 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 
-HF_TOKEN = "REMOVED_KEY"
+HF_TOKEN = os.getenv("HF_TOKEN", "")
 
 # Test with the first URL
 test_url = 'https://huggingface.co/datasets/nlpatunt/dataset_rubrics/raw/main/ASAP_SAS/EssaySet6/essay_set_6_prompt.html'

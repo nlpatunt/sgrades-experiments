@@ -21,7 +21,7 @@ from datasets import load_dataset
 from dataset_ranges import get_score_range_for_dataset
 
 # ======================== CONFIG ========================
-os.environ.setdefault("HF_TOKEN", "REMOVED_KEY")
+os.environ.setdefault("HF_TOKEN", os.getenv("HF_TOKEN", ""))
 
 TRAIN_DATASET = "ASAP-SAS"
 TEST_DATASET = "CSEE"

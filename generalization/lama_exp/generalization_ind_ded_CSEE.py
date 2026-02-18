@@ -22,7 +22,7 @@ from datasets import load_dataset
 # IMPORTANT: this helper must define get_score_range_for_dataset(dataset_name:str, essay_set:int)->(min,max)
 from dataset_ranges import get_score_range_for_dataset
 
-os.environ["HF_TOKEN"] = "REMOVED_KEY"
+os.environ["HF_TOKEN"] = os.getenv("HF_TOKEN", "")
 
 TRAIN_DATASET = "ASAP-SAS"   # Training examples are sampled from here
 TEST_DATASET  = "CSEE"       # Model is evaluated on this dataset

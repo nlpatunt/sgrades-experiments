@@ -1,0 +1,104 @@
+{
+  "metadata": {
+    "evaluation_date": "2025-12-05T02:16:27.455259",
+    "total_datasets": 1,
+    "folder_path": "/home/ts1506.UNT/Desktop/Work/besisr-benchmark-site/mllm_evaluation/lama_exp/inductive_llama_predictions_csv/inductive_llama_predictions_csv/",
+    "successful_evaluations": 1,
+    "timestamp": 1764900987
+  },
+  "individual_results": [
+    {
+      "dataset": "Ielts_Writing_Task_2_Dataset",
+      "filename": "Ielts_Writing_Task_2_Dataset.csv",
+      "metrics": {
+        "quadratic_weighted_kappa": 0.2808962674870842,
+        "pearson_correlation": 0.38943808083590514,
+        "mean_absolute_error": 1.3404907975460123,
+        "mean_squared_error": 2.934049079754601,
+        "root_mean_squared_error": 1.7129066173480096,
+        "f1_score": 0.2569203179407549,
+        "precision": 0.27885287704422185,
+        "recall": 0.25357873210633947,
+        "accuracy": 0.25357873210633947,
+        "mae_percentage": 16.76
+      }
+    }
+  ],
+  "combined_statistics": {
+    "quadratic_weighted_kappa": {
+      "mean": 0.2808962674870842,
+      "std": 0.0,
+      "min": 0.2808962674870842,
+      "max": 0.2808962674870842
+    },
+    "pearson_correlation": {
+      "mean": 0.38943808083590514,
+      "std": 0.0,
+      "min": 0.38943808083590514,
+      "max": 0.38943808083590514
+    },
+    "mean_absolute_error": {
+      "mean": 1.3404907975460123,
+      "std": 0.0,
+      "min": 1.3404907975460123,
+      "max": 1.3404907975460123
+    },
+    "mean_squared_error": {
+      "mean": 2.934049079754601,
+      "std": 0.0,
+      "min": 2.934049079754601,
+      "max": 2.934049079754601
+    },
+    "root_mean_squared_error": {
+      "mean": 1.7129066173480096,
+      "std": 0.0,
+      "min": 1.7129066173480096,
+      "max": 1.7129066173480096
+    },
+    "f1_score": {
+      "mean": 0.2569203179407549,
+      "std": 0.0,
+      "min": 0.2569203179407549,
+      "max": 0.2569203179407549
+    },
+    "precision": {
+      "mean": 0.27885287704422185,
+      "std": 0.0,
+      "min": 0.27885287704422185,
+      "max": 0.27885287704422185
+    },
+    "recall": {
+      "mean": 0.25357873210633947,
+      "std": 0.0,
+      "min": 0.25357873210633947,
+      "max": 0.25357873210633947
+    },
+    "accuracy": {
+      "mean": 0.25357873210633947,
+      "std": 0.0,
+      "min": 0.25357873210633947,
+      "max": 0.25357873210633947
+    },
+    "mae_percentage": {
+      "mean": 16.76,
+      "std": 0.0,
+      "min": 16.76,
+      "max": 16.76
+    }
+  },
+  "excel_data": [
+    {
+      "Dataset": "Ielts_Writing_Task_2_Dataset",
+      "Filename": "Ielts_Writing_Task_2_Dataset.csv",
+      "Avg QWK": 0.2808962674870842,
+      "Avg Pearson": 0.38943808083590514,
+      "Avg F1": 0.2569203179407549,
+      "Avg Precision": 0.27885287704422185,
+      "Avg Recall": 0.25357873210633947,
+      "Avg Accuracy": 0.25357873210633947,
+      "Avg MAE": 1.3404907975460123,
+      "Avg RMSE": 1.7129066173480096,
+      "MAE %": 16.76
+    }
+  ]
+}

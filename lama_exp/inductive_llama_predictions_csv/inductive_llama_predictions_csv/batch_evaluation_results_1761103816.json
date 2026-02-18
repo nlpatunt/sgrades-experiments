@@ -1,0 +1,742 @@
+{
+  "metadata": {
+    "evaluation_date": "2025-10-22T03:30:16.992527",
+    "total_datasets": 23,
+    "folder_path": "/home/ts1506.UNT/Desktop/Work/besisr-benchmark-site/mllm_evaluation/lama_exp/inductive_llama_predictions_csv/inductive_llama_predictions_csv/",
+    "successful_evaluations": 23,
+    "timestamp": 1761103816
+  },
+  "individual_results": [
+    {
+      "dataset": "ASAP-AES",
+      "filename": "ASAP-AES.csv",
+      "metrics": {
+        "quadratic_weighted_kappa": 0.7808856618046076,
+        "pearson_correlation": 0.7984777399383323,
+        "mean_absolute_error": 2.7203389830508473,
+        "mean_squared_error": 35.8497688751926,
+        "root_mean_squared_error": 5.987467651285692,
+        "f1_score": 0.3186659134855717,
+        "precision": 0.31491553377261006,
+        "recall": 0.35901386748844377,
+        "accuracy": 0.35901386748844377,
+        "mae_percentage_details": null
+      }
+    },
+    {
+      "dataset": "ASAP-SAS",
+      "filename": "ASAP-SAS.csv",
+      "metrics": {
+        "quadratic_weighted_kappa": 0.5054653065335936,
+        "pearson_correlation": 0.5262359433403497,
+        "mean_absolute_error": 0.5168671164564388,
+        "mean_squared_error": 0.656497506600176,
+        "root_mean_squared_error": 0.8102453372899939,
+        "f1_score": 0.5472077186289529,
+        "precision": 0.6186201515744304,
+        "recall": 0.5503080082135524,
+        "accuracy": 0.5503080082135524,
+        "mae_percentage": 17.23
+      }
+    },
+    {
+      "dataset": "ASAP2",
+      "filename": "ASAP2.csv",
+      "metrics": {
+        "quadratic_weighted_kappa": 0.565517312994929,
+        "pearson_correlation": 0.6225844145428867,
+        "mean_absolute_error": 0.6344520824909018,
+        "mean_squared_error": 0.8859684593610999,
+        "root_mean_squared_error": 0.9412589757134324,
+        "f1_score": 0.4669735966468673,
+        "precision": 0.6224211159115259,
+        "recall": 0.48241002830570157,
+        "accuracy": 0.48241002830570157,
+        "mae_percentage": 21.15
+      }
+    },
+    {
+      "dataset": "ASAP_plus_plus",
+      "filename": "ASAP_plus_plus.csv",
+      "metrics": {
+        "quadratic_weighted_kappa": 0.23469567132069125,
+        "pearson_correlation": 0.6693196186054378,
+        "mean_absolute_error": 6.651075771749299,
+        "mean_squared_error": 68.99859681945743,
+        "root_mean_squared_error": 8.306539400945343,
+        "f1_score": 0.07532118692779108,
+        "precision": 0.3697886979021519,
+        "recall": 0.07764265668849392,
+        "accuracy": 0.07764265668849392,
+        "mae_percentage_details": null
+      }
+    },
+    {
+      "dataset": "BEEtlE_2way",
+      "filename": "BEEtlE_2way.csv",
+      "metrics": {
+        "quadratic_weighted_kappa": 0.2782193958664547,
+        "pearson_correlation": 0.28257396825607806,
+        "mean_absolute_error": 0.36089030206677264,
+        "mean_squared_error": 0.36089030206677264,
+        "root_mean_squared_error": 0.6007414602528883,
+        "f1_score": 0.6418902600187053,
+        "precision": 0.6544013385872546,
+        "recall": 0.6391096979332274,
+        "accuracy": 0.6391096979332274,
+        "mae_percentage": 36.09
+      }
+    },
+    {
+      "dataset": "BEEtlE_3way",
+      "filename": "BEEtlE_3wy.csv",
+      "metrics": {
+        "quadratic_weighted_kappa": 0.32096873469080134,
+        "pearson_correlation": 0.3270628167643423,
+        "mean_absolute_error": 0.7209856915739269,
+        "mean_squared_error": 1.1613672496025438,
+        "root_mean_squared_error": 1.0776675041971637,
+        "f1_score": 0.42205667542793585,
+        "precision": 0.6461598811920435,
+        "recall": 0.49920508744038156,
+        "accuracy": 0.49920508744038156,
+        "mae_percentage": 36.05
+      }
+    },
+    {
+      "dataset": "CSEE",
+      "filename": "CSEE.csv",
+      "metrics": {
+        "quadratic_weighted_kappa": 0.6025266773236577,
+        "pearson_correlation": 0.6619728891283718,
+        "mean_absolute_error": 1.8351544837980407,
+        "mean_squared_error": 5.436605124340618,
+        "root_mean_squared_error": 2.3316528738945292,
+        "f1_score": 0.18321499991006773,
+        "precision": 0.19419458064621056,
+        "recall": 0.2437829691032404,
+        "accuracy": 0.2437829691032404,
+        "mae_percentage": 11.47
+      }
+    },
+    {
+      "dataset": "Ielts_Writing_Dataset",
+      "filename": "Ielts_Writing_Dataset.csv",
+      "metrics": {
+        "quadratic_weighted_kappa": 0.4130434782608696,
+        "pearson_correlation": 0.5737697623169484,
+        "mean_absolute_error": 0.8819444444444444,
+        "mean_squared_error": 1.3020833333333333,
+        "root_mean_squared_error": 1.141088661469096,
+        "f1_score": 0.323159278238058,
+        "precision": 0.42931167518092805,
+        "recall": 0.3611111111111111,
+        "accuracy": 0.3611111111111111,
+        "mae_percentage": 11.02
+      }
+    },
+    {
+      "dataset": "Ielts_Writing_Task_2_Dataset",
+      "filename": "Ielts_Writing_Task_2_Dataset.csv",
+      "metrics": {
+        "quadratic_weighted_kappa": 0.2808962674870842,
+        "pearson_correlation": 0.38943808083590514,
+        "mean_absolute_error": 1.3404907975460123,
+        "mean_squared_error": 2.934049079754601,
+        "root_mean_squared_error": 1.7129066173480096,
+        "f1_score": 0.2569203179407549,
+        "precision": 0.27885287704422185,
+        "recall": 0.25357873210633947,
+        "accuracy": 0.25357873210633947,
+        "mae_percentage": 16.76
+      }
+    },
+    {
+      "dataset": "Mohlar",
+      "filename": "Mohlar.csv",
+      "metrics": {
+        "quadratic_weighted_kappa": 0.11520918142135461,
+        "pearson_correlation": 0.15205805827665433,
+        "mean_absolute_error": 1.4855875831485588,
+        "mean_squared_error": 3.902439024390244,
+        "root_mean_squared_error": 1.9754591932991792,
+        "f1_score": 0.2594881748407292,
+        "precision": 0.5045983541490602,
+        "recall": 0.2771618625277162,
+        "accuracy": 0.2771618625277162,
+        "mae_percentage": 29.71
+      }
+    },
+    {
+      "dataset": "OS_Dataset_q1",
+      "filename": "OS_Dataset_q1.csv",
+      "metrics": {
+        "quadratic_weighted_kappa": 0.6020408163265306,
+        "pearson_correlation": 0.7967693160437392,
+        "mean_absolute_error": 4.375,
+        "mean_squared_error": 41.875,
+        "root_mean_squared_error": 6.471089552772392,
+        "f1_score": 0.175,
+        "precision": 0.15625,
+        "recall": 0.25,
+        "accuracy": 0.25,
+        "mae_percentage": 4.38
+      }
+    },
+    {
+      "dataset": "OS_Dataset_q2",
+      "filename": "OS_Dataset_q2.csv",
+      "metrics": {
+        "quadratic_weighted_kappa": 0.543859649122807,
+        "pearson_correlation": 0.700755122308058,
+        "mean_absolute_error": 3.5,
+        "mean_squared_error": 26.0,
+        "root_mean_squared_error": 5.0990195135927845,
+        "f1_score": 0.6071428571428571,
+        "precision": 0.875,
+        "recall": 0.5,
+        "accuracy": 0.5,
+        "mae_percentage": 3.5
+      }
+    },
+    {
+      "dataset": "OS_Dataset_q3",
+      "filename": "OS_Dataset_q3.csv",
+      "metrics": {
+        "quadratic_weighted_kappa": 0.7657657657657657,
+        "pearson_correlation": 0.8086428832482122,
+        "mean_absolute_error": 2.375,
+        "mean_squared_error": 7.875,
+        "root_mean_squared_error": 2.806243040080456,
+        "f1_score": 0.15000000000000002,
+        "precision": 0.1875,
+        "recall": 0.125,
+        "accuracy": 0.125,
+        "mae_percentage": 2.38
+      }
+    },
+    {
+      "dataset": "OS_Dataset_q4",
+      "filename": "OS_Dataset_q4.csv",
+      "metrics": {
+        "quadratic_weighted_kappa": 0.16666666666666663,
+        "pearson_correlation": 0.17960530202677488,
+        "mean_absolute_error": 5.0,
+        "mean_squared_error": 40.0,
+        "root_mean_squared_error": 6.324555320336759,
+        "f1_score": 0.35714285714285715,
+        "precision": 0.34375,
+        "recall": 0.375,
+        "accuracy": 0.375,
+        "mae_percentage": 5.0
+      }
+    },
+    {
+      "dataset": "OS_Dataset_q5",
+      "filename": "OS_Dataset_q5.csv",
+      "metrics": {
+        "quadratic_weighted_kappa": 0.029768467475192906,
+        "pearson_correlation": 0.0802238126136757,
+        "mean_absolute_error": 9.5,
+        "mean_squared_error": 122.5,
+        "root_mean_squared_error": 11.067971810589327,
+        "f1_score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "accuracy": 0.0,
+        "mae_percentage": 9.5
+      }
+    },
+    {
+      "dataset": "Regrading_Dataset_J2C",
+      "filename": "Regrading_Dataset_J2C.csv",
+      "metrics": {
+        "quadratic_weighted_kappa": 0.259261110833375,
+        "pearson_correlation": 0.34019693224120645,
+        "mean_absolute_error": 2.037878787878788,
+        "mean_squared_error": 6.6811868686868685,
+        "root_mean_squared_error": 2.5847991931070524,
+        "f1_score": 0.20476085708359465,
+        "precision": 0.32278385494918677,
+        "recall": 0.21212121212121213,
+        "accuracy": 0.21212121212121213,
+        "mae_percentage": 25.47
+      }
+    },
+    {
+      "dataset": "Rice_Chem_Q1",
+      "filename": "Rice_Chem_Q1.csv",
+      "metrics": {
+        "quadratic_weighted_kappa": 0.5170320189173643,
+        "pearson_correlation": 0.5719197119492929,
+        "mean_absolute_error": 1.4393939393939394,
+        "mean_squared_error": 3.356060606060606,
+        "root_mean_squared_error": 1.8319554050414562,
+        "f1_score": 0.10126262626262626,
+        "precision": 0.1272727272727273,
+        "recall": 0.12121212121212122,
+        "accuracy": 0.12121212121212122,
+        "mae_percentage": 17.99
+      }
+    },
+    {
+      "dataset": "Rice_Chem_Q2",
+      "filename": "Rice_Chem_Q2.csv",
+      "metrics": {
+        "quadratic_weighted_kappa": 0.7508541060356827,
+        "pearson_correlation": 0.7757737689883957,
+        "mean_absolute_error": 1.2575757575757576,
+        "mean_squared_error": 2.712121212121212,
+        "root_mean_squared_error": 1.6468519095902983,
+        "f1_score": 0.23492795083704177,
+        "precision": 0.2922222222222222,
+        "recall": 0.2727272727272727,
+        "accuracy": 0.2727272727272727,
+        "mae_percentage": 15.72
+      }
+    },
+    {
+      "dataset": "Rice_Chem_Q3",
+      "filename": "Rice_Chem_Q3.csv",
+      "metrics": {
+        "quadratic_weighted_kappa": 0.5069215818491929,
+        "pearson_correlation": 0.6067893199286292,
+        "mean_absolute_error": 1.9516129032258065,
+        "mean_squared_error": 6.467741935483871,
+        "root_mean_squared_error": 2.543175561278433,
+        "f1_score": 0.19558316612645985,
+        "precision": 0.34957757296466974,
+        "recall": 0.1935483870967742,
+        "accuracy": 0.1935483870967742,
+        "mae_percentage": 21.68
+      }
+    },
+    {
+      "dataset": "Rice_Chem_Q4",
+      "filename": "Rice_Chem_Q4.csv",
+      "metrics": {
+        "quadratic_weighted_kappa": 0.6269177126917713,
+        "pearson_correlation": 0.7273248484523289,
+        "mean_absolute_error": 0.8666666666666667,
+        "mean_squared_error": 1.9,
+        "root_mean_squared_error": 1.378404875209022,
+        "f1_score": 0.5376662376662377,
+        "precision": 0.5987654320987654,
+        "recall": 0.5333333333333333,
+        "accuracy": 0.5333333333333333,
+        "mae_percentage": 10.83
+      }
+    },
+    {
+      "dataset": "SciEntSBank_2way",
+      "filename": "SciEntSBank_2way.csv",
+      "metrics": {
+        "quadratic_weighted_kappa": 0.39317328181295863,
+        "pearson_correlation": 0.3943634977720629,
+        "mean_absolute_error": 0.29203084832904885,
+        "mean_squared_error": 0.29203084832904885,
+        "root_mean_squared_error": 0.5403987863874685,
+        "f1_score": 0.7057298372362678,
+        "precision": 0.7055055833619447,
+        "recall": 0.7079691516709512,
+        "accuracy": 0.7079691516709512,
+        "mae_percentage": 29.2
+      }
+    },
+    {
+      "dataset": "SciEntSBank_3way",
+      "filename": "SciEntSBank_3way.csv",
+      "metrics": {
+        "quadratic_weighted_kappa": 0.35784036070361847,
+        "pearson_correlation": 0.3627546133072085,
+        "mean_absolute_error": 0.6485004284490146,
+        "mean_squared_error": 1.2051413881748072,
+        "root_mean_squared_error": 1.0977893186649281,
+        "f1_score": 0.599483093123937,
+        "precision": 0.6693678776531504,
+        "recall": 0.6298200514138818,
+        "accuracy": 0.6298200514138818,
+        "mae_percentage": 32.43
+      }
+    },
+    {
+      "dataset": "persuade_2",
+      "filename": "persuade_2.csv",
+      "metrics": {
+        "quadratic_weighted_kappa": 0.3537618576974415,
+        "pearson_correlation": 0.44265831619858137,
+        "mean_absolute_error": 0.8857692307692308,
+        "mean_squared_error": 1.501153846153846,
+        "root_mean_squared_error": 1.2252158365585413,
+        "f1_score": 0.3051493455657572,
+        "precision": 0.495958624986505,
+        "recall": 0.36423076923076925,
+        "accuracy": 0.36423076923076925,
+        "mae_percentage": 17.72
+      }
+    }
+  ],
+  "combined_statistics": {
+    "quadratic_weighted_kappa": {
+      "mean": 0.4335343949392352,
+      "std": 0.2035461299557654,
+      "min": 0.029768467475192906,
+      "max": 0.7808856618046076
+    },
+    "pearson_correlation": {
+      "mean": 0.5126639450905857,
+      "std": 0.21644914061808185,
+      "min": 0.0802238126136757,
+      "max": 0.8086428832482122
+    },
+    "mean_absolute_error": {
+      "mean": 2.2294441660266737,
+      "std": 2.2138348427684944,
+      "min": 0.29203084832904885,
+      "max": 9.5
+    },
+    "mean_squared_error": {
+      "mean": 16.689291412135198,
+      "std": 28.67192366667892,
+      "min": 0.29203084832904885,
+      "max": 122.5
+    },
+    "root_mean_squared_error": {
+      "mean": 3.021847730387141,
+      "std": 2.7491321733393046,
+      "min": 0.5403987863874685,
+      "max": 11.067971810589327
+    },
+    "f1_score": {
+      "mean": 0.3334237804457857,
+      "std": 0.19379900360482327,
+      "min": 0.0,
+      "max": 0.7057298372362678
+    },
+    "precision": {
+      "mean": 0.42422687397693937,
+      "std": 0.21754903372277098,
+      "min": 0.0,
+      "max": 0.875
+    },
+    "recall": {
+      "mean": 0.34905592694454446,
+      "std": 0.1879011034627355,
+      "min": 0.0,
+      "max": 0.7079691516709512
+    },
+    "accuracy": {
+      "mean": 0.34905592694454446,
+      "std": 0.1879011034627355,
+      "min": 0.0,
+      "max": 0.7079691516709512
+    },
+    "mae_percentage": {
+      "mean": 17.87047619047619,
+      "std": 10.313928389360752,
+      "min": 2.38,
+      "max": 36.09
+    }
+  },
+  "excel_data": [
+    {
+      "Dataset": "ASAP-AES",
+      "Filename": "ASAP-AES.csv",
+      "Avg QWK": 0.7808856618046076,
+      "Avg Pearson": 0.7984777399383323,
+      "Avg F1": 0.3186659134855717,
+      "Avg Precision": 0.31491553377261006,
+      "Avg Recall": 0.35901386748844377,
+      "Avg Accuracy": 0.35901386748844377,
+      "Avg MAE": 2.7203389830508473,
+      "Avg RMSE": 5.987467651285692,
+      "MAE %": "N/A"
+    },
+    {
+      "Dataset": "ASAP-SAS",
+      "Filename": "ASAP-SAS.csv",
+      "Avg QWK": 0.5054653065335936,
+      "Avg Pearson": 0.5262359433403497,
+      "Avg F1": 0.5472077186289529,
+      "Avg Precision": 0.6186201515744304,
+      "Avg Recall": 0.5503080082135524,
+      "Avg Accuracy": 0.5503080082135524,
+      "Avg MAE": 0.5168671164564388,
+      "Avg RMSE": 0.8102453372899939,
+      "MAE %": 17.23
+    },
+    {
+      "Dataset": "ASAP2",
+      "Filename": "ASAP2.csv",
+      "Avg QWK": 0.565517312994929,
+      "Avg Pearson": 0.6225844145428867,
+      "Avg F1": 0.4669735966468673,
+      "Avg Precision": 0.6224211159115259,
+      "Avg Recall": 0.48241002830570157,
+      "Avg Accuracy": 0.48241002830570157,
+      "Avg MAE": 0.6344520824909018,
+      "Avg RMSE": 0.9412589757134324,
+      "MAE %": 21.15
+    },
+    {
+      "Dataset": "ASAP_plus_plus",
+      "Filename": "ASAP_plus_plus.csv",
+      "Avg QWK": 0.23469567132069125,
+      "Avg Pearson": 0.6693196186054378,
+      "Avg F1": 0.07532118692779108,
+      "Avg Precision": 0.3697886979021519,
+      "Avg Recall": 0.07764265668849392,
+      "Avg Accuracy": 0.07764265668849392,
+      "Avg MAE": 6.651075771749299,
+      "Avg RMSE": 8.306539400945343,
+      "MAE %": "N/A"
+    },
+    {
+      "Dataset": "BEEtlE_2way",
+      "Filename": "BEEtlE_2way.csv",
+      "Avg QWK": 0.2782193958664547,
+      "Avg Pearson": 0.28257396825607806,
+      "Avg F1": 0.6418902600187053,
+      "Avg Precision": 0.6544013385872546,
+      "Avg Recall": 0.6391096979332274,
+      "Avg Accuracy": 0.6391096979332274,
+      "Avg MAE": 0.36089030206677264,
+      "Avg RMSE": 0.6007414602528883,
+      "MAE %": 36.09
+    },
+    {
+      "Dataset": "BEEtlE_3way",
+      "Filename": "BEEtlE_3wy.csv",
+      "Avg QWK": 0.32096873469080134,
+      "Avg Pearson": 0.3270628167643423,
+      "Avg F1": 0.42205667542793585,
+      "Avg Precision": 0.6461598811920435,
+      "Avg Recall": 0.49920508744038156,
+      "Avg Accuracy": 0.49920508744038156,
+      "Avg MAE": 0.7209856915739269,
+      "Avg RMSE": 1.0776675041971637,
+      "MAE %": 36.05
+    },
+    {
+      "Dataset": "CSEE",
+      "Filename": "CSEE.csv",
+      "Avg QWK": 0.6025266773236577,
+      "Avg Pearson": 0.6619728891283718,
+      "Avg F1": 0.18321499991006773,
+      "Avg Precision": 0.19419458064621056,
+      "Avg Recall": 0.2437829691032404,
+      "Avg Accuracy": 0.2437829691032404,
+      "Avg MAE": 1.8351544837980407,
+      "Avg RMSE": 2.3316528738945292,
+      "MAE %": 11.47
+    },
+    {
+      "Dataset": "Ielts_Writing_Dataset",
+      "Filename": "Ielts_Writing_Dataset.csv",
+      "Avg QWK": 0.4130434782608696,
+      "Avg Pearson": 0.5737697623169484,
+      "Avg F1": 0.323159278238058,
+      "Avg Precision": 0.42931167518092805,
+      "Avg Recall": 0.3611111111111111,
+      "Avg Accuracy": 0.3611111111111111,
+      "Avg MAE": 0.8819444444444444,
+      "Avg RMSE": 1.141088661469096,
+      "MAE %": 11.02
+    },
+    {
+      "Dataset": "Ielts_Writing_Task_2_Dataset",
+      "Filename": "Ielts_Writing_Task_2_Dataset.csv",
+      "Avg QWK": 0.2808962674870842,
+      "Avg Pearson": 0.38943808083590514,
+      "Avg F1": 0.2569203179407549,
+      "Avg Precision": 0.27885287704422185,
+      "Avg Recall": 0.25357873210633947,
+      "Avg Accuracy": 0.25357873210633947,
+      "Avg MAE": 1.3404907975460123,
+      "Avg RMSE": 1.7129066173480096,
+      "MAE %": 16.76
+    },
+    {
+      "Dataset": "Mohlar",
+      "Filename": "Mohlar.csv",
+      "Avg QWK": 0.11520918142135461,
+      "Avg Pearson": 0.15205805827665433,
+      "Avg F1": 0.2594881748407292,
+      "Avg Precision": 0.5045983541490602,
+      "Avg Recall": 0.2771618625277162,
+      "Avg Accuracy": 0.2771618625277162,
+      "Avg MAE": 1.4855875831485588,
+      "Avg RMSE": 1.9754591932991792,
+      "MAE %": 29.71
+    },
+    {
+      "Dataset": "OS_Dataset_q1",
+      "Filename": "OS_Dataset_q1.csv",
+      "Avg QWK": 0.6020408163265306,
+      "Avg Pearson": 0.7967693160437392,
+      "Avg F1": 0.175,
+      "Avg Precision": 0.15625,
+      "Avg Recall": 0.25,
+      "Avg Accuracy": 0.25,
+      "Avg MAE": 4.375,
+      "Avg RMSE": 6.471089552772392,
+      "MAE %": 4.38
+    },
+    {
+      "Dataset": "OS_Dataset_q2",
+      "Filename": "OS_Dataset_q2.csv",
+      "Avg QWK": 0.543859649122807,
+      "Avg Pearson": 0.700755122308058,
+      "Avg F1": 0.6071428571428571,
+      "Avg Precision": 0.875,
+      "Avg Recall": 0.5,
+      "Avg Accuracy": 0.5,
+      "Avg MAE": 3.5,
+      "Avg RMSE": 5.0990195135927845,
+      "MAE %": 3.5
+    },
+    {
+      "Dataset": "OS_Dataset_q3",
+      "Filename": "OS_Dataset_q3.csv",
+      "Avg QWK": 0.7657657657657657,
+      "Avg Pearson": 0.8086428832482122,
+      "Avg F1": 0.15000000000000002,
+      "Avg Precision": 0.1875,
+      "Avg Recall": 0.125,
+      "Avg Accuracy": 0.125,
+      "Avg MAE": 2.375,
+      "Avg RMSE": 2.806243040080456,
+      "MAE %": 2.38
+    },
+    {
+      "Dataset": "OS_Dataset_q4",
+      "Filename": "OS_Dataset_q4.csv",
+      "Avg QWK": 0.16666666666666663,
+      "Avg Pearson": 0.17960530202677488,
+      "Avg F1": 0.35714285714285715,
+      "Avg Precision": 0.34375,
+      "Avg Recall": 0.375,
+      "Avg Accuracy": 0.375,
+      "Avg MAE": 5.0,
+      "Avg RMSE": 6.324555320336759,
+      "MAE %": 5.0
+    },
+    {
+      "Dataset": "OS_Dataset_q5",
+      "Filename": "OS_Dataset_q5.csv",
+      "Avg QWK": 0.029768467475192906,
+      "Avg Pearson": 0.0802238126136757,
+      "Avg F1": 0.0,
+      "Avg Precision": 0.0,
+      "Avg Recall": 0.0,
+      "Avg Accuracy": 0.0,
+      "Avg MAE": 9.5,
+      "Avg RMSE": 11.067971810589327,
+      "MAE %": 9.5
+    },
+    {
+      "Dataset": "Regrading_Dataset_J2C",
+      "Filename": "Regrading_Dataset_J2C.csv",
+      "Avg QWK": 0.259261110833375,
+      "Avg Pearson": 0.34019693224120645,
+      "Avg F1": 0.20476085708359465,
+      "Avg Precision": 0.32278385494918677,
+      "Avg Recall": 0.21212121212121213,
+      "Avg Accuracy": 0.21212121212121213,
+      "Avg MAE": 2.037878787878788,
+      "Avg RMSE": 2.5847991931070524,
+      "MAE %": 25.47
+    },
+    {
+      "Dataset": "Rice_Chem_Q1",
+      "Filename": "Rice_Chem_Q1.csv",
+      "Avg QWK": 0.5170320189173643,
+      "Avg Pearson": 0.5719197119492929,
+      "Avg F1": 0.10126262626262626,
+      "Avg Precision": 0.1272727272727273,
+      "Avg Recall": 0.12121212121212122,
+      "Avg Accuracy": 0.12121212121212122,
+      "Avg MAE": 1.4393939393939394,
+      "Avg RMSE": 1.8319554050414562,
+      "MAE %": 17.99
+    },
+    {
+      "Dataset": "Rice_Chem_Q2",
+      "Filename": "Rice_Chem_Q2.csv",
+      "Avg QWK": 0.7508541060356827,
+      "Avg Pearson": 0.7757737689883957,
+      "Avg F1": 0.23492795083704177,
+      "Avg Precision": 0.2922222222222222,
+      "Avg Recall": 0.2727272727272727,
+      "Avg Accuracy": 0.2727272727272727,
+      "Avg MAE": 1.2575757575757576,
+      "Avg RMSE": 1.6468519095902983,
+      "MAE %": 15.72
+    },
+    {
+      "Dataset": "Rice_Chem_Q3",
+      "Filename": "Rice_Chem_Q3.csv",
+      "Avg QWK": 0.5069215818491929,
+      "Avg Pearson": 0.6067893199286292,
+      "Avg F1": 0.19558316612645985,
+      "Avg Precision": 0.34957757296466974,
+      "Avg Recall": 0.1935483870967742,
+      "Avg Accuracy": 0.1935483870967742,
+      "Avg MAE": 1.9516129032258065,
+      "Avg RMSE": 2.543175561278433,
+      "MAE %": 21.68
+    },
+    {
+      "Dataset": "Rice_Chem_Q4",
+      "Filename": "Rice_Chem_Q4.csv",
+      "Avg QWK": 0.6269177126917713,
+      "Avg Pearson": 0.7273248484523289,
+      "Avg F1": 0.5376662376662377,
+      "Avg Precision": 0.5987654320987654,
+      "Avg Recall": 0.5333333333333333,
+      "Avg Accuracy": 0.5333333333333333,
+      "Avg MAE": 0.8666666666666667,
+      "Avg RMSE": 1.378404875209022,
+      "MAE %": 10.83
+    },
+    {
+      "Dataset": "SciEntSBank_2way",
+      "Filename": "SciEntSBank_2way.csv",
+      "Avg QWK": 0.39317328181295863,
+      "Avg Pearson": 0.3943634977720629,
+      "Avg F1": 0.7057298372362678,
+      "Avg Precision": 0.7055055833619447,
+      "Avg Recall": 0.7079691516709512,
+      "Avg Accuracy": 0.7079691516709512,
+      "Avg MAE": 0.29203084832904885,
+      "Avg RMSE": 0.5403987863874685,
+      "MAE %": 29.2
+    },
+    {
+      "Dataset": "SciEntSBank_3way",
+      "Filename": "SciEntSBank_3way.csv",
+      "Avg QWK": 0.35784036070361847,
+      "Avg Pearson": 0.3627546133072085,
+      "Avg F1": 0.599483093123937,
+      "Avg Precision": 0.6693678776531504,
+      "Avg Recall": 0.6298200514138818,
+      "Avg Accuracy": 0.6298200514138818,
+      "Avg MAE": 0.6485004284490146,
+      "Avg RMSE": 1.0977893186649281,
+      "MAE %": 32.43
+    },
+    {
+      "Dataset": "persuade_2",
+      "Filename": "persuade_2.csv",
+      "Avg QWK": 0.3537618576974415,
+      "Avg Pearson": 0.44265831619858137,
+      "Avg F1": 0.3051493455657572,
+      "Avg Precision": 0.495958624986505,
+      "Avg Recall": 0.36423076923076925,
+      "Avg Accuracy": 0.36423076923076925,
+      "Avg MAE": 0.8857692307692308,
+      "Avg RMSE": 1.2252158365585413,
+      "MAE %": 17.72
+    }
+  ]
+}

@@ -31,3 +31,5 @@ results/stored_submissions/
 # Jupyter
 .ipynb_checkpoints/
 .next/
+*/Seed*results_files/
+*.js.map

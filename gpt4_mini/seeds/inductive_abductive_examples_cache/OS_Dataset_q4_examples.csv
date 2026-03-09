@@ -1,0 +1,31 @@
+ID,question_id,question,sample_answer,criteria,sample_criteria,full_points,id,answer,score_1,score_2,score_3,score_outlier
+47,4,"Now run with these 
+flags: -l 4:100,1:0. These 
+flags specify one process with 4 instructions (all to use the CPU), and one that simply issues an I/O and waits for it to be done. How long does it take to complete both processes? Use -c and -p to 
+find out if you were right.","9 (or 10) time units. 
+Process 0 (4:100) uses four time units for running regular CPU instructions. 
+Process 1 (1:0) issues one I/O request, using five time units to complete. (It needs one more tick to switch to the DONE state.)",2 sub-questions: 8 points/each sub-question,2 sub-questions: 8 points/each sub-question,16,outlier_19,"4 units for process 0 instructions, and then 6 units for process 1 issue an io and waiting. So, total 10 time units",16.0,16.0,16.0,
+17,4,"Now run with these 
+flags: -l 4:100,1:0. These 
+flags specify one process with 4 instructions (all to use the CPU), and one that simply issues an I/O and waits for it to be done. How long does it take to complete both processes? Use -c and -p to 
+find out if you were right.","9 (or 10) time units. 
+Process 0 (4:100) uses four time units for running regular CPU instructions. 
+Process 1 (1:0) issues one I/O request, using five time units to complete. (It needs one more tick to switch to the DONE state.)",2 sub-questions: 8 points/each sub-question,2 sub-questions: 8 points/each sub-question,16,grading_4,It takes Time 10 to complete both processes.,16.0,8.0,8.0,
+5,4,"Now run with these 
+flags: -l 4:100,1:0. These 
+flags specify one process with 4 instructions (all to use the CPU), and one that simply issues an I/O and waits for it to be done. How long does it take to complete both processes? Use -c and -p to 
+find out if you were right.","9 (or 10) time units. 
+Process 0 (4:100) uses four time units for running regular CPU instructions. 
+Process 1 (1:0) issues one I/O request, using five time units to complete. (It needs one more tick to switch to the DONE state.)",2 sub-questions: 8 points/each sub-question,2 sub-questions: 8 points/each sub-question,16,grading_18,"It takes 10 time units to complete. The first process that runs is in the RUNNING STATE which is using the CPU, while the other processes are in the READTY state until the first process gets finished. When the first process is finished, the second process begins to RUN. There is an overlapping state between the process 1’s DONE state and the process 2’s RUN state. On the other hand, since the process is I/O bound it spends the time WAITING. Therefore, while the CPU-bound process is executing first, the I/O bound is waiting.",16.0,16.0,16.0,
+10,4,"Now run with these 
+flags: -l 4:100,1:0. These 
+flags specify one process with 4 instructions (all to use the CPU), and one that simply issues an I/O and waits for it to be done. How long does it take to complete both processes? Use -c and -p to 
+find out if you were right.","9 (or 10) time units. 
+Process 0 (4:100) uses four time units for running regular CPU instructions. 
+Process 1 (1:0) issues one I/O request, using five time units to complete. (It needs one more tick to switch to the DONE state.)",2 sub-questions: 8 points/each sub-question,2 sub-questions: 8 points/each sub-question,16,grading_12,"It needs 10 unit time. hycheun456@ubt20a:~$ python2 process-run.py -l 4:100,1:0 -c -p Time PID: 0 PID: 1 CPU IOs 1 RUN:cpu READY 1 2 RUN:cpu READY 1 3 RUN:cpu READY 1 4 RUN:cpu READY 1 5 DONE RUN:io-start 1 6 DONE WAITING 1 7 DONE WAITING 1 8 DONE WAITING 1 9 DONE WAITING 1 10* DONE DONE Stats: Total Time 10 Stats: CPU Busy 5 (50.00%) Stats: IO Busy 4 (40.00%)",16.0,16.0,16.0,
+29,4,"Now run with these 
+flags: -l 4:100,1:0. These 
+flags specify one process with 4 instructions (all to use the CPU), and one that simply issues an I/O and waits for it to be done. How long does it take to complete both processes? Use -c and -p to 
+find out if you were right.","9 (or 10) time units. 
+Process 0 (4:100) uses four time units for running regular CPU instructions. 
+Process 1 (1:0) issues one I/O request, using five time units to complete. (It needs one more tick to switch to the DONE state.)",2 sub-questions: 8 points/each sub-question,2 sub-questions: 8 points/each sub-question,16,outlier_1,It takes 10 units of time to complete both processes.,8.0,8.0,8.0,16.0

@@ -1,0 +1,106 @@
+ID,question_id,question,sample_answer,criteria,sample_criteria,full_points,id,answer,score_1,score_2,score_3,score_outlier,reasoning
+3,3,"Now let’s look at vector-avoid-hold-and-wait.c. What is the main problem with this approach? How does its performance compare to the other versions (i.e., vector-global-order and vector-try-wait), when running both with -p and without it?","The main problem with this approach is that it is too coarse: the global lock (which protects the acquisition of all the other locks) will be under contention even when the vectors being manipulated by each thread is different. The run times under heavy contention (without the -p flag) very close to those for vector-global-order. For the high parallelism (with the -p flag) case, vector-avoid-hold-and-wait performs as it does under high contention, but about twice as slow as vector-global-order under high parallelism. Consequently, the comparison between vector-global-order and vector-try-wait holds here as well.","three-subquestions, 5 points for each subquestion.
+• For explain “main problem” (5 points)
+• For explain the setting “without the -p flag” (5 points)
+• For explain the setting “with the -p flag” (5 points)","three-subquestions, 5 points for each subquestion.
+• For explain “main problem” (5 points)
+• For explain the setting “without the -p flag” (5 points)
+• For explain the setting “with the -p flag” (5 points)",15,grading_20,"The main problem is that each thread needs a lock on the vector before accessing. When multiple threads want to access the vector at the same time, the lock will be contended. It will have similar performance when running.",18.0,,,,"OBSERVATION: The student describes how larger buffers affect the behavior of the producer and consumer, noting that num_full will remain at 0 or 1 and that the consumer only wakes to consume a full buffer.
+
+POSSIBLE EXPLANATIONS:
+- Student has a superficial understanding of the producer-consumer problem → Would expect vague or incorrect statements about buffer behavior.
+- Student understands the mechanics of the producer-consumer model but misinterprets the implications of buffer size → Would expect some correct observations but flawed conclusions.
+- Student has a solid grasp of the producer-consumer dynamics and accurately predicts behavior with varying buffer sizes → Would expect clear, logical reasoning and accurate predictions.
+
+BEST EXPLANATION: The student demonstrates a good understanding of the producer-consumer model and the impact of buffer size on behavior, but they incorrectly conclude that num_full will only be 0 or 1, which overlooks the potential for larger buffer sizes to allow for more than one item to be produced before consumption.
+
+SCORE: 18"
+3,4,"Now run with these 
+flags: -l 4:100,1:0. These 
+flags specify one process with 4 instructions (all to use the CPU), and one that simply issues an I/O and waits for it to be done. How long does it take to complete both processes? Use -c and -p to 
+find out if you were right.","9 (or 10) time units. 
+Process 0 (4:100) uses four time units for running regular CPU instructions. 
+Process 1 (1:0) issues one I/O request, using five time units to complete. (It needs one more tick to switch to the DONE state.)",2 sub-questions: 8 points/each sub-question,2 sub-questions: 8 points/each sub-question,16,grading_20,"The processes will take 10 clock cycles to complete the instructions as there are 4 instructions which take 1 cycle to complete and there is 1 instruction which takes 4 clock cycles to complete so the whole operation will end at Time 10 adding the 4 clockcycles for the cpu process, 1 for running the IO process and 4 cycles waiting for it to complete. Time PID: 0 PID: 1 CPU IOs 1 RUN:cpu READY 1 2 RUN:cpu READY 1 3 RUN:cpu READY 1 4 RUN:cpu READY 1 5 DONE RUN:io-start 1 6 DONE WAITING 1 7 DONE WAITING 1 8 DONE WAITING 1 9 DONE WAITING 1 10* DONE DONE",18.0,,,,"OBSERVATION: The student describes how larger buffers affect the behavior of the producer and consumer, noting that num_full will remain at 0 or 1 and that the consumer only wakes to consume a full buffer.
+
+POSSIBLE EXPLANATIONS:
+- Student has a superficial understanding of the producer-consumer problem → Would expect vague or incorrect statements about buffer behavior.
+- Student understands the mechanics of the producer-consumer model but misinterprets the implications of buffer size → Would expect some correct observations but flawed conclusions.
+- Student has a solid grasp of the producer-consumer dynamics and accurately predicts behavior with varying buffer sizes → Would expect clear, logical reasoning and accurate predictions.
+
+BEST EXPLANATION: The student demonstrates a good understanding of the producer-consumer model and the impact of buffer size on behavior, but they incorrectly conclude that num_full will only be 0 or 1, which overlooks the potential for larger buffer sizes to allow for more than one item to be produced before consumption.
+
+SCORE: 18"
+5,3,"Now let’s look at vector-avoid-hold-and-wait.c. What is the main problem with this approach? How does its performance compare to the other versions (i.e., vector-global-order and vector-try-wait), when running both with -p and without it?","The main problem with this approach is that it is too coarse: the global lock (which protects the acquisition of all the other locks) will be under contention even when the vectors being manipulated by each thread is different. The run times under heavy contention (without the -p flag) very close to those for vector-global-order. For the high parallelism (with the -p flag) case, vector-avoid-hold-and-wait performs as it does under high contention, but about twice as slow as vector-global-order under high parallelism. Consequently, the comparison between vector-global-order and vector-try-wait holds here as well.","three-subquestions, 5 points for each subquestion.
+• For explain “main problem” (5 points)
+• For explain the setting “without the -p flag” (5 points)
+• For explain the setting “with the -p flag” (5 points)","three-subquestions, 5 points for each subquestion.
+• For explain “main problem” (5 points)
+• For explain the setting “without the -p flag” (5 points)
+• For explain the setting “with the -p flag” (5 points)",15,grading_13,"When running with the parallelism flag (-p), the performance of `vector-avoid-hold-and-wait.c` may be affected by the potential hold-and-wait situations.",12.0,,,,"OBSERVATION: The student mentions that the performance of `vector-avoid-hold-and-wait.c` may be affected by potential hold-and-wait situations when running with the parallelism flag (-p).
+
+POSSIBLE EXPLANATIONS:
+- Student has a superficial understanding of the hold-and-wait problem → Would expect vague or incomplete reasoning.
+- Student understands the implications of hold-and-wait on performance but lacks comparison to other versions → Would expect some relevant details but no comprehensive analysis.
+- Student has a solid grasp of the problem and can articulate performance comparisons → Would expect a detailed explanation of how it compares to `vector-global-order` and `vector-try-wait`.
+
+BEST EXPLANATION: The student recognizes the impact of hold-and-wait on performance but does not provide a thorough comparison with the other versions, indicating partial understanding.
+
+SCORE: 12"
+8,4,"Now run with these 
+flags: -l 4:100,1:0. These 
+flags specify one process with 4 instructions (all to use the CPU), and one that simply issues an I/O and waits for it to be done. How long does it take to complete both processes? Use -c and -p to 
+find out if you were right.","9 (or 10) time units. 
+Process 0 (4:100) uses four time units for running regular CPU instructions. 
+Process 1 (1:0) issues one I/O request, using five time units to complete. (It needs one more tick to switch to the DONE state.)",2 sub-questions: 8 points/each sub-question,2 sub-questions: 8 points/each sub-question,16,grading_10,"9 time units. First processor 4:100 use 4 time units for running regular CPU instruction while second processor 1:0 issue 1 I/O request, that just use 5 time units for running.",12.0,,,,"OBSERVATION: The student states ""9 time units"" and provides a breakdown of the time taken for CPU instructions and I/O request, but the explanation contains inaccuracies regarding the time taken for the I/O operation.
+
+POSSIBLE EXPLANATIONS:
+- Student understands the basic concepts but miscalculates the time for the I/O operation → Would expect: a plausible total time but incorrect reasoning.
+- Student is guessing without understanding → Would expect: a random number or a lack of breakdown.
+- Student has partial understanding of CPU and I/O processes → Would expect: some correct details but significant errors in calculations.
+
+BEST EXPLANATION: The student demonstrates a basic understanding of the processes involved but miscalculates the time for the I/O operation, indicating partial comprehension of the task.
+
+SCORE: 12"
+6,4,"Now run with these 
+flags: -l 4:100,1:0. These 
+flags specify one process with 4 instructions (all to use the CPU), and one that simply issues an I/O and waits for it to be done. How long does it take to complete both processes? Use -c and -p to 
+find out if you were right.","9 (or 10) time units. 
+Process 0 (4:100) uses four time units for running regular CPU instructions. 
+Process 1 (1:0) issues one I/O request, using five time units to complete. (It needs one more tick to switch to the DONE state.)",2 sub-questions: 8 points/each sub-question,2 sub-questions: 8 points/each sub-question,16,grading_16,"The total time is 10. 4 CPU for the rst process, 1 CPU and 4 I/O are waiting for the second process.",22.0,,,,"OBSERVATION: The student states that the total time is 10, breaking it down into 4 CPU for the first process and 1 CPU plus 4 I/O for the second process.
+
+POSSIBLE EXPLANATIONS:
+- Student correctly calculated the total time based on the given flags → Would expect: accurate breakdown and reasoning.
+- Student made an error in understanding the processes → Would expect: incorrect total time or misinterpretation of the flags.
+- Student is guessing based on partial knowledge → Would expect: vague reasoning or incorrect total.
+
+BEST EXPLANATION: The student accurately calculated the total time based on the provided flags, demonstrating a clear understanding of how to interpret the CPU and I/O instructions.
+
+INFERENCE: The student shows a solid grasp of the concepts involved and correctly applies them to arrive at the total time.
+
+SCORE: 22"
+3,5,"Our 
+first question focuses on main-two-cvs-while.c (the working solution). Run with one producer and one consumer, and have the producer produce a few values. Start with a buffer (size 1), and then increase it. How does the behavior of the code change with larger buffers? (or does it?) What would you predict num_full to be with different buffer sizes (e.g., -m 10) and different numbers of produced items (e.g., -l 100), when you change the consumer sleep string from default (no sleep) to -C 0,0,0,0,0,0,1?","With larger buffers, producer can add multiple values to the buffer (up to the length of the buffer) before it waits or context switches, and vice versa for the consumer. The second question models consumers that take much longer to consume items than it takes for producers to produce items. The consumer grabs one item each and then immediately falls asleep for one second, leaving the producer to fill the buffer. The producer would then sleep until the consumer woke up and cycle repeated. (Help to understand the second question model) The buffer would thus spend most of its time full, i.e. num_full would always be equal to or close to the buffer size. Since there is only one empty buffer slot, the producer will run once, and until the loops are over for each, they will take turns to add/remove one at a time.","3 sub-questions, 9 points for each sub-question","3 sub-questions, 9 points for each sub-question",27,grading_20,"When using larger buffers, the code exhibits a change in behavior as the producer can store more values in the buffer before the consumer consumes them. Specifically, the producer can fill the buffer entirely before the consumer wakes up to consume its contents when the consumer sleeps. Thus, regardless of the buffer size, num_full will always remain either 0 or 1. This is because the consumer instantly consumes the product produced due to the configuration of one producer and one consumer (-p 1 and -c 1). With the consumer sleeping and the producer continuously filling the buffer, the consumer only wakes up to consume the full buffer, resulting in a predictable pattern where num_full reaches its maximum value once the buffer is full. This behavior persists irrespective of changes in buffer sizes or the number of produced items. Specifically, when the consumer sleeps according to the pattern -C 0,0,0,0,0,0,1, the producer fills the entire buffer, prompting the consumer to wake up and consume it, repeating the cycle until the buffer reaches its capacity.",18.0,,,,"OBSERVATION: The student describes how larger buffers affect the behavior of the producer and consumer, noting that num_full will remain at 0 or 1 and that the consumer only wakes to consume a full buffer.
+
+POSSIBLE EXPLANATIONS:
+- Student has a superficial understanding of the producer-consumer problem → Would expect vague or incorrect statements about buffer behavior.
+- Student understands the mechanics of the producer-consumer model but misinterprets the implications of buffer size → Would expect some correct observations but flawed conclusions.
+- Student has a solid grasp of the producer-consumer dynamics and accurately predicts behavior with varying buffer sizes → Would expect clear, logical reasoning and accurate predictions.
+
+BEST EXPLANATION: The student demonstrates a good understanding of the producer-consumer model and the impact of buffer size on behavior, but they incorrectly conclude that num_full will only be 0 or 1, which overlooks the potential for larger buffer sizes to allow for more than one item to be produced before consumption.
+
+SCORE: 18"
+1,4,"Now run with these 
+flags: -l 4:100,1:0. These 
+flags specify one process with 4 instructions (all to use the CPU), and one that simply issues an I/O and waits for it to be done. How long does it take to complete both processes? Use -c and -p to 
+find out if you were right.","9 (or 10) time units. 
+Process 0 (4:100) uses four time units for running regular CPU instructions. 
+Process 1 (1:0) issues one I/O request, using five time units to complete. (It needs one more tick to switch to the DONE state.)",2 sub-questions: 8 points/each sub-question,2 sub-questions: 8 points/each sub-question,16,grading_26,"There are 4 occurrences of ""cpu"" for Process 0 . The Process 1 starts with ""io-start"" and then transitions to the ""WAITING"" state and remains in the ""WAITING"" state for 4 time steps. we need to consider the maximum number of time steps required for any process to complete. In this case, Process 1 completes its execution after 4 time steps, as indicated by the ""DONE"" state. Therefore, the completion time of both processes is 4 time steps.Process 0 completes its execution before Process 1, as it finishes its 4 CPU instructions earlier. However, since the completion time is the same for both processes, we can conclude that they both finish at the 4th time step.",22.0,,,,"OBSERVATION: The student correctly identifies the completion time for both processes as 4 time steps and explains the states of each process, including the transition of Process 1 to the ""WAITING"" state.
+
+POSSIBLE EXPLANATIONS:
+- Student understands the process execution and timing → Would expect: accurate completion time and logical reasoning.
+- Student misinterpreted the process states → Would expect: incorrect completion time or confusion about states.
+- Student is guessing based on superficial knowledge → Would expect: vague or incorrect reasoning.
+
+BEST EXPLANATION: Student demonstrates a solid understanding of process execution and timing, accurately identifying the completion time and the states of both processes.
+
+SCORE: 22"

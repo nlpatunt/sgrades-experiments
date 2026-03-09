@@ -70,22 +70,7 @@ data = {
         0.2374, 0.1659, 0.2219
     ],
     
-    # Ind+Abd
-    "Ind+Abd": [
-        # ASAP-AES
-        0.9151, 0.7177, 0.8863,
-        # ASAP2
-        0.2827, 0.3806, 0.3355,
-        # ASAP++
-        0.1931, 0.2864, 0.2321,
-        # Persuade-2
-        0.6667, 0.7721, 0.2606,
-        # IELTS_Writing_Dataset
-        0.3529, 0.4737, 0.273,
-        # IELTS_Writing_Task_2_Dataset
-        0.1856, 0.1983, 0.1162
-    ],
-    
+     
     # Ind+Ded
     "Ind+Ded": [
         # ASAP-AES
@@ -101,6 +86,23 @@ data = {
         # IELTS_Writing_Task_2_Dataset
         0.18, 0.1903, 0.2584
     ],
+
+    # Ind+Abd
+    "Ind+Abd": [
+        # ASAP-AES
+        0.9151, 0.7177, 0.8863,
+        # ASAP2
+        0.2827, 0.3806, 0.3355,
+        # ASAP++
+        0.1931, 0.2864, 0.2321,
+        # Persuade-2
+        0.6667, 0.7721, 0.2606,
+        # IELTS_Writing_Dataset
+        0.3529, 0.4737, 0.273,
+        # IELTS_Writing_Task_2_Dataset
+        0.1856, 0.1983, 0.1162
+    ],
+   
     
     # Ded+Abd
     "Ded+Abd": [
@@ -121,7 +123,7 @@ data = {
 
 df = pd.DataFrame(data)
 
-strategies = ["Ind", "Ded", "Abd", "Ind+Abd", "Ind+Ded", "Ded+Abd"]
+strategies = ["Ind", "Ded", "Abd", "Ind+Ded", "Ind+Abd", "Ded+Abd"]
 
 # =========================
 #   Create Heatmaps

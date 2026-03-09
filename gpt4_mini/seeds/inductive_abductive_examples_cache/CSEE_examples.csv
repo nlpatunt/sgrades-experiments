@@ -1,0 +1,48 @@
+index,essay_id,prompt_id,prompt,essay,overall_score,content_score,language_score,structure_score,rubric_source
+8208,17031476,2,"Suppose you are Li Hua, a senior high school student at Hongxing High School. Recently, you received a letter from your British friend Jim, learning that his plan to go on a bike trip with friends for a week did not get his parents' permission, and he feels very disappointed. Please write a reply to Jim, including:
+1. Expressing consolation;
+2. Offering advice.
+","Dear Jim,
+I recieved your letters recently, and I'm hearing you are very sad. So I am writing to comfort you.
+I'm hearing your parents not agree your plan that ride a bike to travel with your friends, but don't sadness, your friends and me still can chat with you, and we can choosing another way to go out, so don't sad.
+I'm suggesting you go to parks or lakes with your friends, because the reason is spring, scene is beautiful. You can also go to the library to promote your knowledge.
+I'm looking forward to your reply.
+Yours,
+Li Hua",6.5,2.5,2.5,1.5,https://huggingface.co/datasets/nlpatunt/dataset_rubrics/raw/main/CSEE/CSEE_rubric.html
+10973,11036189,2,"Suppose you are Li Hua, a senior high school student at Hongxing High School. Recently, you received a letter from your British friend Jim, learning that his plan to go on a bike trip with friends for a week did not get his parents' permission, and he feels very disappointed. Please write a reply to Jim, including:
+1. Expressing consolation;
+2. Offering advice.
+","Dear Jim,
+knowing that your plan of cycling trip for a week with friends was disadmitted by your parents, I'm writing this letter to cheer you up and give you some suggestion.
+I can truly feel your emotions since my plans has always been banned by my parents too. It's not a good idea to be too upset for a long time. There maybe some reasons that your parents don't want you to go out.
+I want to share you some methods that may lead you succeed plan to. Firstly, it's a good choice to decrease the time the trip lets. If you go outside for too long, your parents may think it will be dangerous and don't allows you to do it. Besides, communicating with your parents to ask for reasons is a good idea. Having known their reasons, you can comfort them and give your solutions of the problems they are worried about. I hope you can take on your trip as planned. I'm looking forward to your good news.
+Yours,
+Li Hua",12.5,4.5,4.5,3.5,https://huggingface.co/datasets/nlpatunt/dataset_rubrics/raw/main/CSEE/CSEE_rubric.html
+506,11248597,1,"Suppose you are Li Hua, a senior student at Hongxing High School. Your school is currently soliciting ideas for the senior graduation ceremony. You are interested in participating and have formed some ideas about the event design. Please write an email to your British friend Jim asking for his advice. The content should include:
+1. Introduce your design ideas;
+2. Explain the reasons behind your design.
+","Dear Jim,
+How is everything going? I miss you so much. I have some ideas about the graduation activities to be held by the school. Please check them out for me.
+First of all, I want student to wear their own clothes, so that we can be more relaxed. And then, I want to have a talent show, because our school have many art and music majors. At last, I want to have a confession section, we can thanks the teacher or give a hug for eachother!
+How do you like it? If you have any suggestions please let me know!
+Yours,
+Li Hua",11.5,4.5,4.5,2.5,https://huggingface.co/datasets/nlpatunt/dataset_rubrics/raw/main/CSEE/CSEE_rubric.html
+8346,11034768,2,"Suppose you are Li Hua, a senior high school student at Hongxing High School. Recently, you received a letter from your British friend Jim, learning that his plan to go on a bike trip with friends for a week did not get his parents' permission, and he feels very disappointed. Please write a reply to Jim, including:
+1. Expressing consolation;
+2. Offering advice.
+","Dear Jim,
+Sorry to hear that your parents didn't agree your plan for having a riding tour with your friends. and you are in a low mood I can totally understand your feeling. Your parents probably thought that it's unsafe to ride bikes on your own for a whole week, their disagreement is based on care. But don't worry! I'm here for you to give you some suggestions.
+My advice is as follows. Firstly, it's a good idea for you and your friends to reduce the riding time. You can choose to visit some near attractions by bike, this will not only let you appreciate the view both alongside and at the attractions, but also a more safety plan since you just need to ride to there and back from it. What's more, why not prepare for the equipment a riding tour needs. After you prepare those helmets and other protections, your parents will probably agree on you to have a short riding tour.
+I hope my suggestions will benefit you. Don't worry! Embrace your riding tour in unique ways and pay attention to your safety!
+Yours,
+Li Hua",13.0,4.5,5.5,3.0,https://huggingface.co/datasets/nlpatunt/dataset_rubrics/raw/main/CSEE/CSEE_rubric.html
+5899,11033875,1,"Suppose you are Li Hua, a senior student at Hongxing High School. Your school is currently soliciting ideas for the senior graduation ceremony. You are interested in participating and have formed some ideas about the event design. Please write an email to your British friend Jim asking for his advice. The content should include:
+1. Introduce your design ideas;
+2. Explain the reasons behind your design.
+","Dear Jim,
+Long time no see, how is everything going?
+Our school is preparing for the graduation ceremony. I have some ideas about it. And I ask you for some opinions. I will write letters to teachers and classmates. We will read on that day and hug to express our thanks. In addition, we will have some students to sing, give speeches and put photos of the last.
+The reason is that many people have helped us in the past three years. So we have to thank them and remind a beautiful memories.
+How do you think about my plan? I am looking forward you giving advices.
+Yours,
+Li Hua.",11.5,4.5,4.5,2.5,https://huggingface.co/datasets/nlpatunt/dataset_rubrics/raw/main/CSEE/CSEE_rubric.html

@@ -1,0 +1,146 @@
+ID,question_id,question,sample_answer,criteria,sample_criteria,full_points,id,answer,score_1,score_2,score_3,score_outlier,reasoning
+1,2,"Let’s examine a simple program, “loop.s”. First, just read and understand it. Then, run it with these arguments (./x86.py -p loop.s -t 1 -i 100 -R dx). This specifies a single thread, an interrupt every 100 instructions, and tracing of register %dx. What will %dx be during the run? Use the -c flag to check your answers; the answers, on the left, show the value of the register (or memory value) after the instruction on the right has run.","dx Thread 0 
+0 
+-1 1000 sub $1,%dx
+-1 1001 test $0,%dx
+-1 1002 jgte .top
+-1 1003 halt",The program code or text explanation can explain the process of value changing from 0 to -1. Correct (16 points),"The program code or text explanation can explain the process of value changing from 0 to -1. Correct (16 points);
+If only answer the final value is -1 . Partically correct (4 points); If only asnser the ""change range is from 0 to -1 (8 points); If answer list all values, Partically correct (12 points)
+",16,grading_26,"dx Thread 0 0 -1 1000 sub $1,%dx -1 1001 test $0,%dx -1 1002 jgte .top -1 1003 halt Sub instruction substitutes 1 from the initial value of %dx (0), so that it becomes -1. Test instruction checks the %dx value, since it is smaller than 0, jump doesn’t happen and program halts.",12.0,,,,"OBSERVATION: The student correctly identifies the initial value of %dx as 0, explains the effect of the `sub` instruction, and describes the behavior of the `test` instruction and the subsequent jump.
+
+POSSIBLE EXPLANATIONS:
+- Student has a superficial understanding of assembly language → Would expect vague or incorrect descriptions of instructions.
+- Student understands the instructions and their effects → Would expect accurate descriptions and correct reasoning about program flow.
+- Student misinterprets the program's logic → Would expect incorrect conclusions about the final value of %dx.
+
+BEST EXPLANATION: The student demonstrates a solid understanding of the assembly instructions and their effects on the %dx register, accurately explaining the program's flow and halting condition.
+
+SCORE: 12"
+2,2,"Let’s examine a simple program, “loop.s”. First, just read and understand it. Then, run it with these arguments (./x86.py -p loop.s -t 1 -i 100 -R dx). This specifies a single thread, an interrupt every 100 instructions, and tracing of register %dx. What will %dx be during the run? Use the -c flag to check your answers; the answers, on the left, show the value of the register (or memory value) after the instruction on the right has run.","dx Thread 0 
+0 
+-1 1000 sub $1,%dx
+-1 1001 test $0,%dx
+-1 1002 jgte .top
+-1 1003 halt",The program code or text explanation can explain the process of value changing from 0 to -1. Correct (16 points),"The program code or text explanation can explain the process of value changing from 0 to -1. Correct (16 points);
+If only answer the final value is -1 . Partically correct (4 points); If only asnser the ""change range is from 0 to -1 (8 points); If answer list all values, Partically correct (12 points)
+",16,grading_7,"%dx will be -1. dx Thread 0 0 1 1000 sub $1,%dx 1 1001 test $0,%dx 1 1002 jgte .top 1 1003 halt",10.0,,,,"OBSERVATION: The student states that %dx will be -1 and provides a sequence of instructions with their corresponding instruction counts.
+
+POSSIBLE EXPLANATIONS:
+- Student correctly analyzed the program and understood the decrement operation → Would expect: correct final value and logical reasoning.
+- Student guessed the value without understanding the program's logic → Would expect: incorrect value or lack of detail.
+- Student misinterpreted the instructions or the context of the register → Would expect: incorrect reasoning or confusion in the instruction flow.
+
+BEST EXPLANATION: The student correctly identified the final value of %dx as -1, indicating an understanding of the decrement operation and the program's flow, but lacks detailed reasoning or explanation of how they arrived at that conclusion.
+
+SCORE: 10/16"
+3,2,"Let’s examine a simple program, “loop.s”. First, just read and understand it. Then, run it with these arguments (./x86.py -p loop.s -t 1 -i 100 -R dx). This specifies a single thread, an interrupt every 100 instructions, and tracing of register %dx. What will %dx be during the run? Use the -c flag to check your answers; the answers, on the left, show the value of the register (or memory value) after the instruction on the right has run.","dx Thread 0 
+0 
+-1 1000 sub $1,%dx
+-1 1001 test $0,%dx
+-1 1002 jgte .top
+-1 1003 halt",The program code or text explanation can explain the process of value changing from 0 to -1. Correct (16 points),"The program code or text explanation can explain the process of value changing from 0 to -1. Correct (16 points);
+If only answer the final value is -1 . Partically correct (4 points); If only asnser the ""change range is from 0 to -1 (8 points); If answer list all values, Partically correct (12 points)
+",16,grading_20,%dx will become 0 and -1 during the run.,10.0,,,,"OBSERVATION: Student states that %dx will become 0 and -1 during the run.
+
+POSSIBLE EXPLANATIONS:
+- Student guessed the values without understanding the program's logic → Would expect: incorrect or random values.
+- Student has partial understanding of the program's execution → Would expect: some correct values but possibly missing context.
+- Student fully understands the program and its execution flow → Would expect: accurate values with reasoning.
+
+BEST EXPLANATION: Student provided two specific values for %dx, indicating some understanding of the program's behavior, but without any explanation or context for how these values were derived.
+
+INFERENCE: The student shows partial understanding of the program's output but lacks the reasoning or explanation to fully support their claims.
+
+SCORE: 10/16"
+4,2,"Let’s examine a simple program, “loop.s”. First, just read and understand it. Then, run it with these arguments (./x86.py -p loop.s -t 1 -i 100 -R dx). This specifies a single thread, an interrupt every 100 instructions, and tracing of register %dx. What will %dx be during the run? Use the -c flag to check your answers; the answers, on the left, show the value of the register (or memory value) after the instruction on the right has run.","dx Thread 0 
+0 
+-1 1000 sub $1,%dx
+-1 1001 test $0,%dx
+-1 1002 jgte .top
+-1 1003 halt",The program code or text explanation can explain the process of value changing from 0 to -1. Correct (16 points),"The program code or text explanation can explain the process of value changing from 0 to -1. Correct (16 points);
+If only answer the final value is -1 . Partically correct (4 points); If only asnser the ""change range is from 0 to -1 (8 points); If answer list all values, Partically correct (12 points)
+",16,grading_40,"%dx will be 
+-1. Since the register is 0 in the beginning and subtract by 1. The value is -1 which is smaller than 0 so the program is terminated.",6.0,,,,"OBSERVATION: The student states that ""%dx will be -1"" and explains that it starts at 0 and is decremented by 1, leading to termination of the program.
+
+POSSIBLE EXPLANATIONS:
+- Student misunderstands register behavior → Would expect incorrect final value or misunderstanding of termination.
+- Student has partial understanding of register operations → Would expect some correct reasoning but flawed conclusion.
+- Student fully understands the program logic → Would expect correct final value and clear reasoning.
+
+BEST EXPLANATION: The student demonstrates a basic understanding of register operations but incorrectly concludes that the program terminates due to the value being -1, which is not how registers work in this context.
+
+INFERENCE: The student shows some understanding of register initialization and operations but lacks a complete grasp of how the program executes and terminates.
+
+SCORE: 6/16"
+5,2,"Let’s examine a simple program, “loop.s”. First, just read and understand it. Then, run it with these arguments (./x86.py -p loop.s -t 1 -i 100 -R dx). This specifies a single thread, an interrupt every 100 instructions, and tracing of register %dx. What will %dx be during the run? Use the -c flag to check your answers; the answers, on the left, show the value of the register (or memory value) after the instruction on the right has run.","dx Thread 0 
+0 
+-1 1000 sub $1,%dx
+-1 1001 test $0,%dx
+-1 1002 jgte .top
+-1 1003 halt",The program code or text explanation can explain the process of value changing from 0 to -1. Correct (16 points),"The program code or text explanation can explain the process of value changing from 0 to -1. Correct (16 points);
+If only answer the final value is -1 . Partically correct (4 points); If only asnser the ""change range is from 0 to -1 (8 points); If answer list all values, Partically correct (12 points)
+",16,grading_13,Initially dx will be 0 and it will become -1 after running the code,10.0,,,,"OBSERVATION: The student states that %dx will initially be 0 and will become -1 after running the code.
+
+POSSIBLE EXPLANATIONS:
+- Student has a basic understanding of register initialization and the effect of the program → Would expect: correct initial value and a plausible final value.
+- Student is guessing without understanding the program's logic → Would expect: incorrect values or lack of clarity.
+- Student understands the program's logic but miscalculates the final value → Would expect: correct initial value but an incorrect final value.
+
+BEST EXPLANATION: The student correctly identifies the initial value of %dx as 0, indicating an understanding of register initialization, but incorrectly states the final value as -1, suggesting a misunderstanding of how the program modifies %dx.
+
+SCORE: 10/16"
+6,2,"Let’s examine a simple program, “loop.s”. First, just read and understand it. Then, run it with these arguments (./x86.py -p loop.s -t 1 -i 100 -R dx). This specifies a single thread, an interrupt every 100 instructions, and tracing of register %dx. What will %dx be during the run? Use the -c flag to check your answers; the answers, on the left, show the value of the register (or memory value) after the instruction on the right has run.","dx Thread 0 
+0 
+-1 1000 sub $1,%dx
+-1 1001 test $0,%dx
+-1 1002 jgte .top
+-1 1003 halt",The program code or text explanation can explain the process of value changing from 0 to -1. Correct (16 points),"The program code or text explanation can explain the process of value changing from 0 to -1. Correct (16 points);
+If only answer the final value is -1 . Partically correct (4 points); If only asnser the ""change range is from 0 to -1 (8 points); If answer list all values, Partically correct (12 points)
+",16,grading_16,%dx is -1 during the run,10.0,,,,"OBSERVATION: Student states that %dx is -1 during the run.
+
+POSSIBLE EXPLANATIONS:
+- Student guessed the value without understanding the program → Would expect an incorrect or uncertain answer.
+- Student ran the program and correctly interpreted the output → Would expect a correct answer with some reasoning or context.
+- Student misinterpreted the program's logic → Would expect a plausible but incorrect value.
+
+BEST EXPLANATION: Student provided a specific value for %dx, suggesting they ran the program and understood its output, but without any additional context or reasoning, it is unclear if they fully grasped the underlying logic.
+
+INFERENCE: The student likely executed the program and obtained the correct output but lacks a deeper understanding of how that value was derived.
+
+SCORE: 10/16"
+7,2,"Let’s examine a simple program, “loop.s”. First, just read and understand it. Then, run it with these arguments (./x86.py -p loop.s -t 1 -i 100 -R dx). This specifies a single thread, an interrupt every 100 instructions, and tracing of register %dx. What will %dx be during the run? Use the -c flag to check your answers; the answers, on the left, show the value of the register (or memory value) after the instruction on the right has run.","dx Thread 0 
+0 
+-1 1000 sub $1,%dx
+-1 1001 test $0,%dx
+-1 1002 jgte .top
+-1 1003 halt",The program code or text explanation can explain the process of value changing from 0 to -1. Correct (16 points),"The program code or text explanation can explain the process of value changing from 0 to -1. Correct (16 points);
+If only answer the final value is -1 . Partically correct (4 points); If only asnser the ""change range is from 0 to -1 (8 points); If answer list all values, Partically correct (12 points)
+",16,grading_17,dx = -1.,10.0,,,,"OBSERVATION: Student states ""%dx = -1.""
+
+POSSIBLE EXPLANATIONS:
+- Student guessed without understanding the program's logic → Would expect an incorrect or uncertain answer.
+- Student ran the program and correctly interpreted the output → Would expect a correct answer with some reasoning or context.
+- Student misinterpreted the program's behavior or the significance of the output → Would expect a plausible but incorrect answer.
+
+BEST EXPLANATION: Student likely ran the program and obtained the output but did not provide any reasoning or context for the value of %dx.
+
+SCORE: 10/16"
+8,2,"Let’s examine a simple program, “loop.s”. First, just read and understand it. Then, run it with these arguments (./x86.py -p loop.s -t 1 -i 100 -R dx). This specifies a single thread, an interrupt every 100 instructions, and tracing of register %dx. What will %dx be during the run? Use the -c flag to check your answers; the answers, on the left, show the value of the register (or memory value) after the instruction on the right has run.","dx Thread 0 
+0 
+-1 1000 sub $1,%dx
+-1 1001 test $0,%dx
+-1 1002 jgte .top
+-1 1003 halt",The program code or text explanation can explain the process of value changing from 0 to -1. Correct (16 points),"The program code or text explanation can explain the process of value changing from 0 to -1. Correct (16 points);
+If only answer the final value is -1 . Partically correct (4 points); If only asnser the ""change range is from 0 to -1 (8 points); If answer list all values, Partically correct (12 points)
+",16,grading_10,-1,0.0,,,,"OBSERVATION: The student provided a response of ""-1"" without any explanation or context regarding the value of register %dx during the program execution.
+
+POSSIBLE EXPLANATIONS:
+- Student guessed the answer without understanding the program → Would expect: incorrect or random value with no reasoning.
+- Student misinterpreted the question or did not run the program → Would expect: a value that does not align with expected outcomes based on the program's logic.
+- Student is aware of the program's behavior but failed to articulate their reasoning → Would expect: a correct or partially correct answer with some explanation.
+
+BEST EXPLANATION: The student likely guessed the answer without understanding the program's execution, as ""-1"" is not a typical output for register values in this context.
+
+INFERENCE: The student shows no understanding of the program's behavior or the expected output for %dx.
+
+SCORE: 0"

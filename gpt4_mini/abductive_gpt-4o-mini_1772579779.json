@@ -1,0 +1,539 @@
+{
+  "model_code": "openai/gpt-4o-mini",
+  "model_name": "gpt-4o-mini",
+  "reasoning_approach": "abductive",
+  "timestamp": "2026-03-03T23:11:59.772164",
+  "datasets": [
+    {
+      "dataset_name": "D_ASAP-AES",
+      "predictions": [
+        {
+          "id": "3598",
+          "prediction": 3.0,
+          "raw_response": "OBSERVATION: The student presents a mixed view on censorship in libraries, providing examples of when censorship may or may not be appropriate, but lacks clarity and coherence in their argumentation.\n\nPOSSIBLE EXPLANATIONS:\n- Student has a basic understanding of censorship but struggles to articulate their thoughts clearly \u2192 Would expect: vague reasoning and unclear examples.\n- Student is attempting to engage with a complex topic but lacks depth in analysis \u2192 Would expect: some relevant points but underdeveloped arguments.\n- Student is confused about the topic and provides irrelevant or contradictory statements \u2192 Would expect: significant misunderstandings and lack of focus.\n\nBEST EXPLANATION: Student demonstrates a basic understanding of the topic of censorship in libraries but fails to present a coherent argument or clear examples, indicating a need for further development in critical thinking and writing skills.\n\nSCORE: 3",
+          "tokens": {
+            "prompt": 845,
+            "completion": 168,
+            "total": 1013
+          },
+          "essay_set": 2
+        }
+      ],
+      "failed_predictions": [],
+      "stats": {
+        "valid": 1,
+        "invalid": 0
+      },
+      "start_time": "2026-03-03T23:12:01.463907",
+      "csv_output": "abductive_gpt-4o-mini_predictions_csv/gpt-4o-mini_ASAP-AES_abductive.csv",
+      "end_time": "2026-03-03T23:12:06.544920"
+    },
+    {
+      "dataset_name": "D_ASAP2",
+      "predictions": [
+        {
+          "id": "AAAOPP13416000074708",
+          "prediction": 1.0,
+          "raw_response": "OBSERVATION: The student argues that the Face on Mars is a natural landform, citing evidence from the article and drawing a parallel to how people perceive shapes in clouds. However, the essay lacks a clear structure and depth in argumentation.\n\nPOSSIBLE EXPLANATIONS:\n- Student has a basic understanding of the topic but struggles with organization \u2192 Would expect: weak structure and limited evidence.\n- Student understands the concept but fails to articulate a strong argument \u2192 Would expect: some relevant points but lacking depth.\n- Student is familiar with the article but does not fully grasp the scientific reasoning \u2192 Would expect: misinterpretation of evidence or weak connections.\n\nBEST EXPLANATION: The student demonstrates a basic understanding of the argument against the alien theory but fails to provide a well-structured essay or sufficient evidence to support their claims.\n\nSCORE: 1",
+          "tokens": {
+            "prompt": 855,
+            "completion": 170,
+            "total": 1025
+          }
+        }
+      ],
+      "failed_predictions": [],
+      "stats": {
+        "valid": 1,
+        "invalid": 0
+      },
+      "start_time": "2026-03-03T23:12:13.467081",
+      "csv_output": "abductive_gpt-4o-mini_predictions_csv/gpt-4o-mini_ASAP2_abductive.csv",
+      "end_time": "2026-03-03T23:12:19.374979"
+    },
+    {
+      "dataset_name": "D_ASAP-SAS",
+      "predictions": [
+        {
+          "id": "9431.0",
+          "prediction": 1.0,
+          "raw_response": "OBSERVATION: The student defines \"invasive\" as \"taking over\" and cites a statistic about the pet reptile industry without further elaboration or connection to the broader implications of invasive species discussed in the article.\n\nPOSSIBLE EXPLANATIONS:\n- Student has a superficial understanding of the term \"invasive\" \u2192 Would expect vague definitions and lack of context.\n- Student is attempting to connect the concept of invasive species to the pet industry but lacks depth \u2192 Would expect some relevant details but not fully developed ideas.\n- Student misunderstands the significance of the term in relation to the article's themes \u2192 Would expect misinterpretations or irrelevant information.\n\nBEST EXPLANATION: The student shows a basic understanding of the term \"invasive\" but fails to connect it meaningfully to the broader context of the article, indicating a limited grasp of the concept's significance.\n\nSCORE: 1",
+          "tokens": {
+            "prompt": 1974,
+            "completion": 178,
+            "total": 2152
+          }
+        }
+      ],
+      "failed_predictions": [],
+      "stats": {
+        "valid": 1,
+        "invalid": 0
+      },
+      "start_time": "2026-03-03T23:12:27.290441",
+      "csv_output": "abductive_gpt-4o-mini_predictions_csv/gpt-4o-mini_ASAP-SAS_abductive.csv",
+      "end_time": "2026-03-03T23:12:32.296514"
+    },
+    {
+      "dataset_name": "D_ASAP_plus_plus",
+      "predictions": [
+        {
+          "id": "14871",
+          "prediction": 3.0,
+          "raw_response": "OBSERVATION: The student identifies several obstacles related to the docking of dirigibles at the Empire State Building, including structural modifications, safety concerns regarding hydrogen, weather issues, and legal restrictions.\n\nPOSSIBLE EXPLANATIONS:\n- Student has a superficial understanding of the topic \u2192 Would expect vague or irrelevant details.\n- Student has a reasonable grasp of the challenges but lacks depth \u2192 Would expect some correct points but missing critical analysis.\n- Student demonstrates a solid understanding of the historical context and technical challenges \u2192 Would expect well-articulated points with relevant details.\n\nBEST EXPLANATION: The student demonstrates a solid understanding of the various challenges faced by builders, providing relevant details and context, though the writing contains minor grammatical issues.\n\nSCORE: 3",
+          "tokens": {
+            "prompt": 663,
+            "completion": 148,
+            "total": 811
+          },
+          "essay_set": 6
+        }
+      ],
+      "failed_predictions": [],
+      "stats": {
+        "valid": 1,
+        "invalid": 0
+      },
+      "start_time": "2026-03-03T23:12:39.537274",
+      "csv_output": "abductive_gpt-4o-mini_predictions_csv/gpt-4o-mini_ASAP_plus_plus_abductive.csv",
+      "end_time": "2026-03-03T23:12:44.245342"
+    },
+    {
+      "dataset_name": "D_BEEtlE_2way",
+      "predictions": [
+        {
+          "id": "562",
+          "prediction": "correct",
+          "raw_response": "OBSERVATION: Student states that bulbs A and C will remain in a closed path even if bulb B burns out.\n\nPOSSIBLE EXPLANATIONS: \n- Student understands series and parallel circuits \u2192 Would expect reasoning about how paths are affected by bulb status.\n- Student is confused about circuit configurations \u2192 Would expect a misunderstanding of how bulbs interact.\n- Student is guessing based on prior knowledge \u2192 Would expect a vague or incomplete explanation.\n\nBEST EXPLANATION: Student demonstrates an understanding of how bulbs in a circuit can remain functional despite one bulb burning out, indicating knowledge of circuit paths.\n\nCLASSIFICATION: correct",
+          "tokens": {
+            "prompt": 456,
+            "completion": 120,
+            "total": 576
+          }
+        }
+      ],
+      "failed_predictions": [],
+      "stats": {
+        "valid": 1,
+        "invalid": 0
+      },
+      "start_time": "2026-03-03T23:12:49.602370",
+      "csv_output": "abductive_gpt-4o-mini_predictions_csv/gpt-4o-mini_BEEtlE_2way_abductive.csv",
+      "end_time": "2026-03-03T23:12:53.573746"
+    },
+    {
+      "dataset_name": "D_BEEtlE_3way",
+      "predictions": [
+        {
+          "id": "562",
+          "prediction": "correct",
+          "raw_response": "OBSERVATION: The student states that bulbs A and C will still be in a closed path even if bulb B burns out.\n\nPOSSIBLE EXPLANATIONS: The student understands that in a parallel circuit, other paths remain closed when one component fails; would expect a clear explanation of parallel circuits. Alternatively, the student may misunderstand the circuit configuration and incorrectly assume that all bulbs are in series; would expect confusion about circuit behavior.\n\nBEST EXPLANATION: The student correctly identifies that bulbs A and C remain in a closed path, indicating an understanding of parallel circuits.\n\nCLASSIFICATION: correct",
+          "tokens": {
+            "prompt": 506,
+            "completion": 117,
+            "total": 623
+          }
+        }
+      ],
+      "failed_predictions": [],
+      "stats": {
+        "valid": 1,
+        "invalid": 0
+      },
+      "start_time": "2026-03-03T23:12:58.983502",
+      "csv_output": "abductive_gpt-4o-mini_predictions_csv/gpt-4o-mini_BEEtlE_3way_abductive.csv",
+      "end_time": "2026-03-03T23:13:02.866422"
+    },
+    {
+      "dataset_name": "D_SciEntSBank_2way",
+      "predictions": [
+        {
+          "id": "WA.52a.197.1",
+          "prediction": "correct",
+          "raw_response": "OBSERVATION: The student states that \"the fog was condensation.\"\n\nPOSSIBLE EXPLANATIONS: \n- Student understands the concept of condensation and its relation to temperature differences \u2192 Would expect a clear explanation of how condensation forms.\n- Student has memorized the term without understanding its application \u2192 Would expect a vague or incomplete answer.\n- Student is guessing based on prior knowledge of fog \u2192 Would expect a less confident or uncertain response.\n\nBEST EXPLANATION: The student demonstrates an understanding of the phenomenon of condensation, which occurs when warm, moist air comes into contact with a cooler surface, leading to fogging of the windows.\n\nCLASSIFICATION: correct",
+          "tokens": {
+            "prompt": 477,
+            "completion": 129,
+            "total": 606
+          }
+        }
+      ],
+      "failed_predictions": [],
+      "stats": {
+        "valid": 1,
+        "invalid": 0
+      },
+      "start_time": "2026-03-03T23:13:08.172894",
+      "csv_output": "abductive_gpt-4o-mini_predictions_csv/gpt-4o-mini_SciEntSBank_2way_abductive.csv",
+      "end_time": "2026-03-03T23:13:12.294324"
+    },
+    {
+      "dataset_name": "D_SciEntSBank_3way",
+      "predictions": [
+        {
+          "id": "WA.52a.197.1",
+          "prediction": "correct",
+          "raw_response": "The student identifies the fog as condensation, which aligns with the scientific understanding that warm, moist air inside a vehicle can condense on cooler surfaces, leading to fogging. Possible explanations include the student having a correct understanding of condensation, misunderstanding the phenomenon, or providing a random guess. The best explanation is that the student correctly understands the process of condensation in relation to the scenario described. \n\nCLASSIFICATION: correct",
+          "tokens": {
+            "prompt": 527,
+            "completion": 81,
+            "total": 608
+          }
+        }
+      ],
+      "failed_predictions": [],
+      "stats": {
+        "valid": 1,
+        "invalid": 0
+      },
+      "start_time": "2026-03-03T23:13:17.580962",
+      "csv_output": "abductive_gpt-4o-mini_predictions_csv/gpt-4o-mini_SciEntSBank_3way_abductive.csv",
+      "end_time": "2026-03-03T23:13:21.165216"
+    },
+    {
+      "dataset_name": "D_CSEE",
+      "predictions": [
+        {
+          "id": "9906",
+          "prediction": 10.0,
+          "raw_response": "OBSERVATION: The student expresses consolation and offers advice, but the writing contains several grammatical errors and awkward phrasing.\n\nPOSSIBLE EXPLANATIONS:\n- Student understands the task and provides relevant advice but struggles with language mechanics \u2192 Would expect: coherent ideas but with language issues.\n- Student has a superficial understanding of the task and provides generic advice \u2192 Would expect: vague or irrelevant suggestions.\n- Student is unsure of how to structure a letter and mixes up formal and informal tones \u2192 Would expect: inconsistent tone and structure.\n\nBEST EXPLANATION: The student demonstrates a good understanding of the task by providing relevant consolation and advice, but the execution suffers from language issues and awkward phrasing.\n\nSCORE: 10/16",
+          "tokens": {
+            "prompt": 760,
+            "completion": 144,
+            "total": 904
+          }
+        }
+      ],
+      "failed_predictions": [],
+      "stats": {
+        "valid": 1,
+        "invalid": 0
+      },
+      "start_time": "2026-03-03T23:13:27.760162",
+      "csv_output": "abductive_gpt-4o-mini_predictions_csv/gpt-4o-mini_CSEE_abductive.csv",
+      "end_time": "2026-03-03T23:13:32.781108"
+    },
+    {
+      "dataset_name": "D_Mohlar",
+      "predictions": [
+        {
+          "id": "303",
+          "prediction": 3.0,
+          "raw_response": "OBSERVATION: The student provides a definition of a binary tree, mentioning the root node and the structure of nodes with at most two children.\n\nPOSSIBLE EXPLANATIONS:\n- Student memorized the definition without understanding \u2192 Would expect: vague or incomplete description.\n- Student has a basic understanding of binary trees \u2192 Would expect: accurate but lacking detail on properties or applications.\n- Student fully understands binary trees and their properties \u2192 Would expect: a comprehensive explanation including examples or implications.\n\nBEST EXPLANATION: The student accurately defines a binary tree but does not elaborate on its properties or applications, indicating a basic understanding rather than a deep comprehension.\n\nSCORE: 3",
+          "tokens": {
+            "prompt": 551,
+            "completion": 133,
+            "total": 684
+          }
+        }
+      ],
+      "failed_predictions": [],
+      "stats": {
+        "valid": 1,
+        "invalid": 0
+      },
+      "start_time": "2026-03-03T23:13:39.498019",
+      "csv_output": "abductive_gpt-4o-mini_predictions_csv/gpt-4o-mini_Mohlar_abductive.csv",
+      "end_time": "2026-03-03T23:13:44.212580"
+    },
+    {
+      "dataset_name": "D_Ielts_Writing_Dataset",
+      "predictions": [
+        {
+          "id": "118",
+          "prediction": 5.0,
+          "raw_response": "The student identifies a key reason for the decline in science subject enrollment\u2014lack of trained teachers\u2014and discusses its societal implications, indicating a basic understanding of the topic. However, the essay lacks depth in exploring multiple reasons and effects, and there are minor grammatical issues that detract from clarity. The best explanation is that the student has a foundational understanding of the issue but does not fully develop their arguments or address the prompt comprehensively.\n\nSCORE: 5",
+          "tokens": {
+            "prompt": 835,
+            "completion": 90,
+            "total": 925
+          }
+        }
+      ],
+      "failed_predictions": [],
+      "stats": {
+        "valid": 1,
+        "invalid": 0
+      },
+      "start_time": "2026-03-03T23:13:51.729274",
+      "csv_output": "abductive_gpt-4o-mini_predictions_csv/gpt-4o-mini_Ielts_Writing_Dataset_abductive.csv",
+      "end_time": "2026-03-03T23:13:55.739045"
+    },
+    {
+      "dataset_name": "D_Ielts_Writing_Task_2_Dataset",
+      "predictions": [
+        {
+          "id": "453",
+          "prediction": 5.0,
+          "raw_response": "OBSERVATION: The student presents a mixed argument in favor of unpaid work for teenagers, citing benefits for personal development and community engagement, but also raises concerns about potential impacts on learning.\n\nPOSSIBLE EXPLANATIONS:\n- Student has a basic understanding of the topic but lacks clarity and coherence \u2192 Would expect: vague arguments and unclear connections.\n- Student understands the benefits of unpaid work but struggles with organization and expression \u2192 Would expect: relevant points but poorly articulated.\n- Student has a solid grasp of the topic but fails to fully develop or support their ideas \u2192 Would expect: clear arguments with insufficient elaboration.\n\nBEST EXPLANATION: The student demonstrates a reasonable understanding of the benefits of unpaid work for teenagers and attempts to address counterarguments, but the essay lacks clarity and coherence in expression.\n\nSCORE: 5",
+          "tokens": {
+            "prompt": 888,
+            "completion": 162,
+            "total": 1050
+          }
+        }
+      ],
+      "failed_predictions": [],
+      "stats": {
+        "valid": 1,
+        "invalid": 0
+      },
+      "start_time": "2026-03-03T23:14:02.494687",
+      "csv_output": "abductive_gpt-4o-mini_predictions_csv/gpt-4o-mini_Ielts_Writing_Task_2_Dataset_abductive.csv",
+      "end_time": "2026-03-03T23:14:07.351144"
+    },
+    {
+      "dataset_name": "D_persuade_2",
+      "predictions": [
+        {
+          "id": "B2DBC0B3AD67",
+          "prediction": 3.0,
+          "raw_response": "OBSERVATION: The student argues against mandatory participation in extracurricular activities, emphasizing personal freedom and maturity, but lacks specific examples or detailed reasoning to support their position.\n\nPOSSIBLE EXPLANATIONS:\n- Student has a strong opinion but lacks depth in argumentation \u2192 Would expect: vague assertions without supporting evidence\n- Student understands the importance of choice but fails to articulate it effectively \u2192 Would expect: some relevant points but poorly developed\n- Student is attempting to persuade but does not provide concrete examples \u2192 Would expect: a mix of opinion and evidence\n\nBEST EXPLANATION: The student expresses a clear stance on personal freedom and maturity but does not provide specific details or examples to effectively convince others of their position.\n\nSCORE: 3",
+          "tokens": {
+            "prompt": 905,
+            "completion": 145,
+            "total": 1050
+          }
+        }
+      ],
+      "failed_predictions": [],
+      "stats": {
+        "valid": 1,
+        "invalid": 0
+      },
+      "start_time": "2026-03-03T23:14:14.269120",
+      "csv_output": "abductive_gpt-4o-mini_predictions_csv/gpt-4o-mini_persuade_2_abductive.csv",
+      "end_time": "2026-03-03T23:14:18.545216"
+    },
+    {
+      "dataset_name": "D_Regrading_Dataset_J2C",
+      "predictions": [
+        {
+          "id": "66",
+          "prediction": 6.0,
+          "raw_response": "OBSERVATION: The student correctly identifies that PLA is not a good choice for a flexible spatula due to its low glass transition temperature and suggests looking for a material with a high Tg.\n\nPOSSIBLE EXPLANATIONS:\n- Student understands the concept of Tg and its relevance to material selection \u2192 Would expect: correct reasoning and justification.\n- Student has memorized facts about PLA but lacks deeper understanding \u2192 Would expect: vague reasoning or incorrect conclusions.\n- Student is confused about the application of Tg in practical scenarios \u2192 Would expect: incorrect or irrelevant suggestions.\n\nBEST EXPLANATION: The student demonstrates a solid understanding of the importance of Tg in material selection for high-temperature applications, correctly concluding that PLA is unsuitable.\n\nSCORE: 6/8",
+          "tokens": {
+            "prompt": 648,
+            "completion": 148,
+            "total": 796
+          }
+        }
+      ],
+      "failed_predictions": [],
+      "stats": {
+        "valid": 1,
+        "invalid": 0
+      },
+      "start_time": "2026-03-03T23:14:25.729246",
+      "csv_output": "abductive_gpt-4o-mini_predictions_csv/gpt-4o-mini_Regrading_Dataset_J2C_abductive.csv",
+      "end_time": "2026-03-03T23:14:31.048220"
+    },
+    {
+      "dataset_name": "D_OS_Dataset_q1",
+      "predictions": [
+        {
+          "id": "1",
+          "prediction": 10.0,
+          "raw_response": "OBSERVATION: The student provides specific response and turnaround times for both SJF and FIFO, but incorrectly states that changing the order of job lengths does not affect SJF times.\n\nPOSSIBLE EXPLANATIONS:\n- Student calculated the times correctly but misunderstood the impact of job order on SJF \u2192 Would expect: correct values but incorrect reasoning about order effects.\n- Student guessed the times without understanding the scheduling algorithms \u2192 Would expect: incorrect values or vague reasoning.\n- Student has partial understanding of FIFO but lacks clarity on SJF's dependency on job order \u2192 Would expect: some correct calculations but misconceptions about the algorithms.\n\nBEST EXPLANATION: The student correctly calculated the response and turnaround times for FIFO but misapplied the concept of job order affecting SJF, indicating a partial understanding of scheduling algorithms.\n\nSCORE: 10",
+          "tokens": {
+            "prompt": 675,
+            "completion": 165,
+            "total": 840
+          }
+        }
+      ],
+      "failed_predictions": [],
+      "stats": {
+        "valid": 1,
+        "invalid": 0
+      },
+      "start_time": "2026-03-03T23:14:37.470845",
+      "csv_output": "abductive_gpt-4o-mini_predictions_csv/gpt-4o-mini_OS_Dataset_q1_abductive.csv",
+      "end_time": "2026-03-03T23:14:42.507544"
+    },
+    {
+      "dataset_name": "D_OS_Dataset_q2",
+      "predictions": [
+        {
+          "id": "2",
+          "prediction": 10.0,
+          "raw_response": "OBSERVATION: The student states that %dx will be -1 and provides a sequence of instructions with corresponding instruction counts.\n\nPOSSIBLE EXPLANATIONS:\n- Student guessed the value without understanding the program \u2192 Would expect incorrect or vague reasoning.\n- Student ran the program and correctly interpreted the output \u2192 Would expect a correct value with some explanation of the process.\n- Student understands the program logic but miscalculated the final value \u2192 Would expect a logical progression but an incorrect final answer.\n\nBEST EXPLANATION: The student appears to understand the program's logic and the operations performed on %dx, but they incorrectly concluded that %dx would be -1, indicating a miscalculation or misunderstanding of the final state.\n\nSCORE: 10/16",
+          "tokens": {
+            "prompt": 669,
+            "completion": 150,
+            "total": 819
+          }
+        }
+      ],
+      "failed_predictions": [],
+      "stats": {
+        "valid": 1,
+        "invalid": 0
+      },
+      "start_time": "2026-03-03T23:14:48.605858",
+      "csv_output": "abductive_gpt-4o-mini_predictions_csv/gpt-4o-mini_OS_Dataset_q2_abductive.csv",
+      "end_time": "2026-03-03T23:14:53.418014"
+    },
+    {
+      "dataset_name": "D_OS_Dataset_q3",
+      "predictions": [
+        {
+          "id": "2",
+          "prediction": 10.0,
+          "raw_response": "OBSERVATION: The student identifies contention as a problem with the vector-avoid-hold-and-wait approach and compares its performance to the vector-global-order approach under different conditions.\n\nPOSSIBLE EXPLANATIONS:\n- Student has a superficial understanding of contention and performance metrics \u2192 Would expect vague or incorrect comparisons.\n- Student understands the implications of contention and can analyze performance differences \u2192 Would expect clear reasoning and accurate comparisons.\n- Student is confused about the concepts and misapplies them \u2192 Would expect incorrect terminology or flawed logic.\n\nBEST EXPLANATION: The student demonstrates a solid understanding of contention and provides a reasonable comparison of performance metrics, although the phrasing \"too rough\" is somewhat vague.\n\nINFERENCE: The student shows good comprehension of the main issues and performance comparisons, with minor issues in clarity.\n\nSCORE: 10/15",
+          "tokens": {
+            "prompt": 639,
+            "completion": 167,
+            "total": 806
+          }
+        }
+      ],
+      "failed_predictions": [],
+      "stats": {
+        "valid": 1,
+        "invalid": 0
+      },
+      "start_time": "2026-03-03T23:14:59.852773",
+      "csv_output": "abductive_gpt-4o-mini_predictions_csv/gpt-4o-mini_OS_Dataset_q3_abductive.csv",
+      "end_time": "2026-03-03T23:15:04.909464"
+    },
+    {
+      "dataset_name": "D_OS_Dataset_q4",
+      "predictions": [
+        {
+          "id": "2",
+          "prediction": 14.0,
+          "raw_response": "OBSERVATION: The student states that it will take 10 ticks and provides a detailed breakdown of the process execution, including CPU and I/O operations.\n\nPOSSIBLE EXPLANATIONS:\n- Student correctly calculated the total time based on the given flags \u2192 Would expect: accurate timing and logical breakdown of processes.\n- Student guessed the answer without understanding the process \u2192 Would expect: incorrect timing or vague reasoning.\n- Student misinterpreted the flags and their implications \u2192 Would expect: significant errors in the breakdown of CPU and I/O operations.\n\nBEST EXPLANATION: The student accurately calculated the total time and provided a clear sequence of events, indicating a solid understanding of the CPU and I/O process interactions.\n\nSCORE: 14",
+          "tokens": {
+            "prompt": 685,
+            "completion": 145,
+            "total": 830
+          }
+        }
+      ],
+      "failed_predictions": [],
+      "stats": {
+        "valid": 1,
+        "invalid": 0
+      },
+      "start_time": "2026-03-03T23:15:11.899165",
+      "csv_output": "abductive_gpt-4o-mini_predictions_csv/gpt-4o-mini_OS_Dataset_q4_abductive.csv",
+      "end_time": "2026-03-03T23:15:16.861978"
+    },
+    {
+      "dataset_name": "D_OS_Dataset_q5",
+      "predictions": [
+        {
+          "id": "2",
+          "prediction": 12.0,
+          "raw_response": "OBSERVATION: The student claims that increasing the buffer size does not change the behavior of the code and describes the behavior of `num_full` with a specific consumer sleep configuration.\n\nPOSSIBLE EXPLANATIONS:\n- Student misunderstands the impact of buffer size on producer-consumer behavior \u2192 Would expect incorrect or vague statements about behavior.\n- Student has partial understanding of the producer-consumer model but lacks clarity on how buffer size affects synchronization \u2192 Would expect some correct observations but missing key insights.\n- Student fully understands the dynamics of the producer-consumer problem and accurately predicts the effects of buffer size and consumer sleep \u2192 Would expect detailed and accurate explanations.\n\nBEST EXPLANATION: The student demonstrates a partial understanding of the producer-consumer model, noting the effect of consumer sleep on `num_full`, but incorrectly asserts that buffer size does not affect behavior, which is a significant conceptual error.\n\nSCORE: 12",
+          "tokens": {
+            "prompt": 736,
+            "completion": 181,
+            "total": 917
+          }
+        }
+      ],
+      "failed_predictions": [],
+      "stats": {
+        "valid": 1,
+        "invalid": 0
+      },
+      "start_time": "2026-03-03T23:15:23.212932",
+      "csv_output": "abductive_gpt-4o-mini_predictions_csv/gpt-4o-mini_OS_Dataset_q5_abductive.csv",
+      "end_time": "2026-03-03T23:15:29.135682"
+    },
+    {
+      "dataset_name": "D_Rice_Chem_Q1",
+      "predictions": [
+        {
+          "id": "58e5d308-d422-44e3-9081-bb77a32e1d26",
+          "prediction": 7.0,
+          "raw_response": "OBSERVATION: The student explains why each additional electron requires more energy to remove, referencing electron-electron repulsion, core charge, and Coulomb's Law. They also correctly identify the significant jump in ionization energy for the fifth electron due to its position in a lower shell.\n\nPOSSIBLE EXPLANATIONS:\n- Student memorized concepts without understanding \u2192 Would expect vague or incorrect application of terms.\n- Student has partial understanding \u2192 Would expect some correct reasoning but with errors or omissions.\n- Student fully understands the concepts \u2192 Would expect clear, accurate application of Coulomb's Law and core charge principles.\n\nBEST EXPLANATION: The student demonstrates a solid understanding of the concepts related to ionization energy, correctly applying Coulomb's Law and explaining the observed trends in ionization energies with appropriate reasoning.\n\nSCORE: 7/8",
+          "tokens": {
+            "prompt": 816,
+            "completion": 167,
+            "total": 983
+          }
+        }
+      ],
+      "failed_predictions": [],
+      "stats": {
+        "valid": 1,
+        "invalid": 0
+      },
+      "start_time": "2026-03-03T23:15:35.833142",
+      "csv_output": "abductive_gpt-4o-mini_predictions_csv/gpt-4o-mini_Rice_Chem_Q1_abductive.csv",
+      "end_time": "2026-03-03T23:15:40.591733"
+    },
+    {
+      "dataset_name": "D_Rice_Chem_Q2",
+      "predictions": [
+        {
+          "id": "1989a9b7-e3e2-4ee4-81e4-7180452b0f13",
+          "prediction": 7.0,
+          "raw_response": "OBSERVATION: The student correctly explains the quantization of light energy and its relationship to electron excitation and ejection, mentioning specific concepts like photon energy and ionization energy.\n\nPOSSIBLE EXPLANATIONS:\n- Student has a solid understanding of quantum mechanics and electron behavior \u2192 Would expect: clear and accurate explanations of both phenomena.\n- Student has partial knowledge but misapplies some concepts \u2192 Would expect: some inaccuracies or confusion in the explanation.\n- Student is guessing based on surface-level knowledge \u2192 Would expect: vague or incorrect statements.\n\nBEST EXPLANATION: The student demonstrates a strong grasp of the concepts of photon energy, electron excitation, and ionization energy, providing a coherent explanation that reconciles the two observations.\n\nSCORE: 7",
+          "tokens": {
+            "prompt": 788,
+            "completion": 149,
+            "total": 937
+          }
+        }
+      ],
+      "failed_predictions": [],
+      "stats": {
+        "valid": 1,
+        "invalid": 0
+      },
+      "start_time": "2026-03-03T23:15:46.746503",
+      "csv_output": "abductive_gpt-4o-mini_predictions_csv/gpt-4o-mini_Rice_Chem_Q2_abductive.csv",
+      "end_time": "2026-03-03T23:15:51.968602"
+    },
+    {
+      "dataset_name": "D_Rice_Chem_Q3",
+      "predictions": [
+        {
+          "id": "40114645-626c-4eb8-a0c2-1f2c919cf910",
+          "prediction": 3.0,
+          "raw_response": "OBSERVATION: The student incorrectly states that carbon cannot form four bonds and claims it uses sp3 hybrid orbitals, while correctly noting nitrogen's unpaired electrons but incorrectly asserting that nitrogen does not hybridize.\n\nPOSSIBLE EXPLANATIONS:\n- Student misunderstands hybridization concepts \u2192 Would expect: incorrect reasoning about carbon and nitrogen hybridization.\n- Student has partial understanding of bonding \u2192 Would expect: some correct statements but significant errors in reasoning.\n- Student is confused by valence bond theory \u2192 Would expect: misapplication of concepts without clear logic.\n\nBEST EXPLANATION: The student demonstrates a misunderstanding of carbon's bonding capabilities and hybridization, while showing some awareness of nitrogen's valence electrons but incorrectly dismissing its need for hybridization.\n\nINFERENCE: The student has a partial understanding of the concepts but makes critical errors in reasoning about both carbon and nitrogen hybridization.\n\nSCORE: 3",
+          "tokens": {
+            "prompt": 749,
+            "completion": 180,
+            "total": 929
+          }
+        }
+      ],
+      "failed_predictions": [],
+      "stats": {
+        "valid": 1,
+        "invalid": 0
+      },
+      "start_time": "2026-03-03T23:15:58.348797",
+      "csv_output": "abductive_gpt-4o-mini_predictions_csv/gpt-4o-mini_Rice_Chem_Q3_abductive.csv",
+      "end_time": "2026-03-03T23:16:03.531885"
+    },
+    {
+      "dataset_name": "D_Rice_Chem_Q4",
+      "predictions": [
+        {
+          "id": "39b22844-7fc9-4bb4-829a-3276cef39f46",
+          "prediction": 7.0,
+          "raw_response": "OBSERVATION: The student explains the Law of Multiple Proportions by discussing the formation of simple integer ratios when elements combine, leading to the conclusion that these ratios indicate the presence of atoms.\n\nPOSSIBLE EXPLANATIONS:\n- Student memorized the concept without understanding \u2192 Would expect vague or incorrect reasoning.\n- Student has a partial understanding of the law and its implications \u2192 Would expect some correct points but missing key connections.\n- Student fully understands the Law of Multiple Proportions and its significance \u2192 Would expect a clear and accurate explanation of how it supports atomic theory.\n\nBEST EXPLANATION: The student demonstrates a solid understanding of the Law of Multiple Proportions and effectively connects it to the concept of atoms, indicating a strong grasp of the material.\n\nSCORE: 7",
+          "tokens": {
+            "prompt": 603,
+            "completion": 156,
+            "total": 759
+          }
+        }
+      ],
+      "failed_predictions": [],
+      "stats": {
+        "valid": 1,
+        "invalid": 0
+      },
+      "start_time": "2026-03-03T23:16:09.633751",
+      "csv_output": "abductive_gpt-4o-mini_predictions_csv/gpt-4o-mini_Rice_Chem_Q4_abductive.csv",
+      "end_time": "2026-03-03T23:16:14.131460"
+    }
+  ]
+}

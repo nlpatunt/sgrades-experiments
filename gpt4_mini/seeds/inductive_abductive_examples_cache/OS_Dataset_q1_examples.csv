@@ -1,0 +1,74 @@
+ID,question_id,question,sample_answer,criteria,sample_criteria,full_points,id,answer,score_1,score_2,score_3,score_outlier
+47,1,"Now do the same but with jobs of different lengths: 100, 200, and 300. The commands are (./scheduler.py -p SJF -l 100,200,300) and (./scheduler.py -p FIFO -l 100,200,300). Compute the response time and turnaround time for SJF and FIFO? What if you change the order of the job length? Try different orders to find the difference.","The response time and turnaround time for three jobs using the FIFO policy and SJF policy are the same in the given order of job length. If we change the order of job length, response time and turnaround time for the SJF policy should remain the same.
+However, the results for FIFO policy in different orders will change. In particular, if we run these jobs in order 300, 200, 100, it makes FIFO perform poorly (the average response time is 266.67, and turnaround time is 466.67).","case1: 
+• For correct “Average reponse time and Turnaround time” for SJF (6.5 points)
+• For correct “Average reponse time and Turnaround time” for FIFO (6.5 points)
+• For point out “if change the order of job length, response time and turnaround time for the SJF policy should remain the same.” (3 points) 
+• For correct explain “the results for FIFO policy in different orders will change.” (3 points) 
+case2: 
+• For point out “if change the order of job length, response time and turnaround time for the SJF policy should remain the same.” (3 points)  and explain the reason (6.5). 
+• For correct explain “the results for FIFO policy in different orders will change.” (3 points) and explain the reason (6.5). ","
+1.For correct “Average reponse time and Turnaround time” for SJF (6.5 points)
+2.For correct “Average reponse time and Turnaround time” for FIFO (6.5 points)
+3.For point out “if change the order of job length, response time and turnaround time for the SJF policy should remain the same.” (3 points) 
+4.For correct explain “the results for FIFO policy in different orders will change.” (3 points)
+",19,outlier_19,"The result with SJF is still the same as with FIFO. If the order is changed, the result may be different. If the order is 200,100,300, with SJF job 1 will be executed first then job 0 and job 2 but with FIFO it is still 100, 200, 300.",6.5,6.5,6.0,
+17,1,"Now do the same but with jobs of different lengths: 100, 200, and 300. The commands are (./scheduler.py -p SJF -l 100,200,300) and (./scheduler.py -p FIFO -l 100,200,300). Compute the response time and turnaround time for SJF and FIFO? What if you change the order of the job length? Try different orders to find the difference.","The response time and turnaround time for three jobs using the FIFO policy and SJF policy are the same in the given order of job length. If we change the order of job length, response time and turnaround time for the SJF policy should remain the same.
+However, the results for FIFO policy in different orders will change. In particular, if we run these jobs in order 300, 200, 100, it makes FIFO perform poorly (the average response time is 266.67, and turnaround time is 466.67).","case1: 
+• For correct “Average reponse time and Turnaround time” for SJF (6.5 points)
+• For correct “Average reponse time and Turnaround time” for FIFO (6.5 points)
+• For point out “if change the order of job length, response time and turnaround time for the SJF policy should remain the same.” (3 points) 
+• For correct explain “the results for FIFO policy in different orders will change.” (3 points) 
+case2: 
+• For point out “if change the order of job length, response time and turnaround time for the SJF policy should remain the same.” (3 points)  and explain the reason (6.5). 
+• For correct explain “the results for FIFO policy in different orders will change.” (3 points) and explain the reason (6.5). ","
+1.For correct “Average reponse time and Turnaround time” for SJF (6.5 points)
+2.For correct “Average reponse time and Turnaround time” for FIFO (6.5 points)
+3.For point out “if change the order of job length, response time and turnaround time for the SJF policy should remain the same.” (3 points) 
+4.For correct explain “the results for FIFO policy in different orders will change.” (3 points)
+",19,grading_4,"SJF: Final statistics of 100,200,300: Job 0 -- Response: 0.00 Turnaround 100.00 Wait 0.00 Job 1 -- Response: 100.00 Turnaround 300.00 Wait 100.00 Job 2 -- Response: 300.00 Turnaround 600.00 Wait 300.00 Average -- Response: 133.33 Turnaround 333.33 Wait 133.33 Final statistics of 200,100,300: Job 1 -- Response: 0.00 Turnaround 100.00 Wait 0.00 Job 0 -- Response: 100.00 Turnaround 300.00 Wait 100.00 Job 2 -- Response: 300.00 Turnaround 600.00 Wait 300.00 Average -- Response: 133.33 Turnaround 333.33 Wait 133.33 
+FIFO: Final statistics of 100,200,300: Job 0 -- Response: 0.00 Turnaround 100.00 Wait 0.00 Job 1 -- Response: 100.00 Turnaround 300.00 Wait 100.00 Job 2 -- Response: 300.00 Turnaround 600.00 Wait 300.00 Average -- Response: 133.33 Turnaround 333.33 Wait 133.33 Final statistics of 200,100,300: Job 0 -- Response: 0.00 Turnaround 200.00 Wait 0.00 Job 1 -- Response: 200.00 Turnaround 300.00 Wait 200.00 Job 2 -- Response: 300.00 Turnaround 600.00 Wait 300.00 Average -- Response: 166.67 Turnaround 366.67 Wait 166.67",13.0,13.0,13.0,
+5,1,"Now do the same but with jobs of different lengths: 100, 200, and 300. The commands are (./scheduler.py -p SJF -l 100,200,300) and (./scheduler.py -p FIFO -l 100,200,300). Compute the response time and turnaround time for SJF and FIFO? What if you change the order of the job length? Try different orders to find the difference.","The response time and turnaround time for three jobs using the FIFO policy and SJF policy are the same in the given order of job length. If we change the order of job length, response time and turnaround time for the SJF policy should remain the same.
+However, the results for FIFO policy in different orders will change. In particular, if we run these jobs in order 300, 200, 100, it makes FIFO perform poorly (the average response time is 266.67, and turnaround time is 466.67).","case1: 
+• For correct “Average reponse time and Turnaround time” for SJF (6.5 points)
+• For correct “Average reponse time and Turnaround time” for FIFO (6.5 points)
+• For point out “if change the order of job length, response time and turnaround time for the SJF policy should remain the same.” (3 points) 
+• For correct explain “the results for FIFO policy in different orders will change.” (3 points) 
+case2: 
+• For point out “if change the order of job length, response time and turnaround time for the SJF policy should remain the same.” (3 points)  and explain the reason (6.5). 
+• For correct explain “the results for FIFO policy in different orders will change.” (3 points) and explain the reason (6.5). ","
+1.For correct “Average reponse time and Turnaround time” for SJF (6.5 points)
+2.For correct “Average reponse time and Turnaround time” for FIFO (6.5 points)
+3.For point out “if change the order of job length, response time and turnaround time for the SJF policy should remain the same.” (3 points) 
+4.For correct explain “the results for FIFO policy in different orders will change.” (3 points)
+",19,grading_18,"For SJF Job 0 -- Response: 0.00 Turnaround 100.00 Wait 0.00 Job 1 -- Response: 100.00 Turnaround 300.00 Wait 100.00 Job 2 -- Response: 300.00 Turnaround 600.00 Wait 300.00 Average -- Response: 133.33 Turnaround 333.33 Wait 133.33. For FIFO: Job 0 -- Response: 0.00 Turnaround 100.00 Wait 0.00 Job 1 -- Response: 100.00 Turnaround 300.00 Wait 100.00 Job 2 -- Response: 300.00 Turnaround 600.00 Wait 300.00 Average -- Response: 133.33 Turnaround 333.33 Wait 133.33. If I change the order of SJF, the time will not be changed. But if I change the order of FIFO, for example: FIFO -l 200,300,100, the time will changed and the time in this case will change to— Job 0 -- Response: 0.00 Turnaround 200.00 Job 1 -- Response: 200.00 Turnaround 500.00 Job 2 -- Response: 500.00 Turnaround 600.00 Average -- Response: 233.33 Turnaround 433.33",19.0,19.0,19.0,
+10,1,"Now do the same but with jobs of different lengths: 100, 200, and 300. The commands are (./scheduler.py -p SJF -l 100,200,300) and (./scheduler.py -p FIFO -l 100,200,300). Compute the response time and turnaround time for SJF and FIFO? What if you change the order of the job length? Try different orders to find the difference.","The response time and turnaround time for three jobs using the FIFO policy and SJF policy are the same in the given order of job length. If we change the order of job length, response time and turnaround time for the SJF policy should remain the same.
+However, the results for FIFO policy in different orders will change. In particular, if we run these jobs in order 300, 200, 100, it makes FIFO perform poorly (the average response time is 266.67, and turnaround time is 466.67).","case1: 
+• For correct “Average reponse time and Turnaround time” for SJF (6.5 points)
+• For correct “Average reponse time and Turnaround time” for FIFO (6.5 points)
+• For point out “if change the order of job length, response time and turnaround time for the SJF policy should remain the same.” (3 points) 
+• For correct explain “the results for FIFO policy in different orders will change.” (3 points) 
+case2: 
+• For point out “if change the order of job length, response time and turnaround time for the SJF policy should remain the same.” (3 points)  and explain the reason (6.5). 
+• For correct explain “the results for FIFO policy in different orders will change.” (3 points) and explain the reason (6.5). ","
+1.For correct “Average reponse time and Turnaround time” for SJF (6.5 points)
+2.For correct “Average reponse time and Turnaround time” for FIFO (6.5 points)
+3.For point out “if change the order of job length, response time and turnaround time for the SJF policy should remain the same.” (3 points) 
+4.For correct explain “the results for FIFO policy in different orders will change.” (3 points)
+",19,grading_12," python2 ./scheduler.py -p SJF -l 100,200,300 ARG policy SJF ARG jlist 100,200,300 Here is the job list, with the run time of each job: Job 0 ( length = 100.0 ) Job 1 ( length = 200.0 ) Job 2 ( length = 300.0 ) Final statistics: Job 0 -- Response: 0.00 Turnaround 100.00 Wait 0.00 Job 1 -- Response: 100.00 Turnaround 300.00 Wait 100.00 Job 2 -- Response: 300.00 Turnaround 600.00 Wait 300.00 Average -- Response: 133.33 Turnaround 333.33 Wait 133.33 
+ python2 ./scheduler.py -p FIFO -l 100,200,300 ARG policy FIFO ARG jlist 100,200,300 Here is the job list, with the run time of each job: Job 0 ( length = 100.0 ) Job 1 ( length = 200.0 ) Job 2 ( length = 300.0 ) Final statistics: Job 0 -- Response: 0.00 Turnaround 100.00 Wait 0.00 Job 1 -- Response: 100.00 Turnaround 300.00 Wait 100.00 Job 2 -- Response: 300.00 Turnaround 600.00 Wait 300.00 Average -- Response: 133.33 Turnaround 333.33 Wait 133.33",13.0,13.0,13.0,
+29,1,"Now do the same but with jobs of different lengths: 100, 200, and 300. The commands are (./scheduler.py -p SJF -l 100,200,300) and (./scheduler.py -p FIFO -l 100,200,300). Compute the response time and turnaround time for SJF and FIFO? What if you change the order of the job length? Try different orders to find the difference.","The response time and turnaround time for three jobs using the FIFO policy and SJF policy are the same in the given order of job length. If we change the order of job length, response time and turnaround time for the SJF policy should remain the same.
+However, the results for FIFO policy in different orders will change. In particular, if we run these jobs in order 300, 200, 100, it makes FIFO perform poorly (the average response time is 266.67, and turnaround time is 466.67).","case1: 
+• For correct “Average reponse time and Turnaround time” for SJF (6.5 points)
+• For correct “Average reponse time and Turnaround time” for FIFO (6.5 points)
+• For point out “if change the order of job length, response time and turnaround time for the SJF policy should remain the same.” (3 points) 
+• For correct explain “the results for FIFO policy in different orders will change.” (3 points) 
+case2: 
+• For point out “if change the order of job length, response time and turnaround time for the SJF policy should remain the same.” (3 points)  and explain the reason (6.5). 
+• For correct explain “the results for FIFO policy in different orders will change.” (3 points) and explain the reason (6.5). ","
+1.For correct “Average reponse time and Turnaround time” for SJF (6.5 points)
+2.For correct “Average reponse time and Turnaround time” for FIFO (6.5 points)
+3.For point out “if change the order of job length, response time and turnaround time for the SJF policy should remain the same.” (3 points) 
+4.For correct explain “the results for FIFO policy in different orders will change.” (3 points)
+",19,outlier_1,"When changing the order of the length to 
+“ ./scheduler.py -p SJF -l 300,200,100 ”, the scheduler will execute the last jobs first because it has the shortest length, then the execute the second and last the first. However, the change of the order of the jobs length will still execute from the first to the last job as it is FIFO.",7.0,7.0,7.0,

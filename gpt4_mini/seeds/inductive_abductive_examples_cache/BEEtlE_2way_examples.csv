@@ -1,0 +1,6 @@
+ID,question_id,question_text,student_answer,label
+1018,BULB_C_VOLTAGE_EXPLAIN_WHY1,Explain why you got a voltage reading of 1.5 for terminal 1 and the positive terminal.,there is no connection,incorrect
+991,BULB_C_VOLTAGE_EXPLAIN_WHY1,Explain why you got a voltage reading of 1.5 for terminal 1 and the positive terminal.,Terminal 1 is seperated from the positive terminal,correct
+765,PARALLEL_SWITCH_EXPLAIN_Q1,Why was bulb A on when switch Y was open and switch Z was closed?,A is on a cloosed battery,incorrect
+3777,BURNED_BULB_PARALLEL_WHY_Q,Why didn^t bulbs A and C go out after bulb B burned out?,because bulb A and C are in a closed path,correct
+1273,SWITCH_OPEN_EXPLAIN_Q,Why does an open switch impact a circuit?,it creates a gap in the circuit.,correct

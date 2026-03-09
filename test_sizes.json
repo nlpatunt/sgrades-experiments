@@ -1,0 +1,182 @@
+{
+  "ASAP-AES": {
+    "test_size": 1298,
+    "splits": [
+      "train",
+      "validation",
+      "test"
+    ]
+  },
+  "ASAP++": {
+    "test_size": 1069,
+    "splits": [
+      "train",
+      "validation",
+      "test"
+    ]
+  },
+  "ASAP2.0": {
+    "test_size": 4946,
+    "splits": [
+      "train",
+      "validation",
+      "test"
+    ]
+  },
+  "Persuade_2": {
+    "test_size": 2600,
+    "splits": [
+      "train",
+      "validation",
+      "test"
+    ]
+  },
+  "IELTS_General": {
+    "test_size": 144,
+    "splits": [
+      "train",
+      "validation",
+      "test"
+    ]
+  },
+  "IELTS_Task2": {
+    "test_size": 491,
+    "splits": [
+      "train",
+      "validation",
+      "test"
+    ]
+  },
+  "ASAP-SAS": {
+    "test_size": 3409,
+    "splits": [
+      "train",
+      "validation",
+      "test"
+    ]
+  },
+  "ReGrading": {
+    "test_size": 198,
+    "splits": [
+      "train",
+      "validation",
+      "test"
+    ]
+  },
+  "CSEE": {
+    "test_size": 2654,
+    "splits": [
+      "train",
+      "validation",
+      "test"
+    ]
+  },
+  "Mohlar": {
+    "test_size": 455,
+    "splits": [
+      "train",
+      "validation",
+      "test"
+    ]
+  },
+  "BEEtlE_2way": {
+    "test_size": 1258,
+    "splits": [
+      "train",
+      "test"
+    ]
+  },
+  "BEEtlE_3way": {
+    "test_size": 1258,
+    "splits": [
+      "train",
+      "test"
+    ]
+  },
+  "SciEntSBank_2way": {
+    "test_size": 5835,
+    "splits": [
+      "train",
+      "test"
+    ]
+  },
+  "SciEntSBank_3way": {
+    "test_size": 5835,
+    "splits": [
+      "train",
+      "test"
+    ]
+  },
+  "Rice_Chem_Q1": {
+    "test_size": 66,
+    "splits": [
+      "train",
+      "validation",
+      "test"
+    ]
+  },
+  "Rice_Chem_Q2": {
+    "test_size": 66,
+    "splits": [
+      "train",
+      "validation",
+      "test"
+    ]
+  },
+  "Rice_Chem_Q3": {
+    "test_size": 62,
+    "splits": [
+      "train",
+      "validation",
+      "test"
+    ]
+  },
+  "Rice_Chem_Q4": {
+    "test_size": 60,
+    "splits": [
+      "train",
+      "validation",
+      "test"
+    ]
+  },
+  "OS_Dataset_Q1": {
+    "test_size": 3,
+    "splits": [
+      "train",
+      "validation",
+      "test"
+    ]
+  },
+  "OS_Dataset_Q2": {
+    "test_size": 8,
+    "splits": [
+      "train",
+      "validation",
+      "test"
+    ]
+  },
+  "OS_Dataset_Q3": {
+    "test_size": 8,
+    "splits": [
+      "train",
+      "validation",
+      "test"
+    ]
+  },
+  "OS_Dataset_Q4": {
+    "test_size": 8,
+    "splits": [
+      "train",
+      "validation",
+      "test"
+    ]
+  },
+  "OS_Dataset_Q5": {
+    "test_size": 8,
+    "splits": [
+      "train",
+      "validation",
+      "test"
+    ]
+  }
+}

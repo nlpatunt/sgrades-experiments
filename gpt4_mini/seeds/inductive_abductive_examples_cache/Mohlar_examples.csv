@@ -1,0 +1,16 @@
+ID,question,desired_answer,student_answer,grade,comment
+1081,How can you implement a stack with an array?,"Keep the top of the stack toward the end of the array, so the push and pop operations will add or remove elements from the right side of the array.","Create an array based on a pre-defined size N There can't be more elements than N.  Bottom stack element stored at element 0 last index in the array is the top  Increment top when one element is pushed, decrement after pop",4,"Grade: 4/5
+
+Comment: The student has correctly identified the need to keep track of the top of the stack and how to increment and decrement it with push and pop operations. However, they did not mention the specific implementation of keeping the top of the stack toward the end of the array, which is a common approach."
+406,"What is the difference between an array declared as static, and one that is not?","The arrays declared as static live throughout the life of the program; that is, they are initialized only once, when the function that declares the array it is first called.",An array declared as static is not created and and initialized each time the function and it is also not destroyed when the function terminates.,4,"Grade: 4/5
+
+Comment: The student answer is mostly correct, but there is a small error in the wording. The phrase ""not created and initialized each time the function"" should be ""not created and initialized each time the function is called""."
+1495,What is the role of a header-file?,"To store a class interface, including data members and member function prototypes.",To hold reusable content or modules separate from the actual  source-code file that can be easily referenced and employed for different programs.,2,"Grade: 2/5
+
+Comment: The student answer describes the purpose of a library or module, which is a common use case for header files, but not the primary role. The correct answer is more specific to the use of header files in object-oriented programming, where they are used to declare the interface of a class."
+240,When does C++ create a default constructor?,"If no constructor is provided, the compiler provides one by default. If a constructor is defined for a class, the compiler does not create a default constructor.","The Compiler creates this automatically for you, unless you specifically create one.",4,"Grade: 4/5
+
+Comment: The student answer is mostly correct, but it could be more precise. The compiler creates a default constructor only if no constructor is provided by the programmer. If a constructor is defined by the programmer, the compiler does not create a default constructor."
+611,How are overloaded functions differentiated by the compiler?,"Based on the function signature. When an overloaded function is called, the compiler will find the function whose signature is closest to the given function call.","By the type they are initilized with (int, char, etc.)",1,"Grade: 1/5
+
+Comment: The student answer is incorrect. Overloaded functions are differentiated by the compiler based on their function signature, not by the type they are initialized with."

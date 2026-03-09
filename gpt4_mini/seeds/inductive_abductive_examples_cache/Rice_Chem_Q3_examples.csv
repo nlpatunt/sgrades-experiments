@@ -1,0 +1,57 @@
+sis_id,Prompt,student_response,Score,Correct response,Incorrect/Blank response,Sentence 1 is correct. Valence bond theory describes that atomic orbitals must be half-filled to participate in covalent bonding.,"Sentence 2: Correct number of hybrid orbitals. In this molecule, carbon must form three hybrid orbitals to form three electron domains.",Sentence 2: Correct type of hybrid orbitals. Carbon must form sp2 hybrid orbitals (from using a 2s and two 2p orbitals),Sentence 3: Correctly states that nitrogen is hybridized,Sentence 3: Correct type of hybridization. Nitrogen is sp2 hybridized to form 3 electron domains,Sentence 3: Correct description of hybrid orbital bonds in nitrogen. Two sp2 orbitals form two sigma bonds.,Sentence 3: Correct description of unhybridized orbital bonds in nitrogen. Unhybridized p orbital forms pi bond,Adjustment,Comments,question_id
+03fa8f3d-b4d6-48c7-b383-b10fbb5df2d0,"424062: A CHEM 121 student was asked what hybrid orbitals must be present to form methanimine (CH2NH), for which a correct Lewis structure is shown below:
+
+TheÃ‚Â student responded:
+According to valence bond theory, Carbon cannot form four bonds because it only has two unpaired valence electrons. So, it has to form four sp3 hybrid orbitals to create the four bonds. Nitrogen doesnÃ¢â‚¬â„¢t need to hybridize because it already has three unpaired 2p valence electrons to form the three bonds with Carbon and Hydrogen.Ã‚Â 
+Assess the accuracy and logic of the studentÃ¢â‚¬â„¢s response: briefly explain whether the reasoning presented is logical, noting what information is correct or incorrect and providing correct logical reasoning and explanation where needed.
+This question can be reasonably answered in 150 words or fewer.","Sentence 1 is incorrect, carbon can form 4 bonds because it has 4 unpaired e to form MOs with. VBT says overlap of half filled AOs form covalent bonds
+
+Sentence 2 is incorrect because the hybridization depends on how many electron domains the Carbon has; in this case there are 3 domains so it would be sp2 hybridization.Â 
+
+Sentence 3 is incorrect because nitrogen will also need to hybridize. It will have 3 electron domains and also have an sp2 hybridization. Nitrogen also has a total of 5 valence electrons, the 3 2p valence electrons is correct but they would form specifically 2 pi bonds with carbon and a sigma bond with hydrogen.Â ",5,False,False,False,True,True,True,True,False,False,,,Q3
+9f7fea1a-726d-41ef-905b-def8ed1cd6ec,"424062: A CHEM 121 student was asked what hybrid orbitals must be present to form methanimine (CH2NH), for which a correct Lewis structure is shown below:
+
+TheÃ‚Â student responded:
+According to valence bond theory, Carbon cannot form four bonds because it only has two unpaired valence electrons. So, it has to form four sp3 hybrid orbitals to create the four bonds. Nitrogen doesnÃ¢â‚¬â„¢t need to hybridize because it already has three unpaired 2p valence electrons to form the three bonds with Carbon and Hydrogen.Ã‚Â 
+Assess the accuracy and logic of the studentÃ¢â‚¬â„¢s response: briefly explain whether the reasoning presented is logical, noting what information is correct or incorrect and providing correct logical reasoning and explanation where needed.
+This question can be reasonably answered in 150 words or fewer.","Sentence 1 is false
+
+-Carbon can form four bonds, and it does not have two unpaired valence electrons but rather 4. This is because there are two electrons in the 2s orbital and 2 electrons in the 2p orbital.
+
+Sentence 2 is generally correct
+
+-In order to form four bonds of equal energies, carbon must hybridize its s and p orbitals. To form 4 bonds of equal energy, this means hybridizing into sp^3.
+
+Sentence 3 is false
+
+-Nitrogen does need to hybridize orbitals, because it needs to form several bonds of equal energy. In this case it would be sp^3, because there are four electron domains around it.Â 
+
+Â ",1,False,False,False,False,False,True,False,False,False,,,Q3
+437003e5-d03f-4337-b04f-2255c93f1b05,"424062: A CHEM 121 student was asked what hybrid orbitals must be present to form methanimine (CH2NH), for which a correct Lewis structure is shown below:
+
+TheÃ‚Â student responded:
+According to valence bond theory, Carbon cannot form four bonds because it only has two unpaired valence electrons. So, it has to form four sp3 hybrid orbitals to create the four bonds. Nitrogen doesnÃ¢â‚¬â„¢t need to hybridize because it already has three unpaired 2p valence electrons to form the three bonds with Carbon and Hydrogen.Ã‚Â 
+Assess the accuracy and logic of the studentÃ¢â‚¬â„¢s response: briefly explain whether the reasoning presented is logical, noting what information is correct or incorrect and providing correct logical reasoning and explanation where needed.
+This question can be reasonably answered in 150 words or fewer.","The first sentence is incorrect. Carbon has four valence electrons, and thus to satisfy its octet we traditionally see carbon form four bonds. In this case, it takes the form of two single bonds with hydrogen, in which the sp2 of carbon overlaps with the s orbital of hydrogen, and a double bond with nitrogen in the form of a sigma bond from the overlap of two sp2 orbitals from carbon and nitrogen respectively, as well as a pi bond between the remaining unhybridized p orbitals on carbon and nitrogen. The second is also incorrect, because with 3 bonding domains and no unpaired electrons carbon must be sp2 hybridized. This means that it will form 3 sp2 hybrid orbitals. The third sentence is also incorrect, because in CH2NH nitrogen does become hybridized. With one lone pair and two bonding domains, it will be sp2 hybridized. The claim that based on it having three unpaired electrons, which is confusing and unhelpful, does not mean that nitrogen will be unhybridized. Thus, the student does not display an understanding of hybridization of orbitals at all.Â ",7,False,False,False,True,True,True,True,True,True,,,Q3
+a26121ba-65ef-4f53-aee2-5aa67b343175,"424062: A CHEM 121 student was asked what hybrid orbitals must be present to form methanimine (CH2NH), for which a correct Lewis structure is shown below:
+
+TheÃ‚Â student responded:
+According to valence bond theory, Carbon cannot form four bonds because it only has two unpaired valence electrons. So, it has to form four sp3 hybrid orbitals to create the four bonds. Nitrogen doesnÃ¢â‚¬â„¢t need to hybridize because it already has three unpaired 2p valence electrons to form the three bonds with Carbon and Hydrogen.Ã‚Â 
+Assess the accuracy and logic of the studentÃ¢â‚¬â„¢s response: briefly explain whether the reasoning presented is logical, noting what information is correct or incorrect and providing correct logical reasoning and explanation where needed.
+This question can be reasonably answered in 150 words or fewer.","The first sentence is correct.
+
+The second sentence is incorrect because the carbon actually forms three sp2 hybrid orbitals because in order for there to be a double bond with nitrogen, there needs to be one unhybridized p orbital.Â 
+
+The last sentence is also incorrect because in order to form the sigma bond with carbon and the sigma bond with hydrogen, nitrogen would need to form two sp orbitals and leave one unhybridized p orbital to form the double bond. Then it would still have a left over lone pair as shown in the Lewis structure.
+
+Â ",8,False,False,True,True,True,True,False,True,True,,,Q3
+1faf0e89-9dcc-4243-b549-efa4a9524470,"424062: A CHEM 121 student was asked what hybrid orbitals must be present to form methanimine (CH2NH), for which a correct Lewis structure is shown below:
+
+TheÃ‚Â student responded:
+According to valence bond theory, Carbon cannot form four bonds because it only has two unpaired valence electrons. So, it has to form four sp3 hybrid orbitals to create the four bonds. Nitrogen doesnÃ¢â‚¬â„¢t need to hybridize because it already has three unpaired 2p valence electrons to form the three bonds with Carbon and Hydrogen.Ã‚Â 
+Assess the accuracy and logic of the studentÃ¢â‚¬â„¢s response: briefly explain whether the reasoning presented is logical, noting what information is correct or incorrect and providing correct logical reasoning and explanation where needed.
+This question can be reasonably answered in 150 words or fewer.","Statement 1: False. Carbon can form up to four bonds because it needs four more electrons to fill its valence shell.
+
+Statement 2: False. The type of hybridization orbitals depends on the electron domain, so the carbon would form three sp2 hybrid orbitals in this case to create two single bonds and a double bond.
+
+Statement 3: The nitrogen will still form hybrid orbitals to bond with carbon and hydrogen.",4,False,False,False,True,True,True,False,False,False,,,Q3

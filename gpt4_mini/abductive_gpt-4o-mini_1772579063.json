@@ -1,0 +1,7 @@
+{
+  "model_code": "openai/gpt-4o-mini",
+  "model_name": "gpt-4o-mini",
+  "reasoning_approach": "abductive",
+  "timestamp": "2026-03-03T23:04:23.592008",
+  "datasets": []
+}

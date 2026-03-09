@@ -1,0 +1,108 @@
+Id,essay_set,prompt,Score1,Score2,essay_text,prompt_&_source_essay_urls,rubric_urls,image_urls,Unnamed: 8,Unnamed: 9
+1165,1,"A group of students wrote the following procedure for their investigation.
+Procedure:
+1. Determine the mass of four different samples.
+2. Pour vinegar in each of four separate, but identical, containers.
+3. Place a sample of one material into one container and label. Repeat with remaining samples, placing a single sample into a single container.
+4. After 24 hours, remove the samples from the containers and rinse each sample with distilled water.
+5. Allow the samples to sit and dry for 30 minutes.
+6. Determine the mass of each sample.
+The students' data are recorded in the table below.
+Sample | Starting Mass (g) | Ending Mass (g) | Difference in Mass (g)
+Marble | 9.8 | 9.4 | -0.4
+Limestone | 10.4 | 9.1 | -1.3
+Wood | 11.2 | 11.2 | 0.0
+Plastic | 7.2 | 7.1 | -0.1
+After reading the group's procedure, describe what additional information you would need in order to replicate the experiment. Make sure to include at least three pieces of information.",1,1,"The additional information I would need in order to replicate this experiment is 1) To gather all the materials. 2) Tell how much distilled water, how big each container was. ^p 3) Record data.",https://huggingface.co/datasets/nlpatunt/dataset_rubrics/raw/main/ASAP_SAS/EssaySet1/essay_set_1_prompt.html,https://huggingface.co/datasets/nlpatunt/dataset_rubrics/raw/main/ASAP_SAS/EssaySet1/essay_set_1_rubric.html,,,
+11340,5,"Prompt—Protein Synthesis Item
+Starting with mRNA leaving the nucleus, list and describe four major steps involved in protein synthesis.
+Rubric for Protein Synthesis
+Key Elements:
+* mRNA exits nucleus via nuclear pore.
+* mRNA travels through the cytoplasm to the ribosome or enters the rough endoplasmic reticulum.
+* mRNA bases are read in triplets called codons (by rRNA).
+* tRNA carrying the complementary (U=A, C+G) anticodon recognizes the complementary codon of the mRNA.
+* The corresponding amino acids on the other end of the tRNA are bonded to adjacent tRNA's amino acids.
+* A new corresponding amino acid is added to the tRNA.
+* Amino acids are linked together to make a protein beginning with a START codon in the P site (initiation).
+* Amino acids continue to be linked until a STOP codon is read on the mRNA in the A site (elongation and termination).",0,0,"GUANINE, THYMINE, ADICINE JADINE",https://huggingface.co/datasets/nlpatunt/dataset_rubrics/raw/main/ASAP_SAS/EssaySet5/essay_set_5_prompt.html,https://huggingface.co/datasets/nlpatunt/dataset_rubrics/raw/main/ASAP_SAS/EssaySet5/essay_set_5_rubric.html,,,
+11272,5,"Prompt—Protein Synthesis Item
+Starting with mRNA leaving the nucleus, list and describe four major steps involved in protein synthesis.
+Rubric for Protein Synthesis
+Key Elements:
+* mRNA exits nucleus via nuclear pore.
+* mRNA travels through the cytoplasm to the ribosome or enters the rough endoplasmic reticulum.
+* mRNA bases are read in triplets called codons (by rRNA).
+* tRNA carrying the complementary (U=A, C+G) anticodon recognizes the complementary codon of the mRNA.
+* The corresponding amino acids on the other end of the tRNA are bonded to adjacent tRNA's amino acids.
+* A new corresponding amino acid is added to the tRNA.
+* Amino acids are linked together to make a protein beginning with a START codon in the P site (initiation).
+* Amino acids continue to be linked until a STOP codon is read on the mRNA in the A site (elongation and termination).",0,0,they reproduce with photosithesis,https://huggingface.co/datasets/nlpatunt/dataset_rubrics/raw/main/ASAP_SAS/EssaySet5/essay_set_5_prompt.html,https://huggingface.co/datasets/nlpatunt/dataset_rubrics/raw/main/ASAP_SAS/EssaySet5/essay_set_5_rubric.html,,,
+21454,8,"Reading Passage—Mr. Leonard Item
+Gifts
+I met Mr. Leonard when I started middle school. He was a hall monitor whose job it was to keep students moving along from one classroom to the next. ""Move along, people, move along!"" he'd advise the shuffling crowd, and everyone complied.
+I distinguished myself from the masses by being one of a select few in the remedial reading program. Twice a week, I left English class early for the learning center in the basement, where I worked with a tutor. On my first trip, Mr. Leonard confronted me in the stairwell.
+""Hey, my friend, where do you think you're going?"" he asked, arms folded across his chest.
+""Learning center,"" I muttered, showing him my hall pass.
+""Why?"" he asked from behind a hard stare.
+""Why?"" I answered automatically, ""I can't read.""
+His gaze softened. ""Fair enough. On your way, then. Work hard.""
+For the next few weeks, that was the extent of our conversations. He'd meet me in the stairwell, I'd show him my pass. Then one day he surprised me by asking what I did after school.
+""Nothing,"" I answered. ""Just some homework.""
+""Meet me in the gym. 2:30."" Since this gave me a legitimate reason to delay my daily homework battles, I agreed.
+When I arrived, the gym was crowded with kids warming up for intramurals. Mr. Leonard was seated in a corner, watching. He waved me over, then pointed at the kids chasing basketballs. ""None of this appeals to you?"" he asked.
+I shook my head. When you're the last guy chosen for teams in gym class, you don't seek out more of that treatment after school.
+""Follow me,"" he directed, and, obediently, I followed. We left the building and went to the track. Spread along the inside lane were hurdles. Mr. Leonard pointed at the closest one.
+""Know what that thing is called?"" he asked.
+""A hurdle,"" I answered.
+""Know what to do with it?"" he questioned.
+""You jump it,"" I replied.
+""Well?"" he responded. ""On your way then.""
+It never occurred to me to refuse--perhaps I'd been conditioned by hearing those words every day. I got into a slow jog and awkwardly hopped over each barrier for a whole lap.
+""Not a bad first effort,"" commented Mr. Leonard as I staggered in.
+""That was terrible,"" I gasped.
+""You'll do better next time,"" he responded. ""Bring sneakers and shorts tomorrow.""
+""Right,"" I panted.
+Mr. Leonard began walking back toward the school, then turned and asked, ""Say, what's your name?""
+""Paul."" It didn't occur to me until later that this was an odd question for someone who had checked my hall pass twice a week.
+And so it began. Monday through Friday, rain or shine, I was out on the track with Mr. Leonard shouting from the side. ""Open your stride!"" ""Pump your arms!"" ""Lean, . . . NOW!"" I improved steadily until one day I found myself standing before the high school track coach.
+""How'd you get so fast, son?"" he asked.
+""Well, I've been training,"" I replied. ""Someone's helping me.""
+""Mr. Leonard Grabowski?""
+I nodded.
+The coach smiled and asked me to work out with the high school team. Then he scribbled on a scrap of paper and handed it me. It was a URL for a track and field website.
+""Visit this site. Do a search for 'Grabowski.'""
+The next day, I told Mr. Leonard about my conversation with the coach and asked if he thought I should work out with the team.
+""Absolutely,"" he replied with a grin. ""A little competition will only help.""
+I pulled the printout I'd downloaded the night before from my pocket. ""Why didn't you tell me about this?""
+He looked at me quizzically, then smiled sadly at the image on the page.
+""I looked good back then, didn't I?"" he chuckled.
+I moved beside him and pointed to the photograph. ""You were a college freshman who won the 400 meter hurdles at the nationals. You broke records.""
+""I remember,"" he said solemnly. ""Best race of my life.""
+""Well, what happened after that?"" I pressed.
+Mr. Leonard handed the paper back and looked at the ground, his brow furrowed, his voice cracked as he spoke.
+""I was a good athlete,"" he said softly, ""but not a good student. We had no learning centers in our school. I relied on friends to help me get by, but even then the work was always too hard."" His voice trailed off.
+""But you went to college,"" I said.
+""Things were different back then,"" he replied. ""The college scouts told me that my grades didn't matter, that I'd have tutors to help me, but college work is a whole lot harder than high school work. I lost my scholarship and flunked out. No other school wanted a runner who couldn't read.""
+The emotions in Mr. Leonard's words were all too familiar to me. I knew them well--feelings of embarrassment when I was called upon to read aloud or when I didn't know an answer everyone else knew. This man had given his time to help me excel at something. Suddenly I realized what I could do for him.
+""C'mon, Mr. Leonard,"" I said, walking back toward school. ""It's time to start your training.""
+Prompt—Mr. Leonard Item
+During the story, the reader gets background information about Mr. Leonard. Explain the effect that background information has on Paul. Support your response with details from the story.",2,2,"The effect that Paul recieved from getting information about Mr. Leonard is that Paul had felt the same exact way. Paul knew what he was talking about. Since Mr. Leonard had helped him greatly with the hurdles, he felt as if he should help him how to read. So Paul took him down to the learning center so Mr. Leonard could know how to read.",https://huggingface.co/datasets/nlpatunt/dataset_rubrics/raw/main/ASAP_SAS/EssaySet8/essay_set_8_prompt_%26_source_essay.html,https://huggingface.co/datasets/nlpatunt/dataset_rubrics/raw/main/ASAP_SAS/EssaySet8/essay_set_8_rubric.html,,,
+23680,9,"Reading Passage—Organization of Article Item
+Orbiting Junk
+Grab your telescope! Look up in the sky! It's a comet! It's a meteor!
+It's a . . . tool bag?
+Such an observation isn't as strange as it seems. Orbital pathways around our planet that were once clear are now cluttered with the remains of numerous space exploration and satellite missions. This ""space junk"" is currently of great concern to government space agencies around the globe.
+What Is Space Junk?
+In 1957, the Soviet Union launched the first artificial satellite. The United States followed suit, and thus began the human race's great space invasion.
+Over the past 52 years, a variety of spacecraft, including space capsules, telescopes, and satellites, have been sent beyond Earth's atmosphere. They explore the vast reaches of our solar system, monitor atmospheric conditions, and make global wireless communication possible. The rockets that are used to power these spacecraft typically fall back to Earth and disintegrate in the intense heat that results from friction with Earth's atmosphere. The objects themselves, however, are positioned hundreds of miles above Earth, far from elements that would cause them to degrade or burn up. In this airless environment, some of them continue to circle the planet indefinitely. While this is ideal for a fully functioning object that was launched for that purpose—for example, a communications satellite—what happens when a satellite ""dies"" or malfunctions and can't be repaired? The disabled object becomes a piece of high-tech junk, circling the globe in uncontrolled orbit.
+Crash Course
+With no one at the controls, dead satellites run the risk of colliding with each other. That's exactly what happened in February 2009. Two communications satellites, one American and one Russian, both traveling at more than 20,000 miles per hour, crashed into each other 491 miles above the Earth. The impact created hundreds of pieces of debris, each assuming its own orbital path. Now, instead of two disabled satellites, there are hundreds of microsatellites flying through space.
+It's not only spectacular crashes that create debris. Any objects released into space become free-orbiting satellites, which means that astronauts must take great care when they leave their spacecraft to make repairs or do experiments. Still, accidents do happen: in 2008, a tool bag escaped from the grip of an astronaut doing repairs on the International Space Station (ISS).
+Little Bits, But a Big Deal
+So who cares about a lost tool bag or tiny bits of space trash?
+Actually, many people do. Those bits of space debris present a very serious problem. Tiny fragments traveling at a speed of five miles per second can inflict serious damage on the most carefully designed spacecraft. If you find that hard to believe, compare grains of sand blown by a gentle breeze to those shot from a sandblaster to strip paint from a concrete wall. At extreme speeds, little bits can pack a punch powerful enough to create disastrous holes in an object moving through space.
+Scientists are hard-pressed for an easy solution to the problem of space junk. Both the National Aeronautics and Space Agency (NASA) and the European Space Agency maintain catalogues of known objects. The lost tool bag, for example, is listed as Satellite 33442. But while military radar can identify objects the size of a baseball, anything smaller goes undetected. This makes it difficult for spacecraft to steer clear of microdebris fields. Accepting the inevitability of contact, engineers have added multiple walls to spacecraft and stronger materials to spacesuits to diminish the effects of impact.
+Yet the problem is certain to persist. In fact, the amount of space trash is actually increasing because commercial space travel is on the rise and more nations have undertaken space exploration. Space agencies hope that the corporations and nations involved can work together to come up with a viable solution to space pollution.
+Prompt—Organization of Article Item
+How does the author organize the article? Support your response with details from the article.",0,0,The author organize the article because you should grab your telescope and look up the sky to see a planet that the satellite would crash another satellite to cause a space pollution try to protect the outer space.,https://huggingface.co/datasets/nlpatunt/dataset_rubrics/raw/main/ASAP_SAS/EssaySet9/essay_set_9_prompt_%26_source_essay.html,https://huggingface.co/datasets/nlpatunt/dataset_rubrics/raw/main/ASAP_SAS/EssaySet9/essay_set_9_rubric.html,,,

@@ -1,0 +1,967 @@
+ID,question,desired_answer,student_answer,grade,comment,reasoning
+317,What is the Euler tour traversal of a tree?,"A walk around the tree, starting with the root, where each node is seen three times: from the left, from below, from the right.",The Euler tour traverses through the tree in a rubber-band style shape.,3.0,,"OBSERVATION: The student describes the Euler tour as traversing through the tree in a ""rubber-band style shape.""
+
+POSSIBLE EXPLANATIONS:
+- Student is using a metaphor without understanding the concept → Would expect vague or incorrect descriptions.
+- Student has a basic understanding of the Euler tour but lacks precision → Would expect some correct elements but unclear terminology.
+- Student understands the Euler tour conceptually but struggles with articulation → Would expect a correct description but with imprecise language.
+
+BEST EXPLANATION: The student demonstrates a conceptual understanding of the Euler tour but uses an unclear metaphor that may not accurately convey the traversal method.
+
+SCORE: 3"
+197,What is a queue?,"A data structure that can store elements, which has the property that the last item added will be the last to be removed (or first-in-first-out).","A queue is similar to an array, except that the data can only be accessed sequentially rather than at random. Unlike a stack, a queue follows FIFO. First in, First out.",4.0,,"OBSERVATION: The student accurately describes a queue as similar to an array but emphasizes the sequential access and FIFO principle.
+
+POSSIBLE EXPLANATIONS:
+- Student has a basic understanding of data structures → Would expect: some correct terms but lacking depth.
+- Student understands the concepts well → Would expect: clear definitions and comparisons with stacks and arrays.
+- Student is confused about the differences → Would expect: inaccuracies or mixed definitions.
+
+BEST EXPLANATION: The student demonstrates a solid understanding of queues, arrays, and stacks, providing correct definitions and comparisons without any evident confusion.
+
+SCORE: 4"
+387,What are the main advantages associated with object-oriented programming?,Abstraction and reusability.,"Existing classes can be reused, and program maintenance and verification are easier.",4.0,,"OBSERVATION: Student states that ""existing classes can be reused, and program maintenance and verification are easier.""
+
+POSSIBLE EXPLANATIONS:
+- Student has a superficial understanding of object-oriented programming concepts → Would expect vague statements without depth.
+- Student understands the benefits of reusability and maintainability in programming → Would expect clear reasoning and examples.
+- Student is confused about the concepts and is making general statements → Would expect inaccuracies or irrelevant points.
+
+BEST EXPLANATION: Student demonstrates a solid understanding of the advantages of reusability and maintainability in programming, though lacks specific examples or deeper analysis.
+
+SCORE: 4"
+256,What is the difference between a function prototype and a function definition?,"A function prototype includes the function signature, i.e., the name of the function, the return type, and the parameters' type. The function definition includes the actual body of the function.","The FUNCTION PROTOTYPE is where the programmer declares that he/she is using a function other than main( ). This is like declaring a variable, the programmer knows that he/she will be using in the future, but has yet to say where they are going to use it, or how. This is answers the question who, it gives the function a name and character. The function prototype, by common practice is placed at the beginning of the program after the #includes and before main( ). The FUNCTION DEFINITION is the guts of the function. This is where the programmer decides what the function is going to do and tells it how to do it. It takes whatever information it is given and performs the operations. It works sort of like the brain, the brain takes in input and based upon that input performs in some way producing an output. The function defintion is placed outside of main( ) and any other functions. A function is its own entity and should be thought of as such.",4.0,,"OBSERVATION: The student provides a clear distinction between function prototypes and function definitions, using analogies and describing their roles in programming.
+
+POSSIBLE EXPLANATIONS:
+- Student has memorized definitions without understanding → Would expect vague or incorrect descriptions.
+- Student has partial understanding of functions → Would expect some correct information but with inaccuracies.
+- Student fully understands the concepts of function prototypes and definitions → Would expect accurate descriptions and relevant analogies.
+
+BEST EXPLANATION: The student demonstrates a solid understanding of function prototypes and definitions, accurately describing their purposes and placement in a program, though there are minor spelling errors (e.g., ""defintion"").
+
+SCORE: 4"
+303,What is a binary tree?,A tree for which the maximum number of children per node is two.,"A set of zero or more nodes, partitioned into a root node and two possibly empty sets that are binary trees. Thus, each node in a binary tree has at most two children, the left child and the right child.",4.0,,"OBSERVATION: The student provides a definition of a binary tree, mentioning the root node and the structure of nodes with at most two children.
+
+POSSIBLE EXPLANATIONS:
+- Student has a basic understanding of binary trees but lacks depth → Would expect a simplistic definition without examples or applications.
+- Student understands the concept well but only provided a definition → Would expect a clear and accurate definition with no errors.
+- Student is confused about binary trees and misrepresents the concept → Would expect inaccuracies or omissions in the definition.
+
+BEST EXPLANATION: The student accurately defines a binary tree, indicating a solid understanding of the basic structure and properties without any evident errors.
+
+SCORE: 4"
+77,What is typically included in a class definition?,Data members (attributes) and member functions.,Information telling the compiler what data members and member functions belong to the class.,4.0,,"OBSERVATION: Student provides a definition related to class data members and member functions.
+
+POSSIBLE EXPLANATIONS:
+- Student has a superficial understanding of classes → Would expect vague or incomplete definitions.
+- Student understands the concept of classes in programming → Would expect a clear and accurate definition.
+- Student is confused about the terminology → Would expect incorrect or misapplied terms.
+
+BEST EXPLANATION: Student demonstrates a clear understanding of what data members and member functions are in the context of a class.
+
+SCORE: 4"
+402,What is the advantage of linked lists over arrays?,"Linked lists are dynamic structures, which allow for a variable number of elements to be stored.","They grow dynamically, unlike the fixed size array",3.0,,"OBSERVATION: Student states ""They grow dynamically, unlike the fixed size array.""
+
+POSSIBLE EXPLANATIONS:
+- Student has a basic understanding of data structures → Would expect: mention of dynamic vs. static arrays with some details.
+- Student is confused about the concept → Would expect: incorrect or vague statements about arrays.
+- Student is providing a correct but incomplete answer → Would expect: acknowledgment of advantages or use cases of dynamic arrays.
+
+BEST EXPLANATION: Student demonstrates a basic understanding of the difference between dynamic and fixed-size arrays but does not elaborate on the implications or advantages of dynamic arrays.
+
+SCORE: 3"
+156,What does the sizeof operator return?,The size in bytes of its operand.,The sizeof operator returns the size of the operand.,3.0,,"OBSERVATION: The student states that ""the sizeof operator returns the size of the operand.""
+
+POSSIBLE EXPLANATIONS:
+- Student has a basic understanding of the sizeof operator → Would expect: a correct but incomplete definition.
+- Student memorized the definition without comprehension → Would expect: vague or incorrect details about its usage.
+- Student understands the context of the operator but lacks detail → Would expect: mention of data types or examples.
+
+BEST EXPLANATION: The student correctly identifies the function of the sizeof operator but does not provide any additional context or examples, indicating a basic understanding.
+
+SCORE: 3"
+47,How are arrays passed to functions?,by reference.,Arrays are passed by reference.,3.0,,"OBSERVATION: Student states, ""Arrays are passed by reference.""
+
+POSSIBLE EXPLANATIONS:
+- Student has a basic understanding of how arrays work in programming → Would expect: correct statement with no further elaboration.
+- Student is confused about the concept and is making a generalization → Would expect: incorrect statement or lack of clarity.
+- Student understands the implications of passing by reference → Would expect: additional explanation or examples to support the statement.
+
+BEST EXPLANATION: Student correctly identifies that arrays are passed by reference, indicating a basic understanding of the concept, but does not provide further elaboration or examples.
+
+SCORE: 3"
+20,When does C++ create a default constructor?,"If no constructor is provided, the compiler provides one by default. If a constructor is defined for a class, the compiler does not create a default constructor.",When there are no arguments passed.,2.0,,"OBSERVATION: The student wrote ""When there are no arguments passed.""
+
+POSSIBLE EXPLANATIONS:
+- Student is aware of the concept of function arguments but lacks depth → Would expect a vague or incomplete explanation.
+- Student understands the implications of no arguments but fails to elaborate → Would expect a correct statement with minimal detail.
+- Student misunderstands the prompt and provides an irrelevant response → Would expect an unrelated or incorrect answer.
+
+BEST EXPLANATION: The student recognizes the concept of function arguments but does not provide sufficient detail or context to demonstrate a deeper understanding.
+
+SCORE: 2"
+138,Briefly describe in one sentence how does merge sort work?,"It splits the original array into two, sorts each of the two halves, and then merges the sorted arrays.",Mergesort divides the array into smaller halves and then combines the sorted subarrays into one sorted array.,3.0,,"OBSERVATION: The student describes mergesort as dividing the array into smaller halves and combining sorted subarrays.
+
+POSSIBLE EXPLANATIONS:
+- Student has a basic understanding of mergesort but lacks depth → Would expect: incomplete explanation of the process.
+- Student understands the fundamental concept of mergesort → Would expect: a clear but simplified description.
+- Student is confused about the algorithm's steps → Would expect: inaccuracies or omissions in the explanation.
+
+BEST EXPLANATION: The student demonstrates a fundamental understanding of mergesort by correctly identifying the division and combination steps, though the explanation lacks detail about the sorting process itself.
+
+SCORE: 3"
+26,Briefly describe the divide-and-conquer paradigm.,"Divide a problem into smaller subproblems, solve them recursively, and then combine the solutions into a solution for the original problem.",the divide and conquer paradigm is a recursive solution that keeps dividing the problem into halves until a base case is reached.,3.0,,"OBSERVATION: The student defines the divide and conquer paradigm as a recursive solution that divides the problem into halves until a base case is reached.
+
+POSSIBLE EXPLANATIONS:
+- Student has a superficial understanding of the concept → Would expect vague or incomplete definitions.
+- Student understands the basic principle of divide and conquer → Would expect a clear but possibly incomplete explanation.
+- Student has a deep understanding of the concept and its implications → Would expect a detailed explanation including examples or applications.
+
+BEST EXPLANATION: The student demonstrates a clear understanding of the divide and conquer paradigm, accurately describing its recursive nature and the process of dividing problems, but lacks depth or examples to illustrate its application.
+
+SCORE: 3"
+238,What is the main difference between a while and a do...while statement?,The block inside a do...while statement will execute at least once.,"The termination condition of a do...while statement is usually at the end of the loop so it will run at least once. As for the while statement, if the condition is false to begin with, then the loop will never run.",5.0,,"OBSERVATION: The student accurately describes the behavior of do...while and while loops, noting that a do...while loop executes at least once and that a while loop may not execute at all if the condition is false.
+
+POSSIBLE EXPLANATIONS:
+- Student has a solid understanding of loop structures → Would expect: clear and accurate descriptions of both types of loops.
+- Student memorized definitions without comprehension → Would expect: vague or incorrect descriptions.
+- Student is partially correct but misses nuances → Would expect: some inaccuracies or incomplete explanations.
+
+BEST EXPLANATION: The student demonstrates a clear understanding of the fundamental differences between do...while and while loops, providing accurate descriptions of their execution behavior.
+
+SCORE: 5"
+94,What is a queue?,A data structure that stores elements following the first in first out principle. The main operations in a queue are enqueue and dequeue.,A queue is a data structure where the first node in is the first node out.,2.0,,"OBSERVATION: Student defines a queue as ""the first node in is the first node out.""
+
+POSSIBLE EXPLANATIONS:
+- Student has a basic understanding of queues but lacks depth → Would expect a simplistic definition without additional context.
+- Student is confused about the concept and misapplies terminology → Would expect incorrect or mixed definitions.
+- Student understands the concept well but oversimplified the explanation → Would expect a more detailed description including operations like enqueue and dequeue.
+
+BEST EXPLANATION: Student demonstrates a basic understanding of the queue concept but does not provide additional context or details about its operations.
+
+SCORE: 2"
+12,What is a queue?,"A data structure that can store elements, which has the property that the last item added will be the last to be removed (or first-in-first-out).",A data structure that removes nodes from the head and adds nodes at the tail.,3.0,,"OBSERVATION: The student describes a data structure that removes nodes from the head and adds nodes at the tail, which aligns with the definition of a queue.
+
+POSSIBLE EXPLANATIONS:
+- Student has a basic understanding of data structures → Would expect a correct but simplistic definition.
+- Student is confused and misapplies terms → Would expect inaccuracies or irrelevant details.
+- Student has a solid grasp of queues and their operations → Would expect a more detailed explanation of the structure's properties and use cases.
+
+BEST EXPLANATION: The student correctly identifies the fundamental operations of a queue but does not elaborate on its properties or applications, indicating a basic understanding.
+
+SCORE: 3"
+10,What is the scope of global variables?,File scope.,The scope of global variables is at the file level.,3.0,,"OBSERVATION: Student states, ""The scope of global variables is at the file level.""
+
+POSSIBLE EXPLANATIONS:
+- Student has a basic understanding of variable scope → Would expect: correct but limited explanation.
+- Student is confused about variable scope → Would expect: incorrect or vague statements.
+- Student has a strong grasp of programming concepts → Would expect: a detailed explanation of global variables and their implications.
+
+BEST EXPLANATION: Student demonstrates a basic understanding of global variable scope but lacks depth in explaining its implications or context.
+
+SCORE: 3"
+125,How are infix expressions evaluated by computers?,"First, they are converted into postfix form, followed by an evaluation of the postfix expression.",convert infix expressions to postfix expression and evaluate the postfix expression,5.0,,"OBSERVATION: The student successfully converts the infix expression to postfix and evaluates it correctly, showing the final result.
+
+POSSIBLE EXPLANATIONS:
+- Student understands the conversion and evaluation processes → Would expect: correct conversion and evaluation with clear steps.
+- Student memorized the process without comprehension → Would expect: correct answer but lack of explanation or steps.
+- Student guessed the answer → Would expect: incorrect conversion or evaluation.
+
+BEST EXPLANATION: The student demonstrates a clear understanding of both the conversion and evaluation processes, providing correct steps and a final result.
+
+SCORE: 5"
+117,"What is the number of operations for insertion sort under a best-case scenario, and what is the best-case scenario?",N (the length of the array) operations achieved for a sorted array.,N number of times.  Where N equals the number of elements in the list.  Best-case scenario is that the elements in the list are already sorted.,4.0,,"OBSERVATION: The student states ""N number of times. Where N equals the number of elements in the list. Best-case scenario is that the elements in the list are already sorted.""
+
+POSSIBLE EXPLANATIONS:
+- Student is aware of algorithmic complexity but lacks depth → Would expect vague or incomplete reasoning.
+- Student understands the concept of sorting and its implications → Would expect clear articulation of sorting scenarios.
+- Student misinterpreted the question or provided a generic response → Would expect irrelevant or off-topic information.
+
+BEST EXPLANATION: The student demonstrates an understanding of the relationship between the number of elements and sorting efficiency, indicating a grasp of algorithmic principles.
+
+SCORE: 4"
+114,What does a function signature include?,The name of the function and the types of the parameters.,the function's name and parameters,3.0,,"OBSERVATION: Student provides ""the function's name and parameters.""
+
+POSSIBLE EXPLANATIONS:
+- Student listed items without understanding their significance → Would expect: irrelevant or vague details.
+- Student identified key components of a function → Would expect: clear and relevant details about the function's purpose and usage.
+- Student misunderstood the prompt and provided incomplete information → Would expect: missing context or explanation.
+
+BEST EXPLANATION: Student correctly identified essential components of a function, indicating a basic understanding of programming concepts.
+
+SCORE: 3"
+155,What are the similarities between iteration and recursion?,They both involve repetition; they both have termination tests; they can both occur infinitely.,"Many problems can be solved by both iteration and recursion, and either may go into a condition of infinite execution if a termination test is omitted.",4.0,,"OBSERVATION: The student correctly identifies that both iteration and recursion can lead to infinite execution if a termination test is omitted.
+
+POSSIBLE EXPLANATIONS:
+- Student has a superficial understanding of iteration and recursion → Would expect vague or incorrect statements about their functions.
+- Student understands the concepts and their implications → Would expect a clear explanation of how each can lead to infinite execution.
+- Student is confused about the terms and their applications → Would expect inaccuracies or irrelevant information.
+
+BEST EXPLANATION: The student demonstrates a solid understanding of the concepts of iteration and recursion, specifically regarding the importance of termination tests in preventing infinite execution.
+
+SCORE: 4"
+83,What is a stack?,"A data structure that can store elements, which has the property that the last item added will be the first to be removed (or last-in-first-out)",An ADT that stores a set of elements in a particular order. The stack principles are LIFO. The last item inserted in the list is the first out.,4.0,,"OBSERVATION: Student describes an ADT (Abstract Data Type) that stores elements in a particular order and correctly identifies the stack principle of LIFO (Last In, First Out).
+
+POSSIBLE EXPLANATIONS:
+- Student has a basic understanding of data structures but lacks depth → Would expect: vague or incomplete definitions.
+- Student understands the concept of stacks and their principles → Would expect: clear definitions and examples.
+- Student is confused about the terminology and principles → Would expect: incorrect or mixed-up definitions.
+
+BEST EXPLANATION: Student demonstrates a clear understanding of the stack data structure and its LIFO principle, indicating a solid grasp of the topic.
+
+SCORE: 4"
+118,What is the advantage of linked lists over arrays?,"Linked lists are dynamic structures, which allow for a variable number of elements to be stored.","you can add as many nodes as you like without having to specify a list size, if an array gets too big you have to copy its entire contents to another larger array to get more room",4.0,,"OBSERVATION: The student mentions the ability to add nodes without specifying a list size and describes the need to copy contents to a larger array when it gets too big.
+
+POSSIBLE EXPLANATIONS:
+- Student has a basic understanding of dynamic arrays and linked lists → Would expect: correct concepts with some inaccuracies.
+- Student is confused about data structures → Would expect: mixed terminology or incorrect descriptions.
+- Student has a solid grasp of the concepts → Would expect: clear and accurate explanation of both linked lists and dynamic arrays.
+
+BEST EXPLANATION: The student demonstrates a good understanding of the differences between linked lists and dynamic arrays, correctly identifying the need for resizing in arrays while discussing the flexibility of linked lists.
+
+SCORE: 4"
+275,What is the scope of global variables?,File scope.,can be referenced by any function that follows their declarations or definitions in the source file,4.0,,"OBSERVATION: Student states that functions can be referenced by any function that follows their declarations or definitions in the source file.
+
+POSSIBLE EXPLANATIONS:
+- Student has a superficial understanding of function scope and declaration → Would expect vague or incomplete statements about function referencing.
+- Student understands function referencing and scope rules → Would expect a clear and accurate explanation of how functions can be called based on their declarations.
+- Student is confused about the concept and misapplies it → Would expect incorrect or contradictory statements regarding function referencing.
+
+BEST EXPLANATION: Student demonstrates a solid understanding of how function declarations work in relation to their definitions, indicating a grasp of the concept of scope in programming.
+
+SCORE: 4"
+34,What is a binary search tree?,A binary tree that has the property that for any node the left child is smaller than the parent which in turn is smaller than the right child.,A binary tree with the data organized in a specific arangment,2.0,,"OBSERVATION: Student mentions ""a binary tree with the data organized in a specific arrangement"" but does not provide further details or context.
+
+POSSIBLE EXPLANATIONS:
+- Student has a basic understanding of binary trees but lacks depth → Would expect vague or incomplete descriptions.
+- Student is aware of binary trees but is unable to articulate their structure or function → Would expect some correct terminology but no elaboration.
+- Student is confused about the concept and is providing a generic statement → Would expect inaccuracies or irrelevant information.
+
+BEST EXPLANATION: Student demonstrates a basic understanding of binary trees but fails to elaborate on their structure or functionality, indicating limited knowledge.
+
+SCORE: 2"
+43,What is the alternative way to solve a problem that could be solved through recursive functions?,Through iteration.,you can also solve the problem iteratively,2.0,,"OBSERVATION: Student states ""you can also solve the problem iteratively.""
+
+POSSIBLE EXPLANATIONS:
+- Student understands iterative methods but lacks depth → Would expect: vague mention of iteration without detail.
+- Student is aware of iterative solutions but doesn't explain how → Would expect: acknowledgment of iteration but no elaboration.
+- Student has a solid grasp of iterative problem-solving → Would expect: a detailed explanation of the iterative process.
+
+BEST EXPLANATION: Student recognizes the concept of iterative solutions but does not provide any further explanation or context.
+
+SCORE: 2"
+31,What is the difference between a function prototype and a function definition?,"A function prototype includes the function signature, i.e., the name of the function, the return type, and the parameters' type. The function definition includes the actual body of the function.","A function definition is the code that defines the function placed in the {} brackets that determines that function's operation.  A function prototype shows the function's public interface without exposing implementation.  It shows name, return type and type of paramaters.",5.0,,"OBSERVATION: The student accurately describes the function definition and function prototype, mentioning key components such as the operation, public interface, name, return type, and parameter types.
+
+POSSIBLE EXPLANATIONS:
+- Student memorized definitions without understanding → Would expect vague or incomplete descriptions.
+- Student has partial understanding → Would expect some correct elements but missing details.
+- Student fully understands the concepts → Would expect a clear and accurate explanation of both definitions.
+
+BEST EXPLANATION: The student demonstrates a solid understanding of both function definitions and prototypes, accurately capturing their roles and components.
+
+SCORE: 5"
+425,How can you implement a stack with a list?,"Keep the top of the stack pointing to the head of the linked list, so the push and pop operations will add or remove elements at the beginning of the list.",use a linked list and keep track of a pointer that points to the first item,3.0,,"OBSERVATION: Student mentions using a linked list and tracking a pointer to the first item.
+
+POSSIBLE EXPLANATIONS:
+- Student has a basic understanding of linked lists → Would expect: mention of pointers but lack of detail on operations.
+- Student is familiar with linked list implementation → Would expect: additional details on how to manipulate the list.
+- Student is confused about linked lists → Would expect: incorrect terminology or misunderstanding of pointers.
+
+BEST EXPLANATION: Student demonstrates a basic understanding of linked lists by correctly identifying the use of a pointer to the first item, but lacks further detail on operations or structure.
+
+SCORE: 3"
+209,What are the different ways to pass a pointer to a function?,"There are four ways: nonconstant pointer to constant data, nonconstant pointer to nonconstant data, constant pointer to constant data, constant pointer to nonconstant data.",Pass by reference with reference arguments. function(int &)  Pass by reference with pointer arguments. function(int *),2.0,,"OBSERVATION: The student mentions ""Pass by reference with reference arguments. function(int &)"" and ""Pass by reference with pointer arguments. function(int *)"" without further elaboration.
+
+POSSIBLE EXPLANATIONS:
+- Student understands the concepts but lacks the ability to articulate them → Would expect: correct terms but minimal explanation.
+- Student is familiar with the syntax but does not grasp the underlying principles → Would expect: correct function signatures but no context or examples.
+- Student is guessing or has memorized terms without comprehension → Would expect: incorrect or irrelevant details.
+
+BEST EXPLANATION: The student correctly identifies the syntax for both pass by reference and pointer arguments but fails to provide any explanation or context, indicating a basic understanding of the terms without deeper comprehension.
+
+SCORE: 2"
+133,How does the compiler handle inline functions?,It makes a copy of the function code in every place where a function call is made.,"Placing the qualifier inline before a function's return type in the function definition ""advises"" the compiler to generate a copy of the function's code in place to avoid a function call.",3.0,,"OBSERVATION: The student states that placing the qualifier inline before a function's return type ""advises"" the compiler to generate a copy of the function's code in place to avoid a function call.
+
+POSSIBLE EXPLANATIONS:
+- Student has a superficial understanding of inline functions → Would expect vague or incorrect descriptions of how inline functions work.
+- Student understands the purpose of inline functions but misinterprets the mechanism → Would expect some correct elements but a misunderstanding of the process.
+- Student has a solid grasp of inline functions and their implications → Would expect a clear and accurate explanation of how inline functions optimize performance.
+
+BEST EXPLANATION: The student demonstrates a reasonable understanding of inline functions and their purpose in avoiding function calls, but the use of ""advises"" suggests a slight misunderstanding of how compilers handle inline functions.
+
+SCORE: 3"
+166,What are the two different ways of specifying the length of an array?,"In the array declaration, or by using an initializer list.","Implicit, namely when you give it values, like {1,2,3,4,5,6,7,8,9}, at which the compiler will automatically give this a size. Static, during the declaration. ",2.0,,"OBSERVATION: The student mentions ""implicit"" and ""static"" in relation to compiler behavior and array size but provides minimal context or explanation.
+
+POSSIBLE EXPLANATIONS:
+- Student has a basic understanding of programming concepts but lacks depth → Would expect vague or incomplete explanations.
+- Student is confused about the terms and their application → Would expect incorrect usage or misinterpretation of concepts.
+- Student is attempting to convey knowledge but is unclear in expression → Would expect some correct terminology but insufficient elaboration.
+
+BEST EXPLANATION: The student demonstrates a basic understanding of implicit and static array sizing but fails to articulate the concepts clearly or provide sufficient detail.
+
+SCORE: 2"
+248,What are the main operations associated with a stack?,push and pop,"Push, Pop, isEmpty, isFull  Maybe List to show all elements or an operation to count how many elements in the stack.",4.0,,"OBSERVATION: The student mentions ""Push, Pop, isEmpty, isFull"" and suggests a ""List to show all elements"" or an ""operation to count how many elements in the stack.""
+
+POSSIBLE EXPLANATIONS:
+- Student has a basic understanding of stack operations but lacks depth → Would expect only basic operations mentioned.
+- Student is aware of additional functionalities but is unclear on their implementation → Would expect vague or incomplete descriptions of operations.
+- Student has a solid grasp of stack concepts and is considering enhancements → Would expect a clear and coherent explanation of both basic and additional functionalities.
+
+BEST EXPLANATION: The student demonstrates a good understanding of fundamental stack operations and suggests useful enhancements, indicating a solid grasp of the topic.
+
+SCORE: 4"
+57,"In one sentence, what is the main idea implemented by selection sort?","Taking one array element at a time, from left to right, it identifies the minimum from the remaining elements and swaps it with the current element.",the selection sort chooses the largest or smallest value in an unsorted list and creates a new list using the selection depending on how it is sorted.,2.0,,"OBSERVATION: The student describes selection sort as choosing the largest or smallest value in an unsorted list and creating a new list based on that selection.
+
+POSSIBLE EXPLANATIONS:
+- Student has a basic understanding of selection sort but lacks clarity on the process → Would expect: vague or incomplete description of the algorithm.
+- Student understands the concept but confuses the sorting direction (largest vs. smallest) → Would expect: mention of both extremes but unclear on the sorting mechanism.
+- Student has a solid grasp of selection sort but fails to articulate the complete process → Would expect: a more detailed explanation of how the algorithm iteratively selects and sorts.
+
+BEST EXPLANATION: The student demonstrates a basic understanding of selection sort but does not clearly articulate the iterative nature of the algorithm or the process of sorting in place.
+
+SCORE: 2"
+443,What is the scope of global variables?,File scope.,"variables accessible anywhere in the program, as long as they are public.",3.0,,"OBSERVATION: Student states ""variables accessible anywhere in the program, as long as they are public.""
+
+POSSIBLE EXPLANATIONS:
+- Student has a basic understanding of variable scope → Would expect: correct statement about public variables but lacks depth.
+- Student is confused about variable accessibility → Would expect: incorrect or vague statements about variable access.
+- Student has a strong grasp of programming concepts → Would expect: detailed explanation of public variables and their implications.
+
+BEST EXPLANATION: Student demonstrates a correct understanding of public variable accessibility but does not elaborate on the implications or context of this knowledge.
+
+SCORE: 3"
+401,How many steps does it take to search a node in a binary search tree?,The height of the tree.,It is the same as the height of the tree.,2.0,,"OBSERVATION: Student states, ""It is the same as the height of the tree.""
+
+POSSIBLE EXPLANATIONS:
+- Student misunderstands the question and provides an irrelevant answer → Would expect: unrelated or vague response.
+- Student is attempting to relate a concept but lacks clarity → Would expect: some context or explanation.
+- Student has a basic understanding of the concept but fails to elaborate → Would expect: a correct but incomplete answer.
+
+BEST EXPLANATION: Student seems to recognize a relationship between the concept and the height of the tree but does not provide sufficient context or explanation to demonstrate a deeper understanding.
+
+SCORE: 2"
+91,What is the difference between an array that is declared as static and one that is not?,The static arrays are intialized only once when the function is called.,an array that is declared as static can only be used in the function that its being called in. Its a constant array. Static is another way of say const.,2.0,,"OBSERVATION: The student states that a static array can only be used in the function it is called in and equates static with constant.
+
+POSSIBLE EXPLANATIONS:
+- Student misunderstands the concept of static arrays → Would expect: incorrect details about scope and usage.
+- Student has partial understanding of static arrays but conflates them with constants → Would expect: some correct information but significant inaccuracies.
+- Student has a basic grasp of static arrays but lacks depth in explanation → Would expect: vague or incomplete reasoning.
+
+BEST EXPLANATION: The student shows some understanding of static arrays but incorrectly equates them with constants and does not accurately describe their scope and lifetime.
+
+INFERENCE: The student demonstrates a basic but flawed understanding of static arrays, indicating confusion between static and constant concepts.
+
+SCORE: 2"
+67,What is the stack operation corresponding to the enqueue operation in queues?,push,enqueue corresponds with push dequeue corresponds with pop,4.0,,"OBSERVATION: Student states ""enqueue corresponds with push"" and ""dequeue corresponds with pop.""
+
+POSSIBLE EXPLANATIONS:
+- Student has a basic understanding of data structures but lacks depth → Would expect: correct terms but no context or explanation.
+- Student is confused about the terminology → Would expect: incorrect pairings or misunderstandings of the concepts.
+- Student understands the relationship between stack and queue operations → Would expect: clear explanations or examples of how these operations work.
+
+BEST EXPLANATION: Student correctly identifies the operations associated with queues and stacks, indicating a solid understanding of the concepts.
+
+SCORE: 4"
+25,"In one sentence, what is the main idea implemented by insertion sort?","Taking one array element at a time, from left to right, it inserts it in the right position among the already sorted elements on its left.",have a marker and sort everything to the left of the value for every new value when moving to the right.,4.0,,"OBSERVATION: The student provided a method for sorting values based on their position relative to a marker.
+
+POSSIBLE EXPLANATIONS:
+- Student understands sorting concepts but lacks clarity in execution → Would expect vague or incomplete sorting instructions.
+- Student has a basic grasp of sorting but misapplies the marker concept → Would expect confusion in how to implement the sorting.
+- Student comprehensively understands the sorting process and the role of the marker → Would expect a clear and logical sorting strategy.
+
+BEST EXPLANATION: The student demonstrates a solid understanding of sorting values relative to a marker, indicating a clear grasp of the concept.
+
+SCORE: 4"
+141,What is the stack operation corresponding to the enqueue operation in queues?,push,push,1.0,,"OBSERVATION: Student wrote only the word ""push.""
+
+POSSIBLE EXPLANATIONS:
+- Student provided an incomplete response due to misunderstanding the prompt → Would expect: irrelevant or vague terms.
+- Student is aware of the concept but failed to elaborate → Would expect: a brief mention of related concepts or context.
+- Student is attempting to convey a key idea but lacks clarity or detail → Would expect: a more developed thought or explanation.
+
+BEST EXPLANATION: Student likely understands the concept of ""push"" but did not elaborate or provide context, indicating a lack of depth in their response.
+
+SCORE: 1"
+78,What is a pointer?,The address of a location in memory.,A data type that points to a specific memory address.,2.0,,"OBSERVATION: Student defines a data type as ""a data type that points to a specific memory address.""
+
+POSSIBLE EXPLANATIONS:
+- Student has a basic understanding of pointers in programming → Would expect a more detailed explanation of data types and their functions.
+- Student is confused and misinterprets the concept → Would expect inaccuracies or irrelevant information.
+- Student is providing a simplified definition without context → Would expect a lack of elaboration on how data types function.
+
+BEST EXPLANATION: Student demonstrates a basic understanding of pointers but lacks depth in explaining the broader concept of data types.
+
+SCORE: 2"
+441,What is the difference between a constructor and a function?,"A constructor is called whenever an object is created, whereas a function needs to be called explicitely. Constructors do not have return type, but functions have to indicate a return type.",constructors cannot return values,3.0,,"OBSERVATION: Student states ""constructors cannot return values.""
+
+POSSIBLE EXPLANATIONS:
+- Student has a basic understanding of constructors in programming → Would expect: correct statement with some elaboration.
+- Student memorized a rule without understanding → Would expect: a lack of context or examples.
+- Student is confused about the concept → Would expect: incorrect statements or misunderstandings about constructors.
+
+BEST EXPLANATION: Student demonstrates a correct understanding of constructors by stating they cannot return values, but lacks elaboration or examples to support this understanding.
+
+SCORE: 3"
+321,What is a linked list?,A collection of elements that can be allocated dynamically.,"A series of ""Nodes"" structures with a value and a pointer that point to a similar ""Node"". Not quite an array, but still can carry a list of values. ",3.0,,"OBSERVATION: The student describes ""Nodes"" structures with values and pointers, indicating an understanding of linked data structures but lacks clarity on their specific characteristics compared to arrays.
+
+POSSIBLE EXPLANATIONS:
+- Student has a basic understanding of data structures but is unclear on distinctions → Would expect vague or incomplete descriptions.
+- Student is familiar with linked lists but lacks depth in explanation → Would expect some correct terminology but missing key details.
+- Student understands the concept of nodes and pointers but fails to articulate their differences from arrays → Would expect a mix of correct and incorrect information.
+
+BEST EXPLANATION: The student demonstrates a basic understanding of nodes and pointers but does not fully articulate the differences between linked structures and arrays, indicating partial knowledge.
+
+SCORE: 3"
+40,What are the two main functions defined by a queue?,enqueue and dequeue,"Enqueue and dequeue, which add and remove elements from the queue",2.0,,"OBSERVATION: Student mentions ""enqueue and dequeue"" as operations that add and remove elements from a queue.
+
+POSSIBLE EXPLANATIONS:
+- Student has a basic understanding of queue operations → Would expect: correct terminology but limited detail.
+- Student is familiar with data structures but lacks depth → Would expect: some explanation of how these operations work.
+- Student has a comprehensive understanding of queues → Would expect: detailed explanation of the significance and mechanics of these operations.
+
+BEST EXPLANATION: Student demonstrates a basic understanding of queue operations by correctly identifying enqueue and dequeue but does not provide further detail or context.
+
+SCORE: 2"
+432,What are the different ways to pass a pointer to a function?,"There are four ways: nonconstant pointer to constant data, nonconstant pointer to nonconstant data, constant pointer to constant data, constant pointer to nonconstant data.",There are four way to pass pointer to a function 1. non constant pointer to non constant data 2.non constant pointer to  constant data. 3. constant pointer to non constant data. 4. constant pointer to  constant data.,4.0,,"OBSERVATION: Student lists four ways to pass pointers to a function, categorizing them based on constancy.
+
+POSSIBLE EXPLANATIONS:
+- Student memorized the categories without understanding → Would expect: vague or incorrect descriptions of each type.
+- Student has partial understanding of pointers and constancy → Would expect: some correct terms but lacks clarity or detail.
+- Student fully understands the concept of pointers and constancy → Would expect: clear definitions or examples for each category.
+
+BEST EXPLANATION: Student demonstrates a solid understanding of the different ways to pass pointers, as they correctly identify the four categories, but does not provide any explanations or examples to clarify their understanding.
+
+SCORE: 4"
+330,What are the two different ways of specifying the length of an array?,"In the array declaration, or by using an initializer list.",either initializing the array with a specific length or initializing an array while declaring its contents.,2.0,,"OBSERVATION: The student discusses initializing an array with a specific length and initializing an array while declaring its contents, but does not provide clear examples or explanations.
+
+POSSIBLE EXPLANATIONS:
+- Student has a basic understanding of array initialization but lacks depth → Would expect vague statements without examples.
+- Student is confused about the concepts → Would expect incorrect or irrelevant information.
+- Student understands the concepts but struggles to articulate them clearly → Would expect some correct terminology but incomplete explanations.
+
+BEST EXPLANATION: Student demonstrates a basic understanding of array initialization concepts but fails to provide sufficient detail or clarity in their response.
+
+SCORE: 2"
+424,What is the main advantage associated with function arguments that are passed by reference?,It avoids making copies of large data structures when calling functions.,Passing by reference can eliminate the pass-by-value overhead of copying large amounts of data.,4.0,,"OBSERVATION: Student states that ""passing by reference can eliminate the pass-by-value overhead of copying large amounts of data.""
+
+POSSIBLE EXPLANATIONS:
+- Student has a superficial understanding of programming concepts → Would expect vague or incomplete reasoning.
+- Student understands the efficiency of passing by reference → Would expect a clear explanation of the benefits and potential drawbacks.
+- Student is confused about the concepts and misapplies them → Would expect incorrect or contradictory statements.
+
+BEST EXPLANATION: Student demonstrates a clear understanding of the efficiency gained by passing by reference, indicating knowledge of programming concepts related to data handling.
+
+SCORE: 4"
+318,What is the difference between a constructor and a function?,"A constructor is called whenever an object is created, whereas a function needs to be called explicitely. Constructors do not have return type, but functions have to indicate a return type.",A constructor initialized values at the execution of its instantiation. It provides default values.,3.0,,"OBSERVATION: The student mentions that a constructor initializes values at instantiation and provides default values.
+
+POSSIBLE EXPLANATIONS:
+- Student has a basic understanding of constructors → Would expect: correct but vague description.
+- Student understands the role of constructors in object-oriented programming → Would expect: detailed explanation of initialization and default values.
+- Student is confused about the concept and misapplies it → Would expect: inaccuracies or irrelevant details.
+
+BEST EXPLANATION: The student demonstrates a clear understanding of the purpose of constructors in initializing values and providing defaults, but lacks depth in explaining how this process works in practice.
+
+SCORE: 3"
+342,What is a function pointer?,The address of the location in memory where the function code resides.,"They are pointers that contain the addresses to functions, they can be passed and returned from functions, as well as stored in arrays and assigned to other function pointers.",4.0,,"OBSERVATION: The student describes function pointers, mentioning their ability to contain addresses to functions, be passed and returned from functions, and be stored in arrays.
+
+POSSIBLE EXPLANATIONS:
+- Student has a superficial understanding of function pointers → Would expect vague or incomplete descriptions.
+- Student has a solid understanding of function pointers → Would expect clear and accurate descriptions of their properties and uses.
+- Student is confused about the concept → Would expect inaccuracies or misconceptions in their explanation.
+
+BEST EXPLANATION: The student provides a clear and accurate description of function pointers, indicating a solid understanding of their properties and uses.
+
+SCORE: 4"
+169,How do you delete a node from a binary search tree?,"Find the node, then replace it with the leftmost node from its right subtree (or the rightmost node from its left subtree).",you cannot delete a node because that can cause a node to have more than 2 children,3.0,,"OBSERVATION: Student states, ""you cannot delete a node because that can cause a node to have more than 2 children.""
+
+POSSIBLE EXPLANATIONS:
+- Student misunderstands tree structure rules → Would expect: incorrect reasoning about node deletion.
+- Student has partial understanding of tree properties → Would expect: some correct reasoning but incomplete.
+- Student has a specific understanding of a binary tree constraint → Would expect: accurate reasoning about children limits.
+
+BEST EXPLANATION: Student correctly identifies a constraint related to node deletion in a binary tree but does not articulate the full implications or rules governing node deletion.
+
+SCORE: 3"
+80,What are the two different ways of specifying the length of an array?,"In the array declaration, or by using an initializer list.","define it as array[5] or array[1,2,3,4,5]",3.0,,"OBSERVATION: Student defines an array as ""array[5]"" or ""array[1,2,3,4,5]"".
+
+POSSIBLE EXPLANATIONS:
+- Student has a basic understanding of arrays → Would expect: correct but simplistic definitions.
+- Student is confused about the concept → Would expect: incorrect definitions or irrelevant examples.
+- Student understands arrays well and provides examples → Would expect: clear definitions with explanations of usage.
+
+BEST EXPLANATION: Student demonstrates a basic understanding of arrays by providing correct definitions but lacks depth in explanation or context.
+
+SCORE: 3"
+76,What is the main advantage of a doubly-linked list over a basic linked list?,"All the deletion and insertion operations can be performed in constant time, including those operations performed before a given location in the list or at the end of the list.","Doubly-linked lists can traverse backwards, though they still cannot access data at any point in the list, it can be shorter to traverse backwards.",3.0,,"OBSERVATION: Student states that doubly-linked lists can traverse backwards but cannot access data at any point in the list, and mentions that traversing backwards can be shorter.
+
+POSSIBLE EXPLANATIONS:
+- Student has a basic understanding of doubly-linked lists but lacks depth → Would expect vague or incomplete statements about their functionality.
+- Student understands the traversal capabilities but misunderstands the access mechanism → Would expect a mix of correct and incorrect statements.
+- Student has a solid grasp of the concepts but is unclear about the implications of traversal versus access → Would expect a mostly accurate description with minor inaccuracies.
+
+BEST EXPLANATION: Student demonstrates a basic understanding of doubly-linked lists and their traversal capabilities but confuses traversal with direct access to data, indicating a partial understanding of the data structure.
+
+SCORE: 3"
+245,How many constructors can be created for a class?,Unlimited number.,as many as the user decides to use.,2.0,,"OBSERVATION: Student wrote ""as many as the user decides to use.""
+
+POSSIBLE EXPLANATIONS:
+- Student lacks understanding of the question → Would expect vague or irrelevant responses.
+- Student is aware of user discretion but fails to elaborate → Would expect a more detailed explanation of the implications.
+- Student is attempting to convey flexibility in the response → Would expect some reasoning or context for this flexibility.
+
+BEST EXPLANATION: Student acknowledges user discretion but does not provide sufficient detail or reasoning to demonstrate a deeper understanding of the topic.
+
+SCORE: 2"
+383,What is the main disadvantage of a doubly-linked list over a basic linked list?,Extra space required to store the back pointers.,"Need more memory to store ""previous"" pointers.",2.0,,"OBSERVATION: Student states ""Need more memory to store 'previous' pointers.""
+
+POSSIBLE EXPLANATIONS:
+- Student understands the concept of pointers but lacks depth → Would expect: vague or incomplete reasoning about memory needs.
+- Student is aware of memory management in data structures → Would expect: a more detailed explanation of how pointers function and their implications on memory.
+- Student is confused about the role of pointers in memory allocation → Would expect: incorrect or irrelevant statements about memory.
+
+BEST EXPLANATION: Student demonstrates a basic understanding of the need for memory in relation to pointers but does not elaborate on how this relates to data structures or memory management.
+
+SCORE: 2"
+154,Briefly describe in one sentence how does merge sort work?,"It splits the original array into two, sorts each of the two halves, and then merges the sorted arrays.",Merge sort continuously breaks an array in half then sorts the arrays as it concatenates them back together into one sorted array.,3.0,,"OBSERVATION: The student describes the merge sort algorithm as breaking an array in half and sorting the arrays during concatenation.
+
+POSSIBLE EXPLANATIONS:
+- Student has a superficial understanding of merge sort → Would expect: vague or incomplete description of the process.
+- Student understands the basic concept of merge sort but lacks detail → Would expect: mention of recursive nature or specific sorting steps.
+- Student has a solid grasp of merge sort → Would expect: a clear explanation of both the splitting and merging processes, including recursive calls.
+
+BEST EXPLANATION: The student demonstrates a basic understanding of the merge sort algorithm by correctly identifying the key steps of breaking the array and sorting during concatenation, but lacks detail about the recursive nature of the algorithm.
+
+SCORE: 3"
+291,What is the difference between a constructor and a function?,"A constructor is called whenever an object is created, whereas a function needs to be called explicitely. Constructors do not have return type, but functions have to indicate a return type.",A constructor does not return any date and has no return type.  Functions can return date or not return data can have a return type.,3.0,,"OBSERVATION: The student states that a constructor does not return any data and has no return type, while also noting that functions can return data or not and can have a return type.
+
+POSSIBLE EXPLANATIONS:
+- Student confuses constructors with functions → Would expect: incorrect statements about both
+- Student understands constructors but lacks clarity on functions → Would expect: some correct points but unclear distinctions
+- Student has a solid understanding of both concepts → Would expect: clear and accurate explanations of both
+
+BEST EXPLANATION: The student correctly identifies that constructors do not return data and have no return type, indicating a good understanding of constructors, but their explanation lacks depth regarding the differences with functions.
+
+INFERENCE: The student demonstrates a solid grasp of constructors but does not fully articulate the nuances of functions.
+
+SCORE: 3"
+74,What does a function signature include?,The name of the function and the types of the parameters.,"function name, and input paramaters",4.0,,"OBSERVATION: Student provided ""function name, and input parameters.""
+
+POSSIBLE EXPLANATIONS:
+- Student listed items without understanding their significance → Would expect: irrelevant or vague details.
+- Student identified key components of a function → Would expect: clear and relevant details about function structure.
+- Student misunderstood the prompt and provided incomplete information → Would expect: missing critical elements or confusion in terminology.
+
+BEST EXPLANATION: Student correctly identified essential components of a function, indicating a solid understanding of programming concepts.
+
+SCORE: 4"
+56,How do you delete a node from a binary search tree?,"Find the node, then replace it with the leftmost node from its right subtree (or the rightmost node from its left subtree).",you replace the node with the largest element of its left subtree or replace it with the smallest element of the right subtree.,4.0,,"OBSERVATION: The student states, ""you replace the node with the largest element of its left subtree or replace it with the smallest element of the right subtree.""
+
+POSSIBLE EXPLANATIONS:
+- Student has a basic understanding of binary tree operations → Would expect: correct but incomplete explanation.
+- Student is confused about tree traversal methods → Would expect: inaccuracies or mixed concepts.
+- Student fully understands the concept of node replacement in binary trees → Would expect: a comprehensive explanation including context.
+
+BEST EXPLANATION: The student demonstrates a clear understanding of the node replacement process in binary trees, accurately describing both methods of replacement.
+
+SCORE: 4"
+295,How are objects initialized when they are created?,By using constructors.,When the class is called by the Constructor,2.0,,"OBSERVATION: The student wrote ""When the class is called by the Constructor.""
+
+POSSIBLE EXPLANATIONS:
+- Student understands the concept of constructors in programming but lacks depth → Would expect: a basic definition without elaboration.
+- Student is familiar with object-oriented programming but may not fully grasp the implications → Would expect: some relevant details but missing context.
+- Student has a strong understanding of the role of constructors in class instantiation → Would expect: a thorough explanation of the process and its significance.
+
+BEST EXPLANATION: The student demonstrates a basic understanding of constructors but does not elaborate on their function or significance in object-oriented programming.
+
+SCORE: 2"
+292,What is the main advantage associated with function arguments that are passed by reference?,It avoids making copies of large data structures when calling functions.,"It is often more efficient to pass references, rather than large objects, to functions. This allows the compiler to pass the address of the object while maintaining the syntax that would have been used to access the object.",4.0,,"OBSERVATION: The student correctly identifies the efficiency of passing references instead of large objects and mentions the compiler's role in passing the address while maintaining syntax.
+
+POSSIBLE EXPLANATIONS:
+- Student has a superficial understanding of references and objects → Would expect vague or incomplete reasoning.
+- Student understands the concept of references and their efficiency → Would expect clear reasoning and correct terminology.
+- Student has deep knowledge of compiler behavior and memory management → Would expect detailed explanation of implications and examples.
+
+BEST EXPLANATION: The student demonstrates a solid understanding of the efficiency of passing references and the compiler's function, but lacks depth in explaining the broader implications or providing examples.
+
+SCORE: 4"
+354,What is the main advantage associated with function arguments that are passed by reference?,It avoids making copies of large data structures when calling functions.,It elimitates the need to copy large amonts of data,2.0,,"OBSERVATION: Student states ""It elimitates the need to copy large amonts of data.""
+
+POSSIBLE EXPLANATIONS:
+- Student has a basic understanding of data management concepts but makes spelling errors → Would expect: vague or unclear reasoning.
+- Student is attempting to convey a relevant point but lacks clarity → Would expect: some relevant ideas but poorly articulated.
+- Student misunderstands the concept entirely → Would expect: irrelevant or incorrect statements.
+
+BEST EXPLANATION: Student shows an attempt to discuss a relevant concept related to data management but does so with significant spelling errors and lacks depth in explanation.
+
+SCORE: 2"
+325,When does C++ create a default constructor?,"If no constructor is provided, the compiler provides one by default. If a constructor is defined for a class, the compiler does not create a default constructor.",when a class does not explicitly include a constructor,4.0,,"OBSERVATION: The student discusses the implications of a class not explicitly including a constructor.
+
+POSSIBLE EXPLANATIONS:
+- Student has a superficial understanding of constructors → Would expect vague or incorrect statements about constructors.
+- Student understands the role of constructors in class instantiation → Would expect a clear explanation of default constructors and their behavior.
+- Student is confused about the concept → Would expect irrelevant or off-topic information.
+
+BEST EXPLANATION: The student demonstrates a clear understanding of the implications of not having an explicit constructor, indicating they grasp the concept of default constructors and their automatic creation by the compiler.
+
+SCORE: 4"
+73,What is the main disadvantage of a doubly-linked list over a basic linked list?,Extra space required to store the back pointers.,"Each node requires an extra pointer (space requirements increased), Insertion or deletion of a node takes a longer (more pointer operations).",4.0,,"OBSERVATION: Student mentions increased space requirements due to extra pointers and longer insertion/deletion times due to more pointer operations.
+
+POSSIBLE EXPLANATIONS:
+- Student has a superficial understanding of linked lists → Would expect vague or incomplete details about pointers.
+- Student understands the implications of pointers on operations → Would expect clear reasoning about space and time complexity.
+- Student is confused about linked list operations → Would expect inaccuracies or irrelevant information.
+
+BEST EXPLANATION: Student demonstrates a solid understanding of how extra pointers affect both space and time complexity in linked lists.
+
+SCORE: 4"
+16,What is the main advantage of linked lists over arrays?,The linked lists can be of variable length.,The size of array is restricted to declaration. Insertion/Deletion of values in middle of array is not possible.,3.0,,"OBSERVATION: The student states that the size of an array is fixed upon declaration and that insertion or deletion of values in the middle of an array is not possible.
+
+POSSIBLE EXPLANATIONS:
+- Student has a basic understanding of arrays but lacks depth → Would expect: incomplete or vague details about arrays.
+- Student understands array limitations but does not elaborate on implications → Would expect: correct statements but no examples or further explanation.
+- Student has a solid grasp of array properties and their limitations → Would expect: clear explanations and examples of how arrays function.
+
+BEST EXPLANATION: The student correctly identifies key characteristics of arrays but does not provide further context or examples to demonstrate deeper understanding.
+
+SCORE: 3"
+267,What is the role of a prototype program in problem solving?,To simulate the behaviour of portions of the desired software product.,it simulates the behavior of portions of the desired software product,2.0,,"OBSERVATION: Student states ""it simulates the behavior of portions of the desired software product.""
+
+POSSIBLE EXPLANATIONS:
+- Student has a basic understanding of software simulation → Would expect: a general statement without depth.
+- Student is aware of the purpose of simulation in software development → Would expect: a more detailed explanation of how and why.
+- Student is confused about the concept → Would expect: vague or incorrect statements.
+
+BEST EXPLANATION: Student demonstrates a basic understanding of the purpose of simulation in software development but lacks depth in explanation.
+
+SCORE: 2"
+205,Briefly describe the divide-and-conquer paradigm.,"Divide a problem into smaller subproblems, solve them recursively, and then combine the solutions into a solution for the original problem.","The divide-and-conquer paradigm divides the problem into two pieces and works on each piece separately, allowing for a faster approach to 2 separate smaller problems. ",3.0,,"OBSERVATION: The student describes the divide-and-conquer paradigm as dividing a problem into two smaller pieces and solving them separately for efficiency.
+
+POSSIBLE EXPLANATIONS:
+- Student has a superficial understanding of the concept → Would expect: vague or incomplete description.
+- Student understands the basic principle but lacks depth → Would expect: some correct elements but missing key details or examples.
+- Student has a solid grasp of the concept → Would expect: a thorough explanation including advantages, examples, and potential applications.
+
+BEST EXPLANATION: Student demonstrates a basic understanding of the divide-and-conquer paradigm but does not elaborate on its advantages or provide examples, indicating a partial grasp of the concept.
+
+SCORE: 3"
+302,What is the difference between a data member and a local variable inside a member function?,Data members can be accessed from any member functions inside the class defintion. Local variables can only be accessed inside the member function that defines them.,A data member exists permanently in that program's memory as long as it's run.  A local variable inside a member function is temporal and only used to operate in the function and exists as long as the function is run.,4.0,,"OBSERVATION: The student distinguishes between a permanent data member and a temporal local variable, indicating an understanding of variable scope and lifetime in programming.
+
+POSSIBLE EXPLANATIONS:
+- Student has a basic understanding of variable types → Would expect: vague or incomplete definitions.
+- Student understands the concepts of data members and local variables → Would expect: clear and accurate descriptions.
+- Student has memorized definitions without comprehension → Would expect: misapplied terms or examples.
+
+BEST EXPLANATION: The student accurately describes the differences between a permanent data member and a local variable, demonstrating a solid understanding of variable scope and lifetime.
+
+SCORE: 4"
+412,What is a binary search tree?,A binary tree that has the property that for any node the left child is smaller than the parent which in turn is smaller than the right child.,it is similar to a binary tree.  The keys in a nonempty left subtree (right subtree) are smaller (larger) than the key in the root of subtree.  the values in all nodes in the left subtree of a node are less than             the node value  the values in all nodes in the right subtree of a node are greater    than the node values,4.0,,"OBSERVATION: The student describes the properties of a binary tree, specifically how the keys in the left and right subtrees relate to the root node.
+
+POSSIBLE EXPLANATIONS:
+- Student has a basic understanding of binary trees but lacks clarity in expression → Would expect: vague or incomplete descriptions.
+- Student understands the concept well but struggles with articulation → Would expect: mostly correct information but with some grammatical issues.
+- Student has a strong grasp of binary tree properties and articulates them well → Would expect: clear and precise explanation.
+
+BEST EXPLANATION: The student demonstrates a solid understanding of binary tree properties but has minor grammatical issues that affect clarity.
+
+SCORE: 4"
+288,What is the main advantage of a doubly-linked list over a basic linked list?,"All the deletion and insertion operations can be performed in constant time, including those operations performed before a given location in the list or at the end of the list.",Gives faster times for some operations such as insertion and deletion,3.0,,"OBSERVATION: Student states that some operations like insertion and deletion have faster times.
+
+POSSIBLE EXPLANATIONS:
+- Student is making a generalization without evidence → Would expect vague or unsupported claims.
+- Student has some understanding of data structures and their efficiencies → Would expect mention of specific structures or algorithms.
+- Student has a strong grasp of time complexity and can compare operations → Would expect detailed reasoning or examples.
+
+BEST EXPLANATION: Student shows some understanding of operation times but lacks specific details or context to support their claims.
+
+SCORE: 3"
+450,How do you delete a node from a binary search tree?,"Find the node, then replace it with the leftmost node from its right subtree (or the rightmost node from its left subtree).","if it has no children, you just delete it. if it only has one child, just replace the node with whichever child it has. if it has both children, replace it with one of its children, and send the other child down along the other side of the new node.",5.0,,"OBSERVATION: The student describes a method for deleting nodes in a binary tree, outlining specific cases for nodes with no children, one child, and two children.
+
+POSSIBLE EXPLANATIONS:
+- Student has a superficial understanding of binary tree operations → Would expect vague or incomplete descriptions.
+- Student understands the basic operations but lacks precision → Would expect some correct details but also inaccuracies.
+- Student has a solid grasp of binary tree deletion methods → Would expect clear and accurate descriptions of all cases.
+
+BEST EXPLANATION: The student accurately describes the deletion process for all three cases in a binary tree, indicating a solid understanding of the topic.
+
+SCORE: 5"
+446,What is the difference between a circular linked list and a basic linked list?,The last element in a circular linked list points to the head of the list.,"In a circular linked list, the last node points to the first node.",3.0,,"OBSERVATION: Student states, ""In a circular linked list, the last node points to the first node.""
+
+POSSIBLE EXPLANATIONS:
+- Student has a basic understanding of circular linked lists → Would expect: correct but minimal explanation.
+- Student is unsure and providing a vague definition → Would expect: incomplete or incorrect description.
+- Student fully understands the concept → Would expect: additional details about the structure and benefits of circular linked lists.
+
+BEST EXPLANATION: Student demonstrates a basic understanding of circular linked lists by correctly identifying a key characteristic, but lacks depth in explanation.
+
+SCORE: 3"
+247,How many steps does it take to search a node in a binary search tree?,The height of the tree.,"it takes at most h steps, where h is the height of the tree.",4.0,,"OBSERVATION: The student states ""it takes at most h steps, where h is the height of the tree.""
+
+POSSIBLE EXPLANATIONS:
+- Student understands the relationship between tree height and traversal steps → Would expect: clear reasoning or additional context.
+- Student is recalling a fact without deeper understanding → Would expect: vague or incomplete explanation.
+- Student misinterprets the question or context → Would expect: incorrect or irrelevant information.
+
+BEST EXPLANATION: The student correctly identifies the relationship between the height of the tree and the number of steps needed, indicating a solid understanding of tree traversal.
+
+SCORE: 4"
+102,What is the difference between a data member and a local variable inside a member function?,Data members can be accessed from any member functions inside the class defintion. Local variables can only be accessed inside the member function that defines them.,A local variable can only be accessed within the scope of its declaration.,3.0,,"OBSERVATION: Student states, ""A local variable can only be accessed within the scope of its declaration.""
+
+POSSIBLE EXPLANATIONS:
+- Student has a basic understanding of variable scope → Would expect: correct statement with minimal elaboration.
+- Student memorized the definition without comprehension → Would expect: vague or incorrect application of the concept.
+- Student fully understands the concept of scope and its implications → Would expect: detailed explanation or examples.
+
+BEST EXPLANATION: Student demonstrates a correct understanding of local variable scope but provides no further elaboration or examples to indicate deeper comprehension.
+
+SCORE: 3"
+413,"In one sentence, what is the main idea implemented by insertion sort?","Taking one array element at a time, from left to right, it inserts it in the right position among the already sorted elements on its left.",Looking at the 2nd element move forward and place the element in the correct spot.,5.0,,"OBSERVATION: The student correctly identifies the position of the 2nd element in the periodic table and explains its placement based on atomic number.
+
+POSSIBLE EXPLANATIONS:
+- Student memorized the periodic table without understanding → Would expect: correct position but no reasoning.
+- Student understands periodic trends and atomic structure → Would expect: accurate placement with a logical explanation.
+- Student is unsure but guesses the position → Would expect: incorrect placement or vague reasoning.
+
+BEST EXPLANATION: Student demonstrates a clear understanding of the periodic table and correctly articulates the reasoning behind the placement of the 2nd element.
+
+SCORE: 5"
+1,What is a queue?,"A data structure that can store elements, which has the property that the last item added will be the last to be removed (or first-in-first-out).",a queue is a list of things that follows the first in first out behavior,3.0,,"OBSERVATION: The student defines a queue as a list of things that follows the first in first out behavior.
+
+POSSIBLE EXPLANATIONS:
+- Student has a basic understanding of queues → Would expect: a correct but simplistic definition.
+- Student memorized a definition without comprehension → Would expect: vague or incorrect details about queues.
+- Student understands the concept well but lacks depth in explanation → Would expect: a more detailed description or examples.
+
+BEST EXPLANATION: The student demonstrates a basic understanding of the queue concept by correctly identifying its first in first out behavior, but the definition lacks depth and examples.
+
+SCORE: 3"
+58,What is a stack?,"A data structure that can store elements, which has the property that the last item added will be the first to be removed (or last-in-first-out)","a data type that stores a set of elements in a certain order, last in, first out.",4.0,,"OBSERVATION: The student defines a data type as ""a set of elements in a certain order, last in, first out,"" which describes a stack.
+
+POSSIBLE EXPLANATIONS:
+- Student has a basic understanding of data structures but lacks depth → Would expect vague or incomplete definitions.
+- Student understands the concept of a stack but may not fully grasp its applications → Would expect a correct definition with limited context.
+- Student has a solid understanding of stacks and their properties → Would expect a clear and accurate definition with examples or context.
+
+BEST EXPLANATION: The student accurately defines a stack, indicating a solid understanding of the concept, though the response lacks additional context or examples.
+
+SCORE: 4"
+254,Where do C++ programs begin to execute?,At the main function.,C++ programs begin execution at the main function.,3.0,,"OBSERVATION: Student states, ""C++ programs begin execution at the main function.""
+
+POSSIBLE EXPLANATIONS:
+- Student has a basic understanding of C++ program structure → Would expect: correct statement with no elaboration.
+- Student memorized the fact without deeper comprehension → Would expect: inability to explain why or provide examples.
+- Student is aware of the significance of the main function in program execution → Would expect: additional context or details about program flow.
+
+BEST EXPLANATION: Student correctly identifies the starting point of C++ program execution, indicating a basic understanding of the language's structure, but does not provide further context or explanation.
+
+SCORE: 3"
+79,What is the role of a header-file?,"To store a class interface, including data members and member function prototypes.",Header files have reusable source code in a file that a programer can use.,2.0,,"OBSERVATION: The student defines header files as ""reusable source code in a file that a programmer can use.""
+
+POSSIBLE EXPLANATIONS:
+- Student has a basic understanding of header files → Would expect: a simple definition without depth.
+- Student is confused about the concept → Would expect: inaccuracies or irrelevant details.
+- Student has a solid grasp of the concept but lacks detail → Would expect: mention of specific uses or examples.
+
+BEST EXPLANATION: The student demonstrates a basic understanding of header files but provides a very general definition without elaborating on their purpose or functionality.
+
+SCORE: 2"
+394,What are the main advantages associated with object-oriented programming?,Abstraction and reusability.,Encapsulation - Objects use operations without knowing how the operation works. Inheritance - cuts redundancy by reusing earlier classes. Polymorphism - objects select the correct operation to use in the situation.,4.0,,"OBSERVATION: The student provides definitions for encapsulation, inheritance, and polymorphism, highlighting their key features.
+
+POSSIBLE EXPLANATIONS:
+- Student memorized definitions without understanding → Would expect vague or incomplete explanations.
+- Student has a basic understanding of OOP concepts → Would expect some correct definitions but lacking depth.
+- Student fully understands OOP principles → Would expect clear, accurate definitions with examples or context.
+
+BEST EXPLANATION: The student accurately defines the three core principles of object-oriented programming, indicating a solid understanding of the concepts.
+
+SCORE: 4"
+263,What is the main difference between a string of characters that is read into a variable of type string versus a variable of type char[]?,The char[] will automatically add a null \0 character at the end of the string.,"An array of strings reads the string literals, meaning anything within ""quotes"". A char array reads a string as each individual character.",4.0,,"OBSERVATION: The student correctly identifies the difference between an array of strings and a char array, explaining that the former reads string literals while the latter reads individual characters.
+
+POSSIBLE EXPLANATIONS:
+- Student has a superficial understanding of data structures → Would expect vague or incorrect definitions.
+- Student has a basic understanding of the concepts → Would expect some correct information but lacking depth.
+- Student demonstrates a solid understanding of the concepts → Would expect clear and accurate definitions with no errors.
+
+BEST EXPLANATION: The student accurately distinguishes between the two types of arrays and provides correct definitions, indicating a solid understanding of the concepts.
+
+SCORE: 4"
+276,What is the inorder traversal of a binary tree?,"Traverse the left subtree, then the root, then the right subtree.",Its used to visit nodes of a binary search tree in a search key order.,2.0,,"OBSERVATION: Student states ""Its used to visit nodes of a binary search tree in a search key order.""
+
+POSSIBLE EXPLANATIONS:
+- Student has a basic understanding of binary search trees but lacks detail → Would expect vague or incomplete descriptions.
+- Student understands the concept but misuses terminology → Would expect incorrect or unclear phrasing.
+- Student has a solid grasp of the concept but fails to elaborate on the method used for traversal → Would expect a correct statement but lacking depth.
+
+BEST EXPLANATION: Student correctly identifies the purpose of visiting nodes in a binary search tree but does not provide details on the traversal method (e.g., in-order, pre-order, post-order).
+
+INFERENCE: Demonstrates a basic understanding of binary search trees but lacks depth in explanation.
+
+SCORE: 2"
+297,"What is the difference between an array declared as static, and one that is not?","The arrays declared as static live throughout the life of the program; that is, they are initialized only once, when the function that declares the array it is first called.","A static array has a set size that cannot change. The data may not need all of the space assigned, or could go beyond the size.",4.0,,"OBSERVATION: The student correctly identifies that a static array has a fixed size and acknowledges that the data may not utilize all the allocated space or could exceed it.
+
+POSSIBLE EXPLANATIONS:
+- Student has a basic understanding of static arrays but lacks depth → Would expect vague or incomplete details.
+- Student understands the concept of static arrays and their limitations → Would expect clear and accurate descriptions.
+- Student is confused about the implications of size and data usage → Would expect inaccuracies or misconceptions.
+
+BEST EXPLANATION: The student demonstrates a solid understanding of static arrays, recognizing both their fixed size and the potential issues with data usage.
+
+SCORE: 4"
+355,What is the main difference between strings declared using the type string versus strings declared using an array of characters?,The strings declared using an array of characters have a null element added at the end of the array.,string declared used in an array of characters contains each character in the array and a special string-termination character called the null character versus the type string.,4.0,,"OBSERVATION: The student discusses the concept of a string in programming, mentioning that it is declared as an array of characters that includes a null character for termination, contrasting it with the type string.
+
+POSSIBLE EXPLANATIONS:
+- Student has a basic understanding of strings and their implementation in programming → Would expect: correct definition but lacks depth.
+- Student has a solid grasp of string representation and its nuances → Would expect: detailed explanation of differences and implications.
+- Student is confused about the concepts and is mixing terms → Would expect: inaccuracies or irrelevant information.
+
+BEST EXPLANATION: The student accurately describes the structure of a string as an array of characters with a null terminator, indicating a solid understanding of the concept and its distinction from the type string.
+
+SCORE: 4"
+186,What is the difference between a constructor and a function?,"A constructor is called whenever an object is created, whereas a function needs to be called explicitely. Constructors do not have return type, but functions have to indicate a return type.",constructor creates the class object into memory where functions perform actions against that object,3.0,,"OBSERVATION: Student states that a constructor creates a class object in memory and that functions perform actions against that object.
+
+POSSIBLE EXPLANATIONS:
+- Student has a basic understanding of object-oriented programming concepts → Would expect: correct but simplistic explanation.
+- Student is confused about the roles of constructors and methods → Would expect: inaccuracies or misinterpretations in the explanation.
+- Student has a solid grasp of the concepts and can articulate the relationship between constructors and methods → Would expect: a more detailed explanation of the process.
+
+BEST EXPLANATION: Student demonstrates a basic understanding of how constructors and methods function in object-oriented programming, but lacks depth in explaining the significance of these actions.
+
+SCORE: 3"
+281,What operations would you need to perform to find a given element on a stack?,"Pop all the elements and store them on another stack until the element is found, then push back all the elements on the original stack.","Pop each item off the top until you find what you are looking for. If the stack ends up empty and you never found the item, then it does not exist in the stack. It may also be necessary to save the popped values in case you want to recreate the stack.",4.0,,"OBSERVATION: The student describes a method for searching a stack by popping items off the top and mentions the need to save popped values for potential stack recreation.
+
+POSSIBLE EXPLANATIONS:
+- Student understands stack operations and the search process → Would expect: clear and logical explanation of the method.
+- Student has a superficial understanding and is guessing → Would expect: vague or incorrect details about stack behavior.
+- Student is confused about stack operations → Would expect: significant errors in describing the process.
+
+BEST EXPLANATION: The student demonstrates a solid understanding of stack operations and the search process, clearly articulating the need to save popped values for potential stack recreation.
+
+SCORE: 4"
+447,What is a linked list?,A collection of elements that can be allocated dynamically.,A link list is a data structure which is built from structures and pointers. It forms a chain of nodes with pointers representing the links of the chain and holding the entire thing together,3.0,,"OBSERVATION: The student provides a basic definition of a linked list, mentioning its components (structures and pointers) and describing its function (forming a chain of nodes).
+
+POSSIBLE EXPLANATIONS:
+- Student has a superficial understanding of linked lists → Would expect: vague or incomplete description.
+- Student understands the fundamental concept but lacks depth → Would expect: some correct details but missing key aspects like types of linked lists or operations.
+- Student has a solid grasp of linked lists → Would expect: a comprehensive explanation including examples or applications.
+
+BEST EXPLANATION: The student demonstrates a fundamental understanding of linked lists by accurately identifying their components and function, but lacks depth and detail in their explanation.
+
+SCORE: 3"
+305,What is the main disadvantage of a doubly-linked list over a basic linked list?,Extra space required to store the back pointers.,"There are more pointers to set, the mechanics of inserting into and deleting from a doubly linked list are a bit more involved than for a singly linked list.",4.0,,"OBSERVATION: The student notes that doubly linked lists involve more pointers and that their mechanics for insertion and deletion are more complex than singly linked lists.
+
+POSSIBLE EXPLANATIONS:
+- Student has a basic understanding of linked lists but lacks depth → Would expect vague or incomplete comparisons.
+- Student understands the structural differences and complexities of doubly linked lists → Would expect clear articulation of these differences.
+- Student is confused about the mechanics and is making assumptions → Would expect inaccuracies or misconceptions.
+
+BEST EXPLANATION: The student demonstrates a solid understanding of the structural differences and complexities involved in doubly linked lists compared to singly linked lists.
+
+SCORE: 4"
+221,What is the main advantage of linked lists over arrays?,The linked lists can be of variable length.,Does not have a fixed size. Linked list is able to grow as needed. The time to access an array bases list takes a contant amount of time where as an linked-base like depends on 'i',3.0,,"OBSERVATION: The student discusses the dynamic nature of linked lists compared to arrays, mentioning access time differences but has some grammatical errors and unclear phrasing.
+
+POSSIBLE EXPLANATIONS:
+- Student has a basic understanding of data structures but struggles with clarity → Would expect: some correct concepts but poorly articulated.
+- Student is confused about the concepts → Would expect: incorrect statements or misunderstandings.
+- Student understands the concepts but lacks the ability to express them clearly → Would expect: correct ideas but with significant writing issues.
+
+BEST EXPLANATION: Student demonstrates a basic understanding of linked lists and arrays, correctly noting the differences in size and access time, but struggles with clarity and precision in expression.
+
+SCORE: 3/5"
+71,What is a stack?,"A data structure that can store elements, which has the property that the last item added will be the first to be removed (or last-in-first-out)","an object list that stores elements in a particular order, the first object inserted is at the bottom with the last object at the top so the first object in is the last object out.",4.0,,"OBSERVATION: The student describes a data structure where the first object inserted is at the bottom and the last object at the top, indicating a Last In, First Out (LIFO) principle.
+
+POSSIBLE EXPLANATIONS:
+- Student has a basic understanding of stack data structures → Would expect: correct description of LIFO with some details.
+- Student is confused and misapplies the concept → Would expect: incorrect description or terminology.
+- Student is familiar with the concept but lacks clarity in expression → Would expect: vague or incomplete explanation.
+
+BEST EXPLANATION: The student accurately describes the LIFO principle of a stack, demonstrating a clear understanding of the concept.
+
+SCORE: 4"
+421,What does the sizeof operator return?,The size in bytes of its operand.,It returns the size of an array in bytes.,2.0,,"OBSERVATION: Student states, ""It returns the size of an array in bytes.""
+
+POSSIBLE EXPLANATIONS:
+- Student has a basic understanding of arrays and their memory representation → Would expect: correct but incomplete answer.
+- Student is confused about the concept and misinterprets the function's purpose → Would expect: incorrect or vague response.
+- Student is providing a specific detail without context → Would expect: lack of broader understanding or explanation.
+
+BEST EXPLANATION: Student demonstrates a basic understanding of how array sizes are represented in memory but does not provide additional context or detail about the function's usage or implications.
+
+SCORE: 2"
+194,What are the similarities between iteration and recursion?,They both involve repetition; they both have termination tests; they can both occur infinitely.,"they are both based on a control statement, both involve repetition, both involve a termination case, both graduatlly approach that termination case, and both can occur infinitely",4.0,,"OBSERVATION: The student identifies key similarities between two processes, including control statements, repetition, termination cases, and the potential for infinite occurrence.
+
+POSSIBLE EXPLANATIONS:
+- Student has a superficial understanding and is listing general characteristics → Would expect vague or irrelevant details.
+- Student has a basic understanding of the concepts and can identify similarities → Would expect some correct points but possibly missing nuances.
+- Student demonstrates a solid understanding of the concepts and their relationships → Would expect clear and accurate connections.
+
+BEST EXPLANATION: The student accurately identifies several critical similarities between the two processes, indicating a good understanding of the underlying concepts.
+
+SCORE: 4"
+239,What is the difference between a circular linked list and a basic linked list?,The last element in a circular linked list points to the head of the list.,"The difference between a circular linked list and a basic linked list is that a circular linked list, the last node references the first node. Every node in a circular linked list has a successor and no node in a circular linked list contains NULL.",5.0,,"OBSERVATION: The student accurately describes the key difference between a circular linked list and a basic linked list, noting the reference of the last node to the first node and the absence of NULL in the nodes.
+
+POSSIBLE EXPLANATIONS:
+- Student has a solid understanding of linked lists → Would expect: clear and accurate definitions.
+- Student memorized definitions without comprehension → Would expect: vague or incomplete descriptions.
+- Student is confused about the concepts → Would expect: inaccuracies or misunderstandings.
+
+BEST EXPLANATION: The student demonstrates a clear understanding of the structural differences between circular and basic linked lists, providing accurate and relevant details.
+
+SCORE: 5"
+451,What is the main difference between a while and a do...while statement?,The block inside a do...while statement will execute at least once.,do...while statements evaluate whether or not to loop after running the block contained within it at least once. So the main differance is that while statements have a possibility of never being used. Do ... while statements on the other hand are always run at least once before evaluating whether to run again.,4.0,,"OBSERVATION: The student correctly identifies the key difference between ""do...while"" and ""while"" statements, noting that ""do...while"" guarantees at least one execution of the block.
+
+POSSIBLE EXPLANATIONS:
+- Student has a basic understanding of control flow statements → Would expect: some correct information but lacks depth.
+- Student understands the concepts well and can articulate the differences clearly → Would expect: a clear and accurate explanation with no significant errors.
+- Student is confused about the terms and misapplies them → Would expect: incorrect or vague descriptions.
+
+BEST EXPLANATION: The student demonstrates a solid understanding of the differences between ""do...while"" and ""while"" statements, articulating the concept clearly without significant errors.
+
+SCORE: 4"
+400,What is the difference between a data member and a local variable inside a member function?,Data members can be accessed from any member functions inside the class defintion. Local variables can only be accessed inside the member function that defines them.,"A data member is accessible anywhere in the class, while i local variable in a member function is only accessible in that particular function, and is freed after the function exits.",4.0,,"OBSERVATION: The student correctly distinguishes between data members and local variables, noting their accessibility and lifespan.
+
+POSSIBLE EXPLANATIONS:
+- Student has a superficial understanding of variable scope → Would expect vague or incomplete definitions.
+- Student understands the concepts but lacks depth → Would expect some correct information but missing nuances.
+- Student has a solid grasp of variable scope in programming → Would expect clear and accurate definitions with relevant details.
+
+BEST EXPLANATION: The student demonstrates a solid understanding of the differences between data members and local variables, accurately describing their accessibility and lifespan.
+
+SCORE: 4"
+23,How are linked lists passed as arguments to a function?,By reference.,"The linked list object contains the head, through which the other elements are accessible.",3.0,,"OBSERVATION: The student states that ""the linked list object contains the head, through which the other elements are accessible.""
+
+POSSIBLE EXPLANATIONS:
+- Student has a basic understanding of linked lists → Would expect: mention of head but lack of detail on traversal or structure.
+- Student understands linked lists well → Would expect: explanation of how elements are linked and accessed.
+- Student is confused about data structures → Would expect: incorrect terminology or concepts.
+
+BEST EXPLANATION: The student demonstrates a basic understanding of linked lists by identifying the head and its role in accessing other elements, but lacks depth in explaining the traversal or structure of the list.
+
+SCORE: 3"
+230,What is the main difference between strings declared using the type string versus strings declared using an array of characters?,The strings declared using an array of characters have a null element added at the end of the array.,array of characters can only hold as many characters as the array size and strings are not that limited.,2.0,,"OBSERVATION: The student states that ""an array of characters can only hold as many characters as the array size and strings are not that limited.""
+
+POSSIBLE EXPLANATIONS:
+- Student has a basic understanding of arrays and strings but lacks depth → Would expect vague or incomplete reasoning.
+- Student is confused about the differences between arrays and strings → Would expect inaccuracies or misconceptions.
+- Student understands the limitations of arrays but misinterprets the flexibility of strings → Would expect a correct statement about arrays but an unclear explanation about strings.
+
+BEST EXPLANATION: The student demonstrates a basic understanding of arrays but shows confusion regarding the nature of strings, suggesting a partial grasp of the concepts involved.
+
+SCORE: 2"
+18,Where do C++ programs begin to execute?,At the main function.,In the main() function.,2.0,,"OBSERVATION: Student wrote ""In the main() function.""
+
+POSSIBLE EXPLANATIONS:
+- Student provided a vague response without context → Would expect: irrelevant or incomplete information.
+- Student understands the importance of the main() function but lacks detail → Would expect: mention of its role or purpose.
+- Student is aware of programming structure but did not elaborate → Would expect: a brief explanation of what happens in the main() function.
+
+BEST EXPLANATION: Student recognizes the main() function's significance but fails to provide any elaboration or context, indicating a basic understanding without depth.
+
+SCORE: 2"
+430,"When defining a recursive function, what are possible causes for infinite recursion?","If the recursion step is defined incorrectly, or if the base case is not included.","Either omitting the base case, or writing the recursion step incorrectly so that it does not converge on the base case",1.0,,"OBSERVATION: The student omitted the base case and incorrectly wrote the recursion step, leading to a failure to converge on the base case.
+
+POSSIBLE EXPLANATIONS:
+- Student does not understand the importance of the base case → Would expect: complete omission of critical elements and no attempt at recursion.
+- Student attempted to write the recursion step but lacks clarity on how recursion works → Would expect: some correct elements but significant errors in logic.
+- Student is confused about the concept of convergence in recursion → Would expect: a mix of correct and incorrect statements regarding recursion.
+
+BEST EXPLANATION: The student shows a lack of understanding of both the base case and the recursion step, indicating fundamental gaps in their knowledge of recursion.
+
+SCORE: 1"

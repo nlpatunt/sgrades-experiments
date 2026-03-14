@@ -1,6 +1,6 @@
 # S-GRADES Experiments
 
-Evaluation experiments for the [S-GRADES benchmark](https://github.com/YOUR_USERNAME/sgrades) — a comprehensive benchmark for automated student response assessment spanning 23 datasets and multiple educational domains.
+Evaluation experiments for the [S-GRADES benchmark](https://github.com/nlpatunt/sgrades) — a comprehensive benchmark for automated student response assessment spanning 23 datasets and multiple educational domains.
 
 ---
 

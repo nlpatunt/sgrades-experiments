@@ -29,8 +29,8 @@ NUM_EXAMPLES     = 5        # Few-shot examples per dataset
 EXAMPLES_SEED    = 42       # FIXED seed for example selection — never changes
 MODEL_CODE       = "openai/gpt-4o-mini"
 MODEL_NAME       = "gpt-4o-mini"
-API_KEY          = "REMOVED_KEY"
-os.environ["HF_TOKEN"] = "REMOVED_KEY"
+API_KEY = os.getenv("OPENROUTER_API_KEY", "")
+os.environ["HF_TOKEN"] = os.getenv("HF_TOKEN", "")
 
 # ============================================================================
 # DATASET COLUMN CONFIG

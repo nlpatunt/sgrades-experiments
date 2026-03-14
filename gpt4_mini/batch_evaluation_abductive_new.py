@@ -20,7 +20,7 @@ from io import StringIO
 PREDICTIONS_DIR = "abductive_gpt-4o-mini_predictions_csv"
 MODEL_NAME      = "gpt-4o-mini"
 REASONING_TYPE  = "abductive"
-HF_TOKEN        = "REMOVED_KEY"   # hard-code your HuggingFace token here
+HF_TOKEN = os.getenv("HF_TOKEN", "")   # hard-code your HuggingFace token here
 OUTPUT_XLSX     = f"batch_evaluation_results_{MODEL_NAME}_{REASONING_TYPE}.xlsx"
 
 # ============================================================================

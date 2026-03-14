@@ -25,8 +25,8 @@ from sklearn.metrics import cohen_kappa_score
 from huggingface_hub import login
 from datasets import load_dataset
 
-HF_TOKEN = "REMOVED_KEY"
-API_KEY  =  "REMOVED_KEY"
+HF_TOKEN = os.getenv("HF_TOKEN", "")
+API_KEY = os.getenv("OPENROUTER_API_KEY", "")
 
 if not HF_TOKEN:
     raise EnvironmentError("HF_TOKEN not set.")

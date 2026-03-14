@@ -28,8 +28,8 @@ from datasets import load_dataset
 # ============================================================================
 # CONFIGURATION
 # ============================================================================
-HF_TOKEN = "REMOVED_KEY"
-API_KEY  =  "REMOVED_KEY"
+HF_TOKEN = os.getenv("HF_TOKEN", "")
+API_KEY = os.getenv("OPENROUTER_API_KEY", "")
 
 if not HF_TOKEN:
     raise EnvironmentError("HF_TOKEN not set.")

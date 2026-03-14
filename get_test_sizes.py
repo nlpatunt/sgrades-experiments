@@ -5,7 +5,7 @@ from datasets import load_dataset
 import json, warnings
 warnings.filterwarnings("ignore")
 
-HF_TOKEN = "REMOVED_KEY"
+HF_TOKEN = os.getenv("HF_TOKEN", "")
 login(token=HF_TOKEN)
 
 results = {}

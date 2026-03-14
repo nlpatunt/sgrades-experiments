@@ -25,7 +25,7 @@ SAMPLED_DIR = os.path.expanduser("~/Desktop/Work/sampled_datasets/sam_datasets")
 SEEDS       = [42, 123, 456]
 MODEL_CODE  = "openai/gpt-4o-mini"
 MODEL_NAME  = "gpt-4o-mini"
-API_KEY     = "REMOVED_KEY"   # <-- update before running
+API_KEY = os.getenv("OPENROUTER_API_KEY", "")   # <-- update before running
 
 # ============================================================================
 # DATASET COLUMN CONFIG

@@ -113,7 +113,7 @@ pip install -r requirements.txt
 
 Required environment variables:
 ```bash
-export OPENROUTER_API_KEY="your_key"
+export OPENROUTER_API_KEY="<YOUR_OPENROUTER_API_KEY>"
 export HF_TOKEN="your_huggingface_token"
 ```
 
